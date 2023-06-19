@@ -1,0 +1,13 @@
+.paidSuccess span {
+  background: #67be8e;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+
+.paidError span {
+  background: #c55d55;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 6px;
+}

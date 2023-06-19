@@ -1,0 +1,29 @@
+:root {
+  --main-color: #050505;
+  --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  --box-shadow-border: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  --skeleton-color: rgb(217, 217, 217);
+  --main-border: 1px solid rgb(192, 188, 188);
+  --page-max-width: 1360px;
+
+  --color-accent: rgb(214, 10, 197);
+  --color-accent-light: rgb(255, 68, 239);
+}
+
+.animation-faded {
+  animation-name: faded;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+}
+
+/* animation  */
+@keyframes faded {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

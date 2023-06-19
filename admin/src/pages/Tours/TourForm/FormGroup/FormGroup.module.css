@@ -1,0 +1,58 @@
+.container input,
+.container textarea {
+  width: 100%;
+  padding: 6px;
+  background: white;
+  display: block;
+}
+.container textarea {
+  min-height: 100px;
+}
+
+.label {
+  margin-bottom: 2px;
+  font-weight: 500;
+}
+
+.label em {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.editor > * {
+  background: white;
+}
+
+.errorMessage h6 {
+  font-weight: 400;
+  font-size: 13px;
+  color: white;
+  padding: 3px 6px;
+  padding-left: 0;
+  margin-top: 2px;
+}
+
+/* ********************* home slider ****************************  */
+
+.homeSliderImage img {
+  width: 100%;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  background: grey;
+  cursor: pointer;
+  transition: 0.3;
+}
+
+.image:active {
+  transform: scale(0.98);
+}
+
+.plusImage {
+  font-size: 50px;
+  text-align: center;
+  margin: 0;
+  line-height: 100px;
+}

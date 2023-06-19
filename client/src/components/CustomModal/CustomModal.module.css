@@ -1,0 +1,74 @@
+.label {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.label h6 {
+  margin-bottom: 2px;
+}
+
+.label input,
+.label select {
+  padding: 4px 6px;
+  height: 30px;
+  border-radius: 3.8px;
+  width: 100%;
+  display: block;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.dateField {
+  position: relative;
+}
+
+.dateField input {
+  cursor: pointer;
+  caret-color: transparent;
+}
+
+.dateField input::placeholder {
+  color: #050505;
+}
+
+.calendar {
+  position: absolute;
+  top: calc(100% + 2px);
+  width: calc(100vw - 70px);
+  max-width: 300px;
+  background: white;
+  padding-bottom: 40px;
+  background: transparent;
+}
+
+.formBody form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.formBody form > * {
+  width: calc(50% - 10px);
+}
+
+.header {
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
+
+.header .title {
+  flex: 1;
+}
+
+.header .closeBtn {
+  position: static;
+}
+
+.modalContent {
+  border-radius: 6px;
+}

@@ -1,0 +1,37 @@
+.addVisa {
+  padding: 8px;
+  padding-top: 80px;
+}
+
+.addVisa label {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.addVisa label .label {
+  display: block;
+  margin-bottom: 2px;
+  font-weight: 500;
+}
+
+.addVisa label input {
+  padding: 6px 8px;
+  width: 100%;
+}
+
+.submitBtn {
+  padding: 6px 16px;
+  background: var(--main-color);
+  color: white;
+  transition: 0.2s;
+}
+
+.submitBtn:hover {
+  background: var(--main-color-hover);
+}
+
+.inputError {
+  color: red;
+  font-size: 13px;
+  margin-top: 2px;
+}

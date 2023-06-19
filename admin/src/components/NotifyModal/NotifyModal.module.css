@@ -1,0 +1,67 @@
+.modal {
+  width: calc(100vw - 16px);
+  max-width: 300px !important;
+  overflow: hidden;
+  border-radius: 0;
+  border: none !important;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: grey;
+}
+
+.header svg {
+  width: 30px;
+  color: rgb(245, 245, 245);
+}
+
+.content {
+  border-radius: 0 !important;
+}
+
+.error .header {
+  background: rgb(232, 97, 97);
+}
+
+.success .header {
+  background: #29c465;
+}
+
+.btn {
+  padding: 2px 16px;
+  color: #050505;
+  background: rgb(214, 214, 214);
+}
+
+.btn.leftBtn {
+  background: #000;
+  color: white;
+}
+
+.btn.leftBtn:hover {
+  color: white;
+}
+
+.btn:hover {
+  color: #050505;
+}
+
+.btn.errorBtn {
+  background: rgb(232, 97, 97);
+  color: white;
+}
+
+.btn.successBtn {
+  background: #29c465;
+  color: white;
+}
+
+.btn.successBtn:hover {
+  color: white;
+}

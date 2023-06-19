@@ -1,0 +1,22 @@
+.container {
+  padding: 8px;
+}
+
+.formGroup {
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+  border: 0.5px solid #ccc;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.formGroup input {
+  padding: 4px;
+  width: 100%;
+  border-radius: 3.6px;
+  background: #f6f8f9;
+}

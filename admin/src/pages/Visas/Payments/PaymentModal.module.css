@@ -1,0 +1,9 @@
+.rowItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 8px;
+  border-bottom: 0.5px solid #ccc;
+  align-items: flex-start;
+  gap: 80px;
+}

@@ -1,0 +1,77 @@
+.logo {
+  font-size: 40px;
+  font-weight: 700;
+  position: relative;
+  letter-spacing: 2px;
+}
+
+.logo::after {
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: -0.5px;
+  height: 1px;
+  right: 10px;
+  animation: lineLength 6s linear infinite;
+  background: #000;
+}
+
+.logo span {
+  color: var(--color-accent);
+}
+
+.logo .plane {
+  position: absolute;
+  bottom: -0.5px;
+  margin: 0;
+  transform: translate(50%, 50%) rotate(90deg);
+  right: -4px;
+  height: auto;
+  width: auto;
+  display: flex;
+}
+
+.logo svg {
+  width: 20px;
+  animation: rollingPlane 8s linear infinite;
+  display: block;
+}
+
+.logo.light::after {
+  background: white;
+}
+
+.logo.light svg {
+  fill: white;
+}
+
+.logo.light {
+  color: white;
+  text-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+@keyframes rollingPlane {
+  0% {
+    transform: rotateY(0);
+  }
+
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes lineLength {
+  0% {
+    width: 30%;
+  }
+
+  50% {
+    width: 95%;
+  }
+
+  100% {
+    width: 30%;
+  }
+}

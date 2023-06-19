@@ -1,0 +1,47 @@
+.container {
+  width: 100%;
+  padding-bottom: 43px;
+}
+
+.margin {
+  margin: 0 28px;
+}
+
+.container h2 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 22px;
+  padding: 16px 0;
+}
+
+.button {
+  padding-top: 2px;
+}
+
+.error {
+  height: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .margin {
+    margin: 0 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding-bottom: 18px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    padding-bottom: 26px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    padding-bottom: 43px;
+  }
+}

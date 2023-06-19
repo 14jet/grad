@@ -1,0 +1,69 @@
+.slick-prev:before,
+.slick-next:before {
+  display: none;
+  font-family: "slick";
+  font-size: 20px;
+  line-height: 1;
+  opacity: 0.75;
+  color: #b9b4b4;
+  -webkit-font-smoothing: antialiased;
+}
+
+.bannerCarousel .slick-arrow::before {
+  display: none;
+}
+
+.bannerCarousel .slick-initialized .slick-slide {
+  padding: 0px !important;
+  display: block;
+}
+
+.bannerCarousel .slick-arrow.slick-next {
+  right: 20px;
+}
+
+.bannerCarousel .slick-arrow.slick-prev {
+  left: 20px;
+}
+
+.bannerCarousel .slick-arrow {
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 20;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.699);
+  border-radius: 4px;
+  border: 0.5px solid rgb(167, 166, 166);
+}
+
+.bannerCarousel .slick-next svg {
+  stroke-width: 3;
+  color: black;
+  width: 17px;
+}
+
+.bannerCarousel .slick-prev svg {
+  stroke-width: 3;
+  color: black;
+  width: 17px;
+}
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+  color: white !important;
+  outline: none;
+  background: white !important;
+}
+
+.bannerCarousel .slick-track,
+.bannerCarousel .slick-list,
+.bannerCarousel .slick-slider,
+.bannerCarousel .slick-slide {
+  height: 100%;
+}
+
+.bannerCarousel .slick-slide > div {
+  height: 100%;
+}

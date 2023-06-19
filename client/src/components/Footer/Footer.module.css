@@ -1,0 +1,89 @@
+.footer {
+  background: #000;
+  color: white;
+  font-size: 13px;
+}
+
+.inner {
+  max-width: 1500px;
+  max-width: var(--page-max-width);
+  margin: 0 auto;
+  padding: 0px 44px;
+}
+
+.inner > div:first-of-type {
+  min-width: 25%;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer h6 {
+  font-size: 14px;
+  font-size: 13px;
+  letter-spacing: 0.3px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.footer a,
+.footer p,
+.footer li {
+  font-size: 13px;
+  color: white;
+  white-space: nowrap;
+}
+
+.footer a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 992px) {
+  .inner {
+    flex-wrap: wrap;
+  }
+
+  .inner > div:nth-of-type(1),
+  .inner > div:nth-of-type(3) {
+    width: 60%;
+  }
+
+  .inner > div:nth-of-type(2),
+  .inner > div:nth-of-type(4) {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .inner {
+    padding: 0 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .inner > div:not(.smallColumn) {
+    width: 100% !important;
+  }
+
+  .inner .smallColumn {
+    width: 50% !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer a,
+  .footer p,
+  .footer li,
+  .footer h6 {
+    white-space: normal;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .inner > div:nth-of-type(2) {
+    width: 100% !important;
+  }
+}

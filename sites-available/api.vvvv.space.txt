@@ -1,0 +1,15 @@
+server {
+	listen 80;
+	listen [::]:80;
+	server_name api.vvvv.space www.api.vvvv.space;
+	client_max_body_size 50M;
+
+	location /images/ {
+		proxy_pass http://localhost:9999;
+	}
+
+	location / {
+		proxy_pass http://localhost:5000;
+	}
+}
+

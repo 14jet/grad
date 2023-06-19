@@ -1,0 +1,3006 @@
+[{
+  "_id": {
+    "$oid": "644a2e583ca3440045782665"
+  },
+  "name": "Visa Ý diện Du Lịch, Công Tác & Thăm Thân (Người lớn)",
+  "slug": "visa-y-dien-du-lich-cong-tac-tham-than-nguoi-lon",
+  "type": {
+    "$oid": "6439181edc5be5ab8316f066"
+  },
+  "country": {
+    "$oid": "6438fa2fa968ef8111bb6302"
+  },
+  "detail": {
+    "ops": [
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "Loại visa đi Ý và hồ sơ tương ứng:"
+      },
+      {
+        "insert": "\n❖ Visa du lịch: Cấp cho các mục đích tham quan, du lịch tại Ý.\n❖ Visa công tác: Cấp cho các mục đích làm việc ngắn hạn, dự hội nghị/hội thảo,…\n❖ Visa thăm thân: Cấp cho các mục đích thăm người thân (bố mẹ, con cái, anh chị em) và khách hàng có con là du học sinh.\n\n"
+      },
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "Hồ sơ xin visa Ý cần thiết:"
+      },
+      {
+        "insert": "\n"
+      },
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "1. Chứng minh nhân thân:"
+      },
+      {
+        "insert": "\n- Đơn xin cấp visa đi Ý theo mẫu mới nhất.\n- 2 ảnh 4x6, nền trắng, chụp không quá 6 tháng, yêu cầu rõ mặt.\n- Bản gốc và bản sao Hộ chiếu còn thời hạn ít nhất 6 tháng.\n- Photo đầy đủ các trang hộ khẩu và có chứng thực.\n- Chứng minh nhân dân bản sao, sơ yếu lí lịch. Thông tin về tình trạng hôn nhân hiện tại có xác nhận của chính quyền địa phương.\n- Giấy khai sinh bản gốc kèm phản photo có chứng thực.\n\n"
+      },
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "2. Chứng minh về công việc:"
+      },
+      {
+        "insert": "\n- Chủ doanh nghiệp: Giấy phép đăng ký kinh doanh, biên lai nộp thuế 3 tháng gần nhất.\n- Nhân viên: Hợp đồng lao động/ giấy bổ nhiệm chức vụ, bảo hiểm Y tế, giấy xin nghỉ phép đi du lịch Ý.\n- Người nghỉ hưu: Quyết định nghỉ hưu và bảng lương nghỉ hưu có xác nhận của chính quyền địa phương.\n- Học sinh/sinh viên: Thẻ học sinh, sinh viên kèm giấy phép nghỉ học đến Pháp hoặc xác nhận học tập có chữ kí của hiệu trưởng.\n\n"
+      },
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "3. Chứng minh về tài chính:"
+      },
+      {
+        "insert": "\n- Sổ tiết kiệm được gửi ngân hàng ít nhất 3 tháng và có số dư tối thiểu 5.000 USD, bảng lương 3 tháng gần nhất.\n- Cung cấp giấy tờ đất đai, cổ phiếu, bất động sản, xe ô-tô (nếu có),…\n\n"
+      },
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "4. Lịch trình chuyến đi:"
+      },
+      {
+        "insert": "\n- Kế hoạch đi Ý rõ ràng, chi tiết (địa điểm tham quan từng ngày, thời gian dự định nhập cảnh và thời gian dự định về nước,…).\n- Xác nhận đặt vé máy bay đi Ý khứ hồi và đặt khách sạn tại Ý.\n- Bảo hiểm du lịch Ý có giá trị tối thiểu 30.000 EUR cho toàn bộ thời gian lưu trú tại Ý và khối Schengen.\nNếu xin visa đi Ý thăm thân nhân, vợ/chồng, hay bạn bè ở Ý, vui lòng nộp:\n- Bằng chứng về mối quan hệ của đương đơn với người định đi thăm (ảnh chụp chung, tin nhắn qua lại, email,…).\n- Thư mời của người mà đương đơn định đến thăm.\n- Bằng chứng về thu nhập và tài chính của người mời trong trường hợp người mời là người chi trả cho chuyến đi của bạn.\n- Bản sao trang hộ chiếu cá nhân của người mời hoặc bằng chứng khác như thẻ cư trú trong trường hợp người mời là người nước ngoài.\nLoại visa Ý và hồ sơ tNếu xin visa đi Ý công tác ngắn hạn, vui lòng bổ sung:\n- Thư mời từ công ty ở Ý. Nếu bạn đi tham dự hội nghị/ hội thảo, nộp chi tiết đăng ký hội thảo và thư của cơ quan nơi bạn công tác (trong thư nêu rõ lý do chuyến đi).\n- Giấy tờ chứng minh mối quan hệ của doanh nghiệp tại Việt Nam và doanh nghiệp tại Ý.\n- Giấy tờ đăng ký kinh doanh của cả 2 công ty."
+      },
+      {
+        "attributes": {
+          "align": "justify"
+        },
+        "insert": "\n"
+      }
+    ],
+    "_id": {
+      "$oid": "644a2e583ca3440045782666"
+    }
+  },
+  "price": 350,
+  "price_policies": {
+    "includes": {
+      "ops": [
+        {
+          "insert": "• Tư vấn giải pháp xin visa Ý."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Hướng dẫn chuẩn bị hồ sơ xin visa Ý."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Xử lý, hoàn thiện hồ sơ xin visa Ý."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Đại diện khách hàng đặt lịch hẹn."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Đại diện khách hàng nộp hồ sơ."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Theo dõi hồ sơ và nhận kết quả thay."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Phí nộp hồ sơ xin visa Ý."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Phí dịch vụ"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        }
+      ]
+    },
+    "excludes": {
+      "ops": [
+        {
+          "insert": "• Phí gửi hồ sơ qua bưu điện"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Vé máy bay và khách sạn"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Bảo hiểm du lịch"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Chứng minh tài chính"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Phí xử lý hồ sơ khẩn."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        }
+      ]
+    },
+    "other": {
+      "ops": [
+        {
+          "insert": "x\n"
+        }
+      ]
+    }
+  },
+  "terms": {
+    "registration": {
+      "ops": [
+        {
+          "insert": "x"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        }
+      ]
+    },
+    "cancellation": {
+      "ops": [
+        {
+          "attributes": {
+            "color": "#1d1d1d"
+          },
+          "insert": "• Trước ngày đã chọn 16 ngày, phí huỷ 10%"
+        },
+        {
+          "insert": "\n"
+        },
+        {
+          "attributes": {
+            "color": "#1d1d1d"
+          },
+          "insert": "• Từ 8 - 15 ngày trước ngày đã chọn, phí huỷ 50%"
+        },
+        {
+          "insert": "\n"
+        },
+        {
+          "attributes": {
+            "color": "#1d1d1d"
+          },
+          "insert": "• Từ 0 - 7 ngày trước ngày đã chọn, phí huỷ 100%"
+        },
+        {
+          "insert": "\n"
+        },
+        {
+          "attributes": {
+            "color": "#1d1d1d"
+          },
+          "insert": "• Chi tiết vui lòng liên hệ "
+        },
+        {
+          "attributes": {
+            "color": "#ff0000",
+            "bold": true
+          },
+          "insert": "Hotline 1900 xxxx"
+        },
+        {
+          "attributes": {
+            "color": "#1d1d1d"
+          },
+          "insert": " để được hỗ trợ chu đáo!"
+        },
+        {
+          "insert": "\n"
+        }
+      ]
+    },
+    "payment": {
+      "ops": [
+        {
+          "insert": "x\n"
+        }
+      ]
+    },
+    "notes": {
+      "ops": [
+        {
+          "insert": "• Vui lòng xin visa Ý từ 3 - 6 tháng trước ngày bạn dự định đi. "
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Bạn sẽ được hoàn đầy đủ tiền nếu huỷ dịch vụ trước ít nhất 1 tháng."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Nếu hồ sơ của bạn bị từ chối, bạn sẽ được hoàn lại tiền (tùy trường hợp cụ thể)"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Visa được cấp dưới dạng visa dán vào hộ chiếu."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Bạn sẽ không cần phải phỏng vấn, tuy nhiên trong một số trường hợp đặc biệt, Cơ quan thẩm quyền có thể sẽ gọi điện để thẩm định hồ sơ."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        }
+      ]
+    }
+  },
+  "en": {
+    "name": "Italy Tourist, Business & Visiting Visa (Adult)",
+    "detail": {
+      "ops": [
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "Type of visa to Italy and corresponding documents:"
+        },
+        {
+          "insert": "\n❖ Tourist Visa: Issued for the purpose of sightseeing, tourism in Italy.\n❖ Work visa: Issued for short-term work purposes, attending conferences/conferences, etc.\n❖ Visa to visit relatives: Issued for the purpose of visiting relatives (parents, children, siblings) and customers whose children are international students.\n\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "Required documents for Italy visa:"
+        },
+        {
+          "insert": "\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "1. Proof of identity:"
+        },
+        {
+          "insert": "\n- Application for visa to Italy according to the latest form.\n- 2 4x6 photos, white background, taken not more than 6 months old, clearly face required.\n- Original and copy of Passport valid for at least 6 months.\n- Full photo of household registration pages and certified.\n- Copy of identity card, curriculum vitae. Information on current marital status certified by local authorities.\n- Original birth certificate with certified true copy.\n\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "2. Proof of work:"
+        },
+        {
+          "insert": "\n- Business owner: Business registration license, tax payment receipt for the last 3 months.\n- Employees: Labor contract / appointment letter, Health insurance, letter of leave to travel to Italy.\n- Retirees: Retirement decisions and retirement payrolls certified by local authorities.\n- Students/students: Student card, student with a leave of absence to France or academic confirmation signed by the principal.\n\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "3. Financial proof:"
+        },
+        {
+          "insert": "\n- Savings books must be deposited in the bank for at least 3 months and have a minimum balance of USD 5,000, salary slips of the last 3 months.\n- Provide documents for land, stocks, real estate, cars (if any), ...\n\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "4. Trip schedule:"
+        },
+        {
+          "insert": "\n- A clear and detailed plan to go to Italy (places to visit each day, intended time of entry and intended time of return home, …).\n- Confirm return flight ticket to Italy and hotel reservation in Italy.\n- Italy travel insurance with a minimum value of EUR 30,000 for the entire period of stay in Italy and the Schengen area.\nIf applying for a visa to visit Italy to visit relatives, spouses, or friends in Italy, please submit:\n- Evidence of the applicant's relationship with the person intending to visit (together photos, text messages, emails, ...).\n- Invitation letter from the person the applicant intends to visit.\n- Proof of the inviter's income and finances in case the inviter is the one paying for your trip.\n- A copy of the inviter's personal passport page or other proof such as a residence card in case the inviter is a foreigner.\nItaly visa type and documents If applying for a short-term business visa to Italy, please add:\n- Invitation letter from the company in Italy. If you are going to a conference/conference, submit your registration details for the seminar and a letter from the institution where you work (in the letter stating the reason for your visit).\n- Documents proving the relationship of the enterprise in Vietnam and the enterprise in Italy.\n- Business registration papers of both companies.\n"
+        }
+      ]
+    },
+    "price_policies": {
+      "includes": {
+        "ops": [
+          {
+            "insert": "• Consulting solutions to apply for an Italian visa.\n• Instructions for preparing documents for an Italian visa.\n• Processing and completing the application for an Italian visa.\n• Customer representative to make an appointment.\n• Representing clients to submit documents.\n• Track records and get results instead.\n• Italy visa application fee.\n• Service charge"
+          },
+          {
+            "attributes": {
+              "align": "justify"
+            },
+            "insert": "\n"
+          }
+        ]
+      },
+      "excludes": {
+        "ops": [
+          {
+            "insert": "• Postal application fee\n• Air tickets and hotels\n• Travel insurance\n• Demonstrate financial\n• Urgent processing fee."
+          },
+          {
+            "attributes": {
+              "align": "justify"
+            },
+            "insert": "\n"
+          }
+        ]
+      },
+      "other": {
+        "ops": [
+          {
+            "insert": " x\n"
+          }
+        ]
+      }
+    },
+    "terms": {
+      "registration": {
+        "ops": [
+          {
+            "insert": "x\n"
+          }
+        ]
+      },
+      "cancellation": {
+        "ops": [
+          {
+            "insert": "• 16 days before the selected date, 10% cancellation fee\n• From 8 - 15 days before the selected date, 50% cancellation fee\n• From 0-7 days before the selected date, 100% cancellation fee\n• For details, please contact Hotline 1900 xxxx for thoughtful support!\n"
+          }
+        ]
+      },
+      "payment": {
+        "ops": [
+          {
+            "insert": "x\n"
+          }
+        ]
+      },
+      "notes": {
+        "ops": [
+          {
+            "insert": "• Please apply for an Italian visa 3 - 6 months before your intended date of travel.\n• You will receive a full refund if you cancel the service at least 1 month in advance.\n• If your application is denied, you will be refunded (subject to case).\n• Visa is issued in the form of a visa stamped on the passport.\n• You will not need to be interviewed, but in some special cases, the Competent Authority may call to review the application.\n"
+          }
+        ]
+      }
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "644a423af9203fd960b1b045"
+  },
+  "name": "Visa Ý (Trẻ em 6 -12 tuổi)",
+  "slug": "visa-y-tre-em-6-12-tuoi",
+  "type": {
+    "$oid": "6439181edc5be5ab8316f066"
+  },
+  "country": {
+    "$oid": "6438fa2fa968ef8111bb6302"
+  },
+  "detail": {
+    "ops": [
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "Loại visa đi Ý và hồ sơ tương ứng:"
+      },
+      {
+        "insert": "\n❖ Visa du lịch: Cấp cho các mục đích tham quan, du lịch tại Ý.\n❖ Visa công tác: Cấp cho các mục đích làm việc ngắn hạn, dự hội nghị/hội thảo,…\n❖ Visa thăm thân: Cấp cho các mục đích thăm người thân (bố mẹ, con cái, anh chị em) và khách hàng có con là du học sinh.\n\n"
+      },
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "Hồ sơ xin visa Ý cần thiết:"
+      },
+      {
+        "insert": "\n"
+      },
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "1. Chứng minh nhân thân:"
+      },
+      {
+        "insert": "\n- Đơn xin cấp visa đi Ý theo mẫu mới nhất.\n- 2 ảnh 4x6, nền trắng, chụp không quá 6 tháng, yêu cầu rõ mặt.\n- Bản gốc và bản sao Hộ chiếu còn thời hạn ít nhất 6 tháng.\n- Photo đầy đủ các trang hộ khẩu và có chứng thực.\n- Chứng minh nhân dân bản sao, sơ yếu lí lịch. Thông tin về tình trạng hôn nhân hiện tại có xác nhận của chính quyền địa phương.\n- Giấy khai sinh bản gốc kèm phản photo có chứng thực.\n\n"
+      },
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "2. Chứng minh về công việc:"
+      },
+      {
+        "insert": "\n- Chủ doanh nghiệp: Giấy phép đăng ký kinh doanh, biên lai nộp thuế 3 tháng gần nhất.\n- Nhân viên: Hợp đồng lao động/ giấy bổ nhiệm chức vụ, bảo hiểm Y tế, giấy xin nghỉ phép đi du lịch Ý.\n- Người nghỉ hưu: Quyết định nghỉ hưu và bảng lương nghỉ hưu có xác nhận của chính quyền địa phương.\n- Học sinh/sinh viên: Thẻ học sinh, sinh viên kèm giấy phép nghỉ học đến Pháp hoặc xác nhận học tập có chữ kí của hiệu trưởng.\n\n"
+      },
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "3. Chứng minh về tài chính:"
+      },
+      {
+        "insert": "\n- Sổ tiết kiệm được gửi ngân hàng ít nhất 3 tháng và có số dư tối thiểu 5.000 USD, bảng lương 3 tháng gần nhất.\n- Cung cấp giấy tờ đất đai, cổ phiếu, bất động sản, xe ô-tô (nếu có),…\n\n"
+      },
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "4. Lịch trình chuyến đi:"
+      },
+      {
+        "insert": "\n- Kế hoạch đi Ý rõ ràng, chi tiết (địa điểm tham quan từng ngày, thời gian dự định nhập cảnh và thời gian dự định về nước,…).\n- Xác nhận đặt vé máy bay đi Ý khứ hồi và đặt khách sạn tại Ý.\n- Bảo hiểm du lịch Ý có giá trị tối thiểu 30.000 EUR cho toàn bộ thời gian lưu trú tại Ý và khối Schengen.\nNếu xin visa đi Ý thăm thân nhân, vợ/chồng, hay bạn bè ở Ý, vui lòng nộp:\n- Bằng chứng về mối quan hệ của đương đơn với người định đi thăm (ảnh chụp chung, tin nhắn qua lại, email,…).\n- Thư mời của người mà đương đơn định đến thăm.\n- Bằng chứng về thu nhập và tài chính của người mời trong trường hợp người mời là người chi trả cho chuyến đi của bạn.\n- Bản sao trang hộ chiếu cá nhân của người mời hoặc bằng chứng khác như thẻ cư trú trong trường hợp người mời là người nước ngoài.\nLoại visa Ý và hồ sơ tNếu xin visa đi Ý công tác ngắn hạn, vui lòng bổ sung:\n- Thư mời từ công ty ở Ý. Nếu bạn đi tham dự hội nghị/ hội thảo, nộp chi tiết đăng ký hội thảo và thư của cơ quan nơi bạn công tác (trong thư nêu rõ lý do chuyến đi).\n- Giấy tờ chứng minh mối quan hệ của doanh nghiệp tại Việt Nam và doanh nghiệp tại Ý.\n- Giấy tờ đăng ký kinh doanh của cả 2 công ty."
+      },
+      {
+        "attributes": {
+          "align": "justify"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "\n"
+      }
+    ],
+    "_id": {
+      "$oid": "644a423af9203fd960b1b046"
+    }
+  },
+  "price": 315,
+  "price_policies": {
+    "includes": {
+      "ops": [
+        {
+          "insert": "• Tư vấn giải pháp xin visa Ý."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Hướng dẫn chuẩn bị hồ sơ xin visa Ý."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Xử lý, hoàn thiện hồ sơ xin visa Ý."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Đại diện khách hàng đặt lịch hẹn."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Đại diện khách hàng nộp hồ sơ."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Theo dõi hồ sơ và nhận kết quả thay."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Phí nộp hồ sơ xin visa Ý."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Phí dịch vụ"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        }
+      ]
+    },
+    "excludes": {
+      "ops": [
+        {
+          "insert": "• Phí gửi hồ sơ qua bưu điện"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Vé máy bay và khách sạn"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Bảo hiểm du lịch"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Chứng minh tài chính"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Phí xử lý hồ sơ khẩn."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        }
+      ]
+    }
+  },
+  "terms": {
+    "cancellation": {
+      "ops": [
+        {
+          "attributes": {
+            "color": "#1d1d1d"
+          },
+          "insert": "• Trước ngày đã chọn 16 ngày, phí huỷ 10%"
+        },
+        {
+          "insert": "\n"
+        },
+        {
+          "attributes": {
+            "color": "#1d1d1d"
+          },
+          "insert": "• Từ 8 - 15 ngày trước ngày đã chọn, phí huỷ 50%"
+        },
+        {
+          "insert": "\n"
+        },
+        {
+          "attributes": {
+            "color": "#1d1d1d"
+          },
+          "insert": "• Từ 0 - 7 ngày trước ngày đã chọn, phí huỷ 100%"
+        },
+        {
+          "insert": "\n"
+        },
+        {
+          "attributes": {
+            "color": "#1d1d1d"
+          },
+          "insert": "• Chi tiết vui lòng liên hệ "
+        },
+        {
+          "attributes": {
+            "color": "#ff0000",
+            "bold": true
+          },
+          "insert": "Hotline 1900 xxxx"
+        },
+        {
+          "attributes": {
+            "color": "#1d1d1d"
+          },
+          "insert": " để được hỗ trợ chu đáo!"
+        },
+        {
+          "insert": "\n"
+        }
+      ]
+    },
+    "notes": {
+      "ops": [
+        {
+          "insert": "• Vui lòng xin visa Ý từ 3 - 6 tháng trước ngày bạn dự định đi. "
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Bạn sẽ được hoàn đầy đủ tiền nếu huỷ dịch vụ trước ít nhất 1 tháng."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Nếu hồ sơ của bạn bị từ chối, bạn sẽ được hoàn lại tiền (tùy trường hợp cụ thể)"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Visa được cấp dưới dạng visa dán vào hộ chiếu."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Bạn sẽ không cần phải phỏng vấn, tuy nhiên trong một số trường hợp đặc biệt, Cơ quan thẩm quyền có thể sẽ gọi điện để thẩm định hồ sơ."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        }
+      ]
+    }
+  },
+  "en": {
+    "name": "Italy Visa (Children 6 -12 years old)",
+    "detail": {
+      "ops": [
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "Type of visa to Italy and corresponding documents:"
+        },
+        {
+          "insert": "\n❖ Tourist Visa: Issued for the purpose of sightseeing, tourism in Italy.\n❖ Work visa: Issued for short-term work purposes, attending conferences/conferences, etc.\n❖ Visa to visit relatives: Issued for the purpose of visiting relatives (parents, children, siblings) and customers whose children are international students.\n\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "Required documents for Italy visa:"
+        },
+        {
+          "insert": "\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "1. Proof of identity:"
+        },
+        {
+          "insert": "\n- Application for visa to Italy according to the latest form.\n- 2 4x6 photos, white background, taken not more than 6 months old, clearly face required.\n- Original and copy of Passport valid for at least 6 months.\n- Full photo of household registration pages and certified.\n- Copy of identity card, curriculum vitae. Information on current marital status certified by local authorities.\n- Original birth certificate with certified true copy.\n\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "2. Proof of work:"
+        },
+        {
+          "insert": "\n- Business owner: Business registration license, tax payment receipt for the last 3 months.\n- Employees: Labor contract / appointment letter, Health insurance, letter of leave to travel to Italy.\n- Retirees: Retirement decisions and retirement payrolls certified by local authorities.\n- Students/students: Student card, student with a leave of absence to France or academic confirmation signed by the principal.\n\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "3. Financial proof:"
+        },
+        {
+          "insert": "\n- Savings books must be deposited in the bank for at least 3 months and have a minimum balance of USD 5,000, salary slips of the last 3 months.\n- Provide documents for land, stocks, real estate, cars (if any), ...\n\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "4. Trip schedule:"
+        },
+        {
+          "insert": "\n- A clear and detailed plan to go to Italy (places to visit each day, intended time of entry and intended time of return home, …).\n- Confirm return flight ticket to Italy and hotel reservation in Italy.\n- Italy travel insurance with a minimum value of EUR 30,000 for the entire period of stay in Italy and the Schengen area.\nIf applying for a visa to visit Italy to visit relatives, spouses, or friends in Italy, please submit:\n- Evidence of the applicant's relationship with the person intending to visit (together photos, text messages, emails, ...).\n- Invitation letter from the person the applicant intends to visit.\n- Proof of the inviter's income and finances in case the inviter is the one paying for your trip.\n- A copy of the inviter's personal passport page or other proof such as a residence card in case the inviter is a foreigner.\nItaly visa type and documents If applying for a short-term business visa to Italy, please add:\n- Invitation letter from the company in Italy. If you are going to a conference/conference, submit your registration details for the seminar and a letter from the institution where you work (in the letter stating the reason for your visit).\n- Documents proving the relationship of the enterprise in Vietnam and the enterprise in Italy.\n- Business registration papers of both companies.\n"
+        }
+      ]
+    },
+    "price_policies": {
+      "includes": {
+        "ops": [
+          {
+            "insert": "• Consulting solutions to apply for an Italian visa.\n• Instructions for preparing documents for an Italian visa.\n• Processing and completing the application for an Italian visa.\n• Customer representative to make an appointment.\n• Representing clients to submit documents.\n• Track records and get results instead.\n• Italy visa application fee.\n• Service charge"
+          },
+          {
+            "attributes": {
+              "align": "justify"
+            },
+            "insert": "\n"
+          }
+        ]
+      },
+      "excludes": {
+        "ops": [
+          {
+            "insert": "• Postal application fee\n• Air tickets and hotels\n• Travel insurance\n• Demonstrate financial\n• Urgent processing fee."
+          },
+          {
+            "attributes": {
+              "align": "justify"
+            },
+            "insert": "\n"
+          }
+        ]
+      }
+    },
+    "terms": {
+      "cancellation": {
+        "ops": [
+          {
+            "insert": "• 16 days before the selected date, 10% cancellation fee\n• From 8 - 15 days before the selected date, 50% cancellation fee\n• From 0-7 days before the selected date, 100% cancellation fee\n• For details, please contact Hotline "
+          },
+          {
+            "attributes": {
+              "color": "#e60000",
+              "bold": true
+            },
+            "insert": "1900 xxxx "
+          },
+          {
+            "insert": "for thoughtful support!\n"
+          }
+        ]
+      },
+      "notes": {
+        "ops": [
+          {
+            "insert": "• Please apply for an Italian visa 3 - 6 months before your intended date of travel.\n• You will receive a full refund if you cancel the service at least 1 month in advance.\n• If your application is denied, you will be refunded (subject to case).\n• Visa is issued in the form of a visa stamped on the passport.\n• You will not need to be interviewed, but in some special cases, the Competent Authority may call to review the application.\n"
+          }
+        ]
+      }
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "644a51c7f9203fd960b1b04c"
+  },
+  "name": "Visa Anh Du Lịch, Công Tác, Thăm Thân",
+  "slug": "visa-anh-du-lich-cong-tac-tham-than",
+  "type": {
+    "$oid": "6439181edc5be5ab8316f066"
+  },
+  "country": {
+    "$oid": "6438fa2fa968ef8111bb6303"
+  },
+  "detail": {
+    "ops": [
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "Loại visa đi Anh và hồ sơ tương ứng:"
+      },
+      {
+        "insert": "\n❖ Visa du lịch: Cấp cho các mục đích tham quan, du lịch tại Anh.\n❖ Visa công tác: Cấp cho các mục đích làm việc ngắn hạn, dự hội nghị/hội thảo,…\n❖ Visa thăm thân: Cấp cho các mục đích thăm người thân (bố mẹ, con cái, anh chị em) và khách hàng có con là du học sinh.\n\n\n"
+      },
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "Hồ sơ xin visa Anh cần thiết:"
+      },
+      {
+        "insert": "\n"
+      },
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "1. Chứng minh nhân thân:"
+      },
+      {
+        "insert": "\n- Đơn xin cấp visa đi Anh theo mẫu mới nhất.\n- 2 ảnh 4x6, nền trắng, chụp không quá 6 tháng, yêu cầu rõ mặt.\n- Bản gốc và bản sao Hộ chiếu còn thời hạn ít nhất 6 tháng.\n- Photo đầy đủ các trang hộ khẩu và có chứng thực.\n- Chứng minh nhân dân bản sao, sơ yếu lí lịch. Thông tin về tình trạng hôn nhân hiện tại có xác nhận của chính quyền địa phương.\n- Giấy khai sinh bản gốc kèm phản photo có chứng thực.\n\n\n"
+      },
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "2. Chứng minh về công việc:"
+      },
+      {
+        "insert": "\n- Chủ doanh nghiệp: Giấy phép đăng kAnh kinh doanh, biên lai nộp thuế 3 tháng gần nhất.\n- Nhân viên: Hợp đồng lao động/ giấy bổ nhiệm chức vụ, bảo hiểm Y tế, giấy xin nghỉ phép đi du lịch Anh.\n- Người nghỉ hưu: Quyết định nghỉ hưu và bảng lương nghỉ hưu có xác nhận của chính quyền địa phương.\n- Học sinh/sinh viên: Thẻ học sinh, sinh viên kèm giấy phép nghỉ học đến Pháp hoặc xác nhận học tập có chữ kí của hiệu trưởng.\n\n\n"
+      },
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "3. Chứng minh về tài chính:"
+      },
+      {
+        "insert": "\n- Sổ tiết kiệm được gửi ngân hàng ít nhất 3 tháng và có số dư tối thiểu 5.000 USD, bảng lương 3 tháng gần nhất.\n- Cung cấp giấy tờ đất đai, cổ phiếu, bất động sản, xe ô-tô (nếu có),…\n\n\n"
+      },
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "4. Lịch trình chuyến đi:"
+      },
+      {
+        "insert": "\n- Kế hoạch đi Anh rõ ràng, chi tiết (địa điểm tham quan từng ngày, thời gian dự định nhập cảnh và thời gian dự định về nước,…).\n- Xác nhận đặt vé máy bay đi Anh khứ hồi và đặt khách sạn tại Anh.\n- Bảo hiểm du lịch Anh có giá trị tối thiểu 30.000 EUR cho toàn bộ thời gian lưu trú tại Anh và khối Schengen.\nNếu xin visa đi Anh thăm thân nhân, vợ/chồng, hay bạn bè ở Anh, vui lòng nộp:\n- Bằng chứng về mối quan hệ của đương đơn với người định đi thăm (ảnh chụp chung, tin nhắn qua lại, email,…).\n- Thư mời của người mà đương đơn định đến thăm.\n- Bằng chứng về thu nhập và tài chính của người mời trong trường hợp người mời là người chi trả cho chuyến đi của bạn.\n- Bản sao trang hộ chiếu cá nhân của người mời hoặc bằng chứng khác như thẻ cư trú trong trường hợp người mời là người nước ngoài.\nLoại visa Anh và hồ sơ tNếu xin visa đi Anh công tác ngắn hạn, vui lòng bổ sung:\n- Thư mời từ công ty ở Anh. Nếu bạn đi tham dự hội nghị/ hội thảo, nộp chi tiết đăng kAnh hội thảo và thư của cơ quan nơi bạn công tác (trong thư nêu rõ lAnh do chuyến đi).\n- Giấy tờ chứng minh mối quan hệ của doanh nghiệp tại Việt Nam và doanh nghiệp tại Anh.\n- Giấy tờ đăng kAnh kinh doanh của cả 2 công ty.\n\n\n"
+      }
+    ],
+    "_id": {
+      "$oid": "644a51c7f9203fd960b1b04d"
+    }
+  },
+  "price": 350,
+  "price_policies": {
+    "includes": {
+      "ops": [
+        {
+          "insert": "• Tư vấn giải pháp xin visa Ý."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Hướng dẫn chuẩn bị hồ sơ xin visa Ý."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Xử lý, hoàn thiện hồ sơ xin visa Ý."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Đại diện khách hàng đặt lịch hẹn."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Đại diện khách hàng nộp hồ sơ."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Theo dõi hồ sơ và nhận kết quả thay."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Phí nộp hồ sơ xin visa Ý."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Phí dịch vụ"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        }
+      ]
+    },
+    "excludes": {
+      "ops": [
+        {
+          "insert": "• Phí gửi hồ sơ qua bưu điện"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Vé máy bay và khách sạn"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Bảo hiểm du lịch"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Chứng minh tài chính"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Phí xử lý hồ sơ khẩn."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        }
+      ]
+    }
+  },
+  "terms": {
+    "cancellation": {
+      "ops": [
+        {
+          "attributes": {
+            "color": "#1d1d1d"
+          },
+          "insert": "• Trước ngày đã chọn 16 ngày, phí huỷ 10%"
+        },
+        {
+          "insert": "\n"
+        },
+        {
+          "attributes": {
+            "color": "#1d1d1d"
+          },
+          "insert": "• Từ 8 - 15 ngày trước ngày đã chọn, phí huỷ 50%"
+        },
+        {
+          "insert": "\n"
+        },
+        {
+          "attributes": {
+            "color": "#1d1d1d"
+          },
+          "insert": "• Từ 0 - 7 ngày trước ngày đã chọn, phí huỷ 100%"
+        },
+        {
+          "insert": "\n"
+        },
+        {
+          "attributes": {
+            "color": "#1d1d1d"
+          },
+          "insert": "• Chi tiết vui lòng liên hệ "
+        },
+        {
+          "attributes": {
+            "color": "#ff0000",
+            "bold": true
+          },
+          "insert": "Hotline 1900 xxxx"
+        },
+        {
+          "attributes": {
+            "color": "#1d1d1d"
+          },
+          "insert": " để được hỗ trợ chu đáo!"
+        },
+        {
+          "insert": "\n"
+        }
+      ]
+    },
+    "notes": {
+      "ops": [
+        {
+          "insert": "• Vui lòng xin visa Ý từ 3 - 6 tháng trước ngày bạn dự định đi. "
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Bạn sẽ được hoàn đầy đủ tiền nếu huỷ dịch vụ trước ít nhất 1 tháng."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Nếu hồ sơ của bạn bị từ chối, bạn sẽ được hoàn lại tiền (tùy trường hợp cụ thể)"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Visa được cấp dưới dạng visa dán vào hộ chiếu."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Bạn sẽ không cần phải phỏng vấn, tuy nhiên trong một số trường hợp đặc biệt, Cơ quan thẩm quyền có thể sẽ gọi điện để thẩm định hồ sơ."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        }
+      ]
+    }
+  },
+  "en": {
+    "name": "UK Visa for Tourist, Business, Visiting Friends",
+    "detail": {
+      "ops": [
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "Type of visa to United Kingdom and corresponding documents:"
+        },
+        {
+          "insert": "\n❖ Tourist Visa: Issued for the purpose of sightseeing, tourism in United Kingdom.\n❖ Work visa: Issued for short-term work purposes, attending conferences/conferences, etc.\n❖ Visa to visit relatives: Issued for the purpose of visiting relatives (parents, children, siblings) and customers whose children are international students.\n\n\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "Required documents for United Kingdom visa:"
+        },
+        {
+          "insert": "\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "1. Proof of identity:"
+        },
+        {
+          "insert": "\n- Application for visa to United Kingdom according to the latest form.\n- 2 4x6 photos, white background, taken not more than 6 months old, clearly face required.\n- Original and copy of Passport valid for at least 6 months.\n- Full photo of household registration pages and certified.\n- Copy of identity card, curriculum vitae. Information on current marital status certified by local authorities.\n- Original birth certificate with certified true copy.\n\n\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "2. Proof of work:"
+        },
+        {
+          "insert": "\n- Business owner: Business registration license, tax payment receipt for the last 3 months.\n- Employees: Labor contract / appointment letter, Health insurance, letter of leave to travel to United Kingdom.\n- Retirees: Retirement decisions and retirement payrolls certified by local authorities.\n- Students/students: Student card, student with a leave of absence to France or academic confirmation signed by the principal.\n\n\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "3. Financial proof:"
+        },
+        {
+          "insert": "\n- Savings books must be deposited in the bank for at least 3 months and have a minimum balance of USD 5,000, salary slips of the last 3 months.\n- Provide documents for land, stocks, real estate, cars (if any), ...\n\n\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "4. Trip schedule:"
+        },
+        {
+          "insert": "\n- A clear and detailed plan to go to United Kingdom (places to visit each day, intended time of entry and intended time of return home, …).\n- Confirm return flight ticket to United Kingdom and hotel reservation in United Kingdom.\n- United Kingdom travel insurance with a minimum value of EUR 30,000 for the entire period of stay in United Kingdom and the Schengen area.\nIf applying for a visa to visit United Kingdom to visit relatives, spouses, or friends in United Kingdom, please submit:\n- Evidence of the applicant's relationship with the person intending to visit (together photos, text messages, emails, ...).\n- Invitation letter from the person the applicant intends to visit.\n- Proof of the inviter's income and finances in case the inviter is the one paying for your trip.\n- A copy of the inviter's personal passport page or other proof such as a residence card in case the inviter is a foreigner.\nUnited Kingdom visa type and documents If applying for a short-term business visa to United Kingdom, please add:\n- Invitation letter from the company in United Kingdom. If you are going to a conference/conference, submit your registration details for the seminar and a letter from the institution where you work (in the letter stating the reason for your visit).\n- Documents proving the relationship of the enterprise in Vietnam and the enterprise in United Kingdom.\n- Business registration papers of both companies.\n\n\n\n"
+        }
+      ]
+    },
+    "price_policies": {
+      "includes": {
+        "ops": [
+          {
+            "insert": "• Consulting solutions to apply for an Italian visa.\n• Instructions for preparing documents for an Italian visa.\n• Processing and completing the application for an Italian visa.\n• Customer representative to make an appointment.\n• Representing clients to submit documents.\n• Track records and get results instead.\n• Italy visa application fee.\n• Service charge"
+          },
+          {
+            "attributes": {
+              "align": "justify"
+            },
+            "insert": "\n"
+          }
+        ]
+      },
+      "excludes": {
+        "ops": [
+          {
+            "insert": "• Postal application fee\n• Air tickets and hotels\n• Travel insurance\n• Demonstrate financial\n• Urgent processing fee."
+          },
+          {
+            "attributes": {
+              "align": "justify"
+            },
+            "insert": "\n"
+          }
+        ]
+      }
+    },
+    "terms": {
+      "cancellation": {
+        "ops": [
+          {
+            "insert": "• 16 days before the selected date, 10% cancellation fee\n• From 8 - 15 days before the selected date, 50% cancellation fee\n• From 0-7 days before the selected date, 100% cancellation fee\n• For details, please contact Hotline 1900 xxxx for thoughtful support!\n"
+          }
+        ]
+      },
+      "notes": {
+        "ops": [
+          {
+            "insert": "• Please apply for an Italian visa 3 - 6 months before your intended date of travel.\n• You will receive a full refund if you cancel the service at least 1 month in advance.\n• If your application is denied, you will be refunded (subject to case).\n• Visa is issued in the form of a visa stamped on the passport.\n• You will not need to be interviewed, but in some special cases, the Competent Authority may call to review the application.\n"
+          }
+        ]
+      }
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "644a5417f9203fd960b1b070"
+  },
+  "name": "Visa Pháp Du Lịch, Công Tác, Thăm Thân (Người lớn)",
+  "slug": "visa-phap-du-lich-cong-tac-tham-than-nguoi-lon",
+  "type": {
+    "$oid": "6439181edc5be5ab8316f066"
+  },
+  "country": {
+    "$oid": "6438fa2fa968ef8111bb62fa"
+  },
+  "detail": {
+    "ops": [
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "Loại visa đi Pháp và hồ sơ tương ứng:"
+      },
+      {
+        "insert": "\n❖ Visa du lịch: Cấp cho các mục đích tham quan, du lịch tại Pháp.\n❖ Visa công tác: Cấp cho các mục đích làm việc ngắn hạn, dự hội nghị/hội thảo,…\n❖ Visa thăm thân: Cấp cho các mục đích thăm người thân (bố mẹ, con cái, anh chị em) và khách hàng có con là du học sinh.\n\n"
+      },
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "Hồ sơ xin visa Pháp cần thiết:"
+      },
+      {
+        "insert": "\n"
+      },
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "1. Chứng minh nhân thân:"
+      },
+      {
+        "insert": "\n- Đơn xin cấp visa đi Pháp theo mẫu mới nhất.\n- 2 ảnh 4x6, nền trắng, chụp không quá 6 tháng, yêu cầu rõ mặt.\n- Bản gốc và bản sao Hộ chiếu còn thời hạn ít nhất 6 tháng.\n- Photo đầy đủ các trang hộ khẩu và có chứng thực.\n- Chứng minh nhân dân bản sao, sơ yếu lí lịch. Thông tin về tình trạng hôn nhân hiện tại có xác nhận của chính quyền địa phương.\n- Giấy khai sinh bản gốc kèm phản photo có chứng thực.\n\n"
+      },
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "2. Chứng minh về công việc:"
+      },
+      {
+        "insert": "\n- Chủ doanh nghiệp: Giấy phép đăng kPháp kinh doanh, biên lai nộp thuế 3 tháng gần nhất.\n- Nhân viên: Hợp đồng lao động/ giấy bổ nhiệm chức vụ, bảo hiểm Y tế, giấy xin nghỉ phép đi du lịch Pháp.\n- Người nghỉ hưu: Quyết định nghỉ hưu và bảng lương nghỉ hưu có xác nhận của chính quyền địa phương.\n- Học sinh/sinh viên: Thẻ học sinh, sinh viên kèm giấy phép nghỉ học đến Pháp hoặc xác nhận học tập có chữ kí của hiệu trưởng.\n\n"
+      },
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "3. Chứng minh về tài chính:"
+      },
+      {
+        "insert": "\n- Sổ tiết kiệm được gửi ngân hàng ít nhất 3 tháng và có số dư tối thiểu 5.000 USD, bảng lương 3 tháng gần nhất.\n- Cung cấp giấy tờ đất đai, cổ phiếu, bất động sản, xe ô-tô (nếu có),…\n\n"
+      },
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "4. Lịch trình chuyến đi:"
+      },
+      {
+        "insert": "\n- Kế hoạch đi Pháp rõ ràng, chi tiết (địa điểm tham quan từng ngày, thời gian dự định nhập cảnh và thời gian dự định về nước,…).\n- Xác nhận đặt vé máy bay đi Pháp khứ hồi và đặt khách sạn tại Pháp.\n- Bảo hiểm du lịch Pháp có giá trị tối thiểu 30.000 EUR cho toàn bộ thời gian lưu trú tại Pháp và khối Schengen.\nNếu xin visa đi Pháp thăm thân nhân, vợ/chồng, hay bạn bè ở Pháp, vui lòng nộp:\n- Bằng chứng về mối quan hệ của đương đơn với người định đi thăm (ảnh chụp chung, tin nhắn qua lại, email,…).\n- Thư mời của người mà đương đơn định đến thăm.\n- Bằng chứng về thu nhập và tài chính của người mời trong trường hợp người mời là người chi trả cho chuyến đi của bạn.\n- Bản sao trang hộ chiếu cá nhân của người mời hoặc bằng chứng khác như thẻ cư trú trong trường hợp người mời là người nước ngoài.\nLoại visa Pháp và hồ sơ tNếu xin visa đi Pháp công tác ngắn hạn, vui lòng bổ sung:\n- Thư mời từ công ty ở Pháp. Nếu bạn đi tham dự hội nghị/ hội thảo, nộp chi tiết đăng kPháp hội thảo và thư của cơ quan nơi bạn công tác (trong thư nêu rõ lPháp do chuyến đi).\n- Giấy tờ chứng minh mối quan hệ của doanh nghiệp tại Việt Nam và doanh nghiệp tại Pháp.\n- Giấy tờ đăng kPháp kinh doanh của cả 2 công ty.\n"
+      }
+    ],
+    "_id": {
+      "$oid": "644a5417f9203fd960b1b071"
+    }
+  },
+  "price": 350,
+  "price_policies": {
+    "includes": {
+      "ops": [
+        {
+          "insert": "• Tư vấn giải pháp xin visa Ý."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Hướng dẫn chuẩn bị hồ sơ xin visa Ý."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Xử lý, hoàn thiện hồ sơ xin visa Ý."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Đại diện khách hàng đặt lịch hẹn."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Đại diện khách hàng nộp hồ sơ."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Theo dõi hồ sơ và nhận kết quả thay."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Phí nộp hồ sơ xin visa Ý."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Phí dịch vụ"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        }
+      ]
+    },
+    "excludes": {
+      "ops": [
+        {
+          "insert": "• Phí gửi hồ sơ qua bưu điện"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Vé máy bay và khách sạn"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Bảo hiểm du lịch"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Chứng minh tài chính"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Phí xử lý hồ sơ khẩn."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        }
+      ]
+    }
+  },
+  "terms": {
+    "cancellation": {
+      "ops": [
+        {
+          "attributes": {
+            "color": "#1d1d1d"
+          },
+          "insert": "• Trước ngày đã chọn 16 ngày, phí huỷ 10%"
+        },
+        {
+          "insert": "\n"
+        },
+        {
+          "attributes": {
+            "color": "#1d1d1d"
+          },
+          "insert": "• Từ 8 - 15 ngày trước ngày đã chọn, phí huỷ 50%"
+        },
+        {
+          "insert": "\n"
+        },
+        {
+          "attributes": {
+            "color": "#1d1d1d"
+          },
+          "insert": "• Từ 0 - 7 ngày trước ngày đã chọn, phí huỷ 100%"
+        },
+        {
+          "insert": "\n"
+        },
+        {
+          "attributes": {
+            "color": "#1d1d1d"
+          },
+          "insert": "• Chi tiết vui lòng liên hệ "
+        },
+        {
+          "attributes": {
+            "color": "#ff0000",
+            "bold": true
+          },
+          "insert": "Hotline 1900 xxxx"
+        },
+        {
+          "attributes": {
+            "color": "#1d1d1d"
+          },
+          "insert": " để được hỗ trợ chu đáo!"
+        },
+        {
+          "insert": "\n"
+        }
+      ]
+    },
+    "notes": {
+      "ops": [
+        {
+          "insert": "• Vui lòng xin visa Ý từ 3 - 6 tháng trước ngày bạn dự định đi. "
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Bạn sẽ được hoàn đầy đủ tiền nếu huỷ dịch vụ trước ít nhất 1 tháng."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Nếu hồ sơ của bạn bị từ chối, bạn sẽ được hoàn lại tiền (tùy trường hợp cụ thể)"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Visa được cấp dưới dạng visa dán vào hộ chiếu."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Bạn sẽ không cần phải phỏng vấn, tuy nhiên trong một số trường hợp đặc biệt, Cơ quan thẩm quyền có thể sẽ gọi điện để thẩm định hồ sơ."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        }
+      ]
+    }
+  },
+  "en": {
+    "name": "Visa France Tourist, Business, Visiting Relatives (Adult)",
+    "detail": {
+      "ops": [
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "Type of visa to United Kingdom and corresponding documents:"
+        },
+        {
+          "insert": "\n❖ Tourist Visa: Issued for the purpose of sightseeing, tourism in United Kingdom.\n❖ Work visa: Issued for short-term work purposes, attending conferences/conferences, etc.\n❖ Visa to visit relatives: Issued for the purpose of visiting relatives (parents, children, siblings) and customers whose children are international students.\n\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "Required documents for United Kingdom visa:"
+        },
+        {
+          "insert": "\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "1. Proof of identity:"
+        },
+        {
+          "insert": "\n- Application for visa to United Kingdom according to the latest form.\n- 2 4x6 photos, white background, taken not more than 6 months old, clearly face required.\n- Original and copy of Passport valid for at least 6 months.\n- Full photo of household registration pages and certified.\n- Copy of identity card, curriculum vitae. Information on current marital status certified by local authorities.\n- Original birth certificate with certified true copy.\n\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "2. Proof of work:"
+        },
+        {
+          "insert": "\n- Business owner: Business registration license, tax payment receipt for the last 3 months.\n- Employees: Labor contract / appointment letter, Health insurance, letter of leave to travel to United Kingdom.\n- Retirees: Retirement decisions and retirement payrolls certified by local authorities.\n- Students/students: Student card, student with a leave of absence to or academic confirmation signed by the principal.\n\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "3. Financial proof:"
+        },
+        {
+          "insert": "\n- Savings books must be deposited in the bank for at least 3 months and have a minimum balance of USD 5,000, salary slips of the last 3 months.\n- Provide documents for land, stocks, real estate, cars (if any), ...\n\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "4. Trip schedule:"
+        },
+        {
+          "insert": "\n- A clear and detailed plan to go to United Kingdom (places to visit each day, intended time of entry and intended time of return home, …).\n- Confirm return flight ticket to United Kingdom and hotel reservation in United Kingdom.\n- United Kingdom travel insurance with a minimum value of EUR 30,000 for the entire period of stay in United Kingdom and the Schengen area.\nIf applying for a visa to visit United Kingdom to visit relatives, spouses, or friends in United Kingdom, please submit:\n- Evidence of the applicant's relationship with the person intending to visit (together photos, text messages, emails, ...).\n- Invitation letter from the person the applicant intends to visit.\n- Proof of the inviter's income and finances in case the inviter is the one paying for your trip.\n- A copy of the inviter's personal passport page or other proof such as a residence card in case the inviter is a foreigner.\nUnited Kingdom visa type and documents If applying for a short-term business visa to United Kingdom, please add:\n- Invitation letter from the company in United Kingdom. If you are going to a conference/conference, submit your registration details for the seminar and a letter from the institution where you work (in the letter stating the reason for your visit).\n- Documents proving the relationship of the enterprise in Vietnam and the enterprise in United Kingdom.\n- Business registration papers of both companies.\n"
+        }
+      ]
+    },
+    "price_policies": {
+      "includes": {
+        "ops": [
+          {
+            "insert": "• Consulting solutions to apply for an Italian visa.\n• Instructions for preparing documents for an Italian visa.\n• Processing and completing the application for an Italian visa.\n• Customer representative to make an appointment.\n• Representing clients to submit documents.\n• Track records and get results instead.\n• Italy visa application fee.\n• Service charge"
+          },
+          {
+            "attributes": {
+              "align": "justify"
+            },
+            "insert": "\n"
+          }
+        ]
+      },
+      "excludes": {
+        "ops": [
+          {
+            "insert": "• Postal application fee\n• Air tickets and hotels\n• Travel insurance\n• Demonstrate financial\n• Urgent processing fee."
+          },
+          {
+            "attributes": {
+              "align": "justify"
+            },
+            "insert": "\n"
+          }
+        ]
+      }
+    },
+    "terms": {
+      "cancellation": {
+        "ops": [
+          {
+            "insert": "• 16 days before the selected date, 10% cancellation fee\n• From 8 - 15 days before the selected date, 50% cancellation fee\n• From 0-7 days before the selected date, 100% cancellation fee\n• For details, please contact Hotline 1900 xxxx for thoughtful support!\n"
+          }
+        ]
+      },
+      "notes": {
+        "ops": [
+          {
+            "insert": "• Please apply for an Italian visa 3 - 6 months before your intended date of travel.\n• You will receive a full refund if you cancel the service at least 1 month in advance.\n• If your application is denied, you will be refunded (subject to case).\n• Visa is issued in the form of a visa stamped on the passport.\n• You will not need to be interviewed, but in some special cases, the Competent Authority may call to review the application.\n"
+          }
+        ]
+      }
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "644a573ff9203fd960b1b091"
+  },
+  "name": "Visa Thụy Sĩ Du Lịch, Công Tác & Thăm Thân (Người lớn)",
+  "slug": "visa-thuy-si-du-lich-cong-tac-tham-than-nguoi-lon",
+  "type": {
+    "$oid": "6439181edc5be5ab8316f066"
+  },
+  "country": {
+    "$oid": "6438fa2fa968ef8111bb6317"
+  },
+  "detail": {
+    "ops": [
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "Loại visa đi Thụy Sĩ và hồ sơ tương ứng:"
+      },
+      {
+        "insert": "\n❖ Visa du lịch: Cấp cho các mục đích tham quan, du lịch tại Thụy Sĩ.\n❖ Visa công tác: Cấp cho các mục đích làm việc ngắn hạn, dự hội nghị/hội thảo,…\n❖ Visa thăm thân: Cấp cho các mục đích thăm người thân (bố mẹ, con cái, anh chị em) và khách hàng có con là du học sinh.\n\n"
+      },
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "Hồ sơ xin visa Thụy Sĩ cần thiết:"
+      },
+      {
+        "insert": "\n"
+      },
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "1. Chứng minh nhân thân:"
+      },
+      {
+        "insert": "\n- Đơn xin cấp visa đi Thụy Sĩ theo mẫu mới nhất.\n- 2 ảnh 4x6, nền trắng, chụp không quá 6 tháng, yêu cầu rõ mặt.\n- Bản gốc và bản sao Hộ chiếu còn thời hạn ít nhất 6 tháng.\n- Photo đầy đủ các trang hộ khẩu và có chứng thực.\n- Chứng minh nhân dân bản sao, sơ yếu lí lịch. Thông tin về tình trạng hôn nhân hiện tại có xác nhận của chính quyền địa phương.\n- Giấy khai sinh bản gốc kèm phản photo có chứng thực.\n\n"
+      },
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "2. Chứng minh về công việc:"
+      },
+      {
+        "insert": "\n- Chủ doanh nghiệp: Giấy phép đăng kThụy Sĩ kinh doanh, biên lai nộp thuế 3 tháng gần nhất.\n- Nhân viên: Hợp đồng lao động/ giấy bổ nhiệm chức vụ, bảo hiểm Y tế, giấy xin nghỉ phép đi du lịch Thụy Sĩ.\n- Người nghỉ hưu: Quyết định nghỉ hưu và bảng lương nghỉ hưu có xác nhận của chính quyền địa phương.\n- Học sinh/sinh viên: Thẻ học sinh, sinh viên kèm giấy phép nghỉ học đến Thụy Sĩ hoặc xác nhận học tập có chữ kí của hiệu trưởng.\n\n"
+      },
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "3. Chứng minh về tài chính:"
+      },
+      {
+        "insert": "\n- Sổ tiết kiệm được gửi ngân hàng ít nhất 3 tháng và có số dư tối thiểu 5.000 USD, bảng lương 3 tháng gần nhất.\n- Cung cấp giấy tờ đất đai, cổ phiếu, bất động sản, xe ô-tô (nếu có),…\n\n"
+      },
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "4. Lịch trình chuyến đi:"
+      },
+      {
+        "insert": "\n- Kế hoạch đi Thụy Sĩ rõ ràng, chi tiết (địa điểm tham quan từng ngày, thời gian dự định nhập cảnh và thời gian dự định về nước,…).\n- Xác nhận đặt vé máy bay đi Thụy Sĩ khứ hồi và đặt khách sạn tại Thụy Sĩ.\n- Bảo hiểm du lịch Thụy Sĩ có giá trị tối thiểu 30.000 EUR cho toàn bộ thời gian lưu trú tại Thụy Sĩ và khối Schengen.\nNếu xin visa đi Thụy Sĩ thăm thân nhân, vợ/chồng, hay bạn bè ở Thụy Sĩ, vui lòng nộp:\n- Bằng chứng về mối quan hệ của đương đơn với người định đi thăm (ảnh chụp chung, tin nhắn qua lại, email,…).\n- Thư mời của người mà đương đơn định đến thăm.\n- Bằng chứng về thu nhập và tài chính của người mời trong trường hợp người mời là người chi trả cho chuyến đi của bạn.\n- Bản sao trang hộ chiếu cá nhân của người mời hoặc bằng chứng khác như thẻ cư trú trong trường hợp người mời là người nước ngoài.\nLoại visa Thụy Sĩ và hồ sơ tNếu xin visa đi Thụy Sĩ công tác ngắn hạn, vui lòng bổ sung:\n- Thư mời từ công ty ở Thụy Sĩ. Nếu bạn đi tham dự hội nghị/ hội thảo, nộp chi tiết đăng kThụy Sĩ hội thảo và thư của cơ quan nơi bạn công tác (trong thư nêu rõ lThụy Sĩ do chuyến đi).\n- Giấy tờ chứng minh mối quan hệ của doanh nghiệp tại Việt Nam và doanh nghiệp tại Thụy Sĩ.\n- Giấy tờ đăng kThụy Sĩ kinh doanh của cả 2 công ty.\n"
+      }
+    ],
+    "_id": {
+      "$oid": "644a573ff9203fd960b1b092"
+    }
+  },
+  "price": 350,
+  "price_policies": {
+    "includes": {
+      "ops": [
+        {
+          "insert": "• Tư vấn giải pháp xin visa Ý."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Hướng dẫn chuẩn bị hồ sơ xin visa Ý."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Xử lý, hoàn thiện hồ sơ xin visa Ý."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Đại diện khách hàng đặt lịch hẹn."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Đại diện khách hàng nộp hồ sơ."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Theo dõi hồ sơ và nhận kết quả thay."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Phí nộp hồ sơ xin visa Ý."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Phí dịch vụ"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        }
+      ]
+    },
+    "excludes": {
+      "ops": [
+        {
+          "insert": "• Phí gửi hồ sơ qua bưu điện"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Vé máy bay và khách sạn"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Bảo hiểm du lịch"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Chứng minh tài chính"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Phí xử lý hồ sơ khẩn."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        }
+      ]
+    }
+  },
+  "terms": {
+    "cancellation": {
+      "ops": [
+        {
+          "attributes": {
+            "color": "#1d1d1d"
+          },
+          "insert": "• Trước ngày đã chọn 16 ngày, phí huỷ 10%"
+        },
+        {
+          "insert": "\n"
+        },
+        {
+          "attributes": {
+            "color": "#1d1d1d"
+          },
+          "insert": "• Từ 8 - 15 ngày trước ngày đã chọn, phí huỷ 50%"
+        },
+        {
+          "insert": "\n"
+        },
+        {
+          "attributes": {
+            "color": "#1d1d1d"
+          },
+          "insert": "• Từ 0 - 7 ngày trước ngày đã chọn, phí huỷ 100%"
+        },
+        {
+          "insert": "\n"
+        },
+        {
+          "attributes": {
+            "color": "#1d1d1d"
+          },
+          "insert": "• Chi tiết vui lòng liên hệ "
+        },
+        {
+          "attributes": {
+            "color": "#ff0000",
+            "bold": true
+          },
+          "insert": "Hotline 1900 xxxx"
+        },
+        {
+          "attributes": {
+            "color": "#1d1d1d"
+          },
+          "insert": " để được hỗ trợ chu đáo!"
+        },
+        {
+          "insert": "\n"
+        }
+      ]
+    },
+    "notes": {
+      "ops": [
+        {
+          "insert": "• Vui lòng xin visa Ý từ 3 - 6 tháng trước ngày bạn dự định đi. "
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Bạn sẽ được hoàn đầy đủ tiền nếu huỷ dịch vụ trước ít nhất 1 tháng."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Nếu hồ sơ của bạn bị từ chối, bạn sẽ được hoàn lại tiền (tùy trường hợp cụ thể)"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Visa được cấp dưới dạng visa dán vào hộ chiếu."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Bạn sẽ không cần phải phỏng vấn, tuy nhiên trong một số trường hợp đặc biệt, Cơ quan thẩm quyền có thể sẽ gọi điện để thẩm định hồ sơ."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        }
+      ]
+    }
+  },
+  "en": {
+    "name": "Switzerland Tourist, Business & Visiting Visa (Adult)",
+    "detail": {
+      "ops": [
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "Type of visa to Switzerland and corresponding documents:"
+        },
+        {
+          "insert": "\n❖ Tourist Visa: Issued for the purpose of sightseeing, tourism in Switzerland.\n❖ Work visa: Issued for short-term work purposes, attending conferences/conferences, etc.\n❖ Visa to visit relatives: Issued for the purpose of visiting relatives (parents, children, siblings) and customers whose children are international students.\n\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "Required documents for Switzerland visa:"
+        },
+        {
+          "insert": "\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "1. Proof of identity:"
+        },
+        {
+          "insert": "\n- Application for visa to Switzerland according to the latest form.\n- 2 4x6 photos, white background, taken not more than 6 months old, clearly face required.\n- Original and copy of Passport valid for at least 6 months.\n- Full photo of household registration pages and certified.\n- Copy of identity card, curriculum vitae. Information on current marital status certified by local authorities.\n- Original birth certificate with certified true copy.\n\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "2. Proof of work:"
+        },
+        {
+          "insert": "\n- Business owner: Business registration license, tax payment receipt for the last 3 months.\n- Employees: Labor contract / appointment letter, Health insurance, letter of leave to travel to Switzerland.\n- Retirees: Retirement decisions and retirement payrolls certified by local authorities.\n- Students/students: Student card, student with a leave of absence to or academic confirmation signed by the principal.\n\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "3. Financial proof:"
+        },
+        {
+          "insert": "\n- Savings books must be deposited in the bank for at least 3 months and have a minimum balance of USD 5,000, salary slips of the last 3 months.\n- Provide documents for land, stocks, real estate, cars (if any), ...\n\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "4. Trip schedule:"
+        },
+        {
+          "insert": "\n- A clear and detailed plan to go to Switzerland (places to visit each day, intended time of entry and intended time of return home, …).\n- Confirm return flight ticket to Switzerland and hotel reservation in Switzerland.\n- Switzerland travel insurance with a minimum value of EUR 30,000 for the entire period of stay in Switzerland and the Schengen area.\nIf applying for a visa to visit Switzerland to visit relatives, spouses, or friends in Switzerland, please submit:\n- Evidence of the applicant's relationship with the person intending to visit (together photos, text messages, emails, ...).\n- Invitation letter from the person the applicant intends to visit.\n- Proof of the inviter's income and finances in case the inviter is the one paying for your trip.\n- A copy of the inviter's personal passport page or other proof such as a residence card in case the inviter is a foreigner.\nSwitzerland visa type and documents If applying for a short-term business visa to Switzerland, please add:\n- Invitation letter from the company in Switzerland. If you are going to a conference/conference, submit your registration details for the seminar and a letter from the institution where you work (in the letter stating the reason for your visit).\n- Documents proving the relationship of the enterprise in Vietnam and the enterprise in Switzerland.\n- Business registration papers of both companies.\n"
+        }
+      ]
+    },
+    "price_policies": {
+      "includes": {
+        "ops": [
+          {
+            "insert": "\n"
+          },
+          {
+            "attributes": {
+              "color": "var(--bs-nav-link-color)",
+              "link": "http://localhost:3000/en/dich-vu-visa/phap#"
+            },
+            "insert": "Chi tiết phiếu dịch vụ"
+          },
+          {
+            "insert": "\n"
+          },
+          {
+            "attributes": {
+              "link": "http://localhost:3000/en/dich-vu-visa/phap#"
+            },
+            "insert": "Giá bao gồm"
+          },
+          {
+            "insert": "\n"
+          },
+          {
+            "attributes": {
+              "color": "var(--bs-nav-link-color)",
+              "link": "http://localhost:3000/en/dich-vu-visa/phap#"
+            },
+            "insert": "Giá không bao gồm"
+          },
+          {
+            "insert": "\n"
+          },
+          {
+            "attributes": {
+              "color": "var(--bs-nav-link-color)",
+              "link": "http://localhost:3000/en/dich-vu-visa/phap#"
+            },
+            "insert": "Dieu khoan"
+          },
+          {
+            "insert": "\n"
+          },
+          {
+            "attributes": {
+              "color": "var(--bs-nav-link-color)",
+              "link": "http://localhost:3000/en/dich-vu-visa/phap#"
+            },
+            "insert": "Điều kiện hoàn hủy"
+          },
+          {
+            "insert": "\n• Consulting solutions to apply for an Italian visa.\n• Instructions for preparing documents for an Italian visa.\n• Processing and completing the application for an Italian visa.\n• Customer representative to make an appointment.\n• Representing clients to submit documents.\n• Track records and get results instead.\n• Italy visa application fee.\n• Service charge"
+          },
+          {
+            "attributes": {
+              "align": "justify"
+            },
+            "insert": "\n"
+          }
+        ]
+      },
+      "excludes": {
+        "ops": [
+          {
+            "insert": "• Postal application fee\n• Air tickets and hotels\n• Travel insurance\n• Demonstrate financial\n• Urgent processing fee."
+          },
+          {
+            "attributes": {
+              "align": "justify"
+            },
+            "insert": "\n"
+          }
+        ]
+      }
+    },
+    "terms": {
+      "cancellation": {
+        "ops": [
+          {
+            "insert": "• 16 days before the selected date, 10% cancellation fee\n• From 8 - 15 days before the selected date, 50% cancellation fee\n• From 0-7 days before the selected date, 100% cancellation fee\n• For details, please contact Hotline 1900 xxxx for thoughtful support!\n"
+          }
+        ]
+      },
+      "notes": {
+        "ops": [
+          {
+            "insert": "• Please apply for an Italian visa 3 - 6 months before your intended date of travel.\n• You will receive a full refund if you cancel the service at least 1 month in advance.\n• If your application is denied, you will be refunded (subject to case).\n• Visa is issued in the form of a visa stamped on the passport.\n• You will not need to be interviewed, but in some special cases, the Competent Authority may call to review the application.\n"
+          }
+        ]
+      }
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "644a8feaf9203fd960b1b09f"
+  },
+  "name": "Visa Thụy Điển Du Lịch, Công Tác & Thăm Thân (Người lớn)",
+  "slug": "visa-thuy-dien-du-lich-cong-tac-tham-than-nguoi-lon",
+  "type": {
+    "$oid": "6439181edc5be5ab8316f066"
+  },
+  "country": {
+    "$oid": "6438fa2fa968ef8111bb62fd"
+  },
+  "detail": {
+    "ops": [
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "Loại visa đi Thụy Điển và hồ sơ tương ứng:"
+      },
+      {
+        "insert": "\n❖ Visa du lịch: Cấp cho các mục đích tham quan, du lịch tại Thụy Điển.\n❖ Visa công tác: Cấp cho các mục đích làm việc ngắn hạn, dự hội nghị/hội thảo,…\n❖ Visa thăm thân: Cấp cho các mục đích thăm người thân (bố mẹ, con cái, anh chị em) và khách hàng có con là du học sinh.\n\n"
+      },
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "Hồ sơ xin visa Thụy Điển cần thiết:"
+      },
+      {
+        "insert": "\n"
+      },
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "1. Chứng minh nhân thân:"
+      },
+      {
+        "insert": "\n- Đơn xin cấp visa đi Thụy Điển theo mẫu mới nhất.\n- 2 ảnh 4x6, nền trắng, chụp không quá 6 tháng, yêu cầu rõ mặt.\n- Bản gốc và bản sao Hộ chiếu còn thời hạn ít nhất 6 tháng.\n- Photo đầy đủ các trang hộ khẩu và có chứng thực.\n- Chứng minh nhân dân bản sao, sơ yếu lí lịch. Thông tin về tình trạng hôn nhân hiện tại có xác nhận của chính quyền địa phương.\n- Giấy khai sinh bản gốc kèm phản photo có chứng thực.\n\n"
+      },
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "2. Chứng minh về công việc:"
+      },
+      {
+        "insert": "\n- Chủ doanh nghiệp: Giấy phép đăng kThụy Điển kinh doanh, biên lai nộp thuế 3 tháng gần nhất.\n- Nhân viên: Hợp đồng lao động/ giấy bổ nhiệm chức vụ, bảo hiểm Y tế, giấy xin nghỉ phép đi du lịch Thụy Điển.\n- Người nghỉ hưu: Quyết định nghỉ hưu và bảng lương nghỉ hưu có xác nhận của chính quyền địa phương.\n- Học sinh/sinh viên: Thẻ học sinh, sinh viên kèm giấy phép nghỉ học đến Thụy Điển hoặc xác nhận học tập có chữ kí của hiệu trưởng.\n\n"
+      },
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "3. Chứng minh về tài chính:"
+      },
+      {
+        "insert": "\n- Sổ tiết kiệm được gửi ngân hàng ít nhất 3 tháng và có số dư tối thiểu 5.000 USD, bảng lương 3 tháng gần nhất.\n- Cung cấp giấy tờ đất đai, cổ phiếu, bất động sản, xe ô-tô (nếu có),…\n\n"
+      },
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "4. Lịch trình chuyến đi:"
+      },
+      {
+        "insert": "\n- Kế hoạch đi Thụy Điển rõ ràng, chi tiết (địa điểm tham quan từng ngày, thời gian dự định nhập cảnh và thời gian dự định về nước,…).\n- Xác nhận đặt vé máy bay đi Thụy Điển khứ hồi và đặt khách sạn tại Thụy Điển.\n- Bảo hiểm du lịch Thụy Điển có giá trị tối thiểu 30.000 EUR cho toàn bộ thời gian lưu trú tại Thụy Điển và khối Schengen.\nNếu xin visa đi Thụy Điển thăm thân nhân, vợ/chồng, hay bạn bè ở Thụy Điển, vui lòng nộp:\n- Bằng chứng về mối quan hệ của đương đơn với người định đi thăm (ảnh chụp chung, tin nhắn qua lại, email,…).\n- Thư mời của người mà đương đơn định đến thăm.\n- Bằng chứng về thu nhập và tài chính của người mời trong trường hợp người mời là người chi trả cho chuyến đi của bạn.\n- Bản sao trang hộ chiếu cá nhân của người mời hoặc bằng chứng khác như thẻ cư trú trong trường hợp người mời là người nước ngoài.\nLoại visa Thụy Điển và hồ sơ tNếu xin visa đi Thụy Điển công tác ngắn hạn, vui lòng bổ sung:\n- Thư mời từ công ty ở Thụy Điển. Nếu bạn đi tham dự hội nghị/ hội thảo, nộp chi tiết đăng kThụy Điển hội thảo và thư của cơ quan nơi bạn công tác (trong thư nêu rõ lThụy Điển do chuyến đi).\n- Giấy tờ chứng minh mối quan hệ của doanh nghiệp tại Việt Nam và doanh nghiệp tại Thụy Điển.\n- Giấy tờ đăng kThụy Điển kinh doanh của cả 2 công ty.\n"
+      }
+    ],
+    "_id": {
+      "$oid": "644a8feaf9203fd960b1b0a0"
+    }
+  },
+  "price": 395,
+  "price_policies": {
+    "includes": {
+      "ops": [
+        {
+          "insert": "• Tư vấn giải pháp xin visa Ý."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Hướng dẫn chuẩn bị hồ sơ xin visa Ý."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Xử lý, hoàn thiện hồ sơ xin visa Ý."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Đại diện khách hàng đặt lịch hẹn."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Đại diện khách hàng nộp hồ sơ."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Theo dõi hồ sơ và nhận kết quả thay."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Phí nộp hồ sơ xin visa Ý."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Phí dịch vụ"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        }
+      ]
+    },
+    "excludes": {
+      "ops": [
+        {
+          "insert": "• Phí gửi hồ sơ qua bưu điện"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Vé máy bay và khách sạn"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Bảo hiểm du lịch"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Chứng minh tài chính"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Phí xử lý hồ sơ khẩn."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        }
+      ]
+    }
+  },
+  "terms": {
+    "cancellation": {
+      "ops": [
+        {
+          "attributes": {
+            "color": "#1d1d1d"
+          },
+          "insert": "• Trước ngày đã chọn 16 ngày, phí huỷ 10%"
+        },
+        {
+          "insert": "\n"
+        },
+        {
+          "attributes": {
+            "color": "#1d1d1d"
+          },
+          "insert": "• Từ 8 - 15 ngày trước ngày đã chọn, phí huỷ 50%"
+        },
+        {
+          "insert": "\n"
+        },
+        {
+          "attributes": {
+            "color": "#1d1d1d"
+          },
+          "insert": "• Từ 0 - 7 ngày trước ngày đã chọn, phí huỷ 100%"
+        },
+        {
+          "insert": "\n"
+        },
+        {
+          "attributes": {
+            "color": "#1d1d1d"
+          },
+          "insert": "• Chi tiết vui lòng liên hệ "
+        },
+        {
+          "attributes": {
+            "color": "#ff0000",
+            "bold": true
+          },
+          "insert": "Hotline 1900 xxxx"
+        },
+        {
+          "attributes": {
+            "color": "#1d1d1d"
+          },
+          "insert": " để được hỗ trợ chu đáo!"
+        },
+        {
+          "insert": "\n"
+        }
+      ]
+    },
+    "notes": {
+      "ops": [
+        {
+          "insert": "• Vui lòng xin visa Ý từ 3 - 6 tháng trước ngày bạn dự định đi. "
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Bạn sẽ được hoàn đầy đủ tiền nếu huỷ dịch vụ trước ít nhất 1 tháng."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Nếu hồ sơ của bạn bị từ chối, bạn sẽ được hoàn lại tiền (tùy trường hợp cụ thể)"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Visa được cấp dưới dạng visa dán vào hộ chiếu."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Bạn sẽ không cần phải phỏng vấn, tuy nhiên trong một số trường hợp đặc biệt, Cơ quan thẩm quyền có thể sẽ gọi điện để thẩm định hồ sơ."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        }
+      ]
+    }
+  },
+  "en": {
+    "name": "Sweden Tourist, Business & Visiting Visa (Adult)",
+    "detail": {
+      "ops": [
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "Type of visa to Sweden and corresponding documents:"
+        },
+        {
+          "insert": "\n❖ Tourist Visa: Issued for the purpose of sightseeing, tourism in Sweden.\n❖ Work visa: Issued for short-term work purposes, attending conferences/conferences, etc.\n❖ Visa to visit relatives: Issued for the purpose of visiting relatives (parents, children, siblings) and customers whose children are international students.\n\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "Required documents for Sweden visa:"
+        },
+        {
+          "insert": "\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "1. Proof of identity:"
+        },
+        {
+          "insert": "\n- Application for visa to Sweden according to the latest form.\n- 2 4x6 photos, white background, taken not more than 6 months old, clearly face required.\n- Original and copy of Passport valid for at least 6 months.\n- Full photo of household registration pages and certified.\n- Copy of identity card, curriculum vitae. Information on current marital status certified by local authorities.\n- Original birth certificate with certified true copy.\n\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "2. Proof of work:"
+        },
+        {
+          "insert": "\n- Business owner: Business registration license, tax payment receipt for the last 3 months.\n- Employees: Labor contract / appointment letter, Health insurance, letter of leave to travel to Sweden.\n- Retirees: Retirement decisions and retirement payrolls certified by local authorities.\n- Students/students: Student card, student with a leave of absence to or academic confirmation signed by the principal.\n\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "3. Financial proof:"
+        },
+        {
+          "insert": "\n- Savings books must be deposited in the bank for at least 3 months and have a minimum balance of USD 5,000, salary slips of the last 3 months.\n- Provide documents for land, stocks, real estate, cars (if any), ...\n\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "4. Trip schedule:"
+        },
+        {
+          "insert": "\n- A clear and detailed plan to go to Sweden (places to visit each day, intended time of entry and intended time of return home, …).\n- Confirm return flight ticket to Sweden and hotel reservation in Sweden.\n- Sweden travel insurance with a minimum value of EUR 30,000 for the entire period of stay in Sweden and the Schengen area.\nIf applying for a visa to visit Sweden to visit relatives, spouses, or friends in Sweden, please submit:\n- Evidence of the applicant's relationship with the person intending to visit (together photos, text messages, emails, ...).\n- Invitation letter from the person the applicant intends to visit.\n- Proof of the inviter's income and finances in case the inviter is the one paying for your trip.\n- A copy of the inviter's personal passport page or other proof such as a residence card in case the inviter is a foreigner.\nSweden visa type and documents If applying for a short-term business visa to Sweden, please add:\n- Invitation letter from the company in Sweden. If you are going to a conference/conference, submit your registration details for the seminar and a letter from the institution where you work (in the letter stating the reason for your visit).\n- Documents proving the relationship of the enterprise in Vietnam and the enterprise in Sweden.\n- Business registration papers of both companies.\n"
+        }
+      ]
+    },
+    "price_policies": {
+      "includes": {
+        "ops": [
+          {
+            "insert": "• Consulting solutions to apply for an Italian visa.\n• Instructions for preparing documents for an Italian visa.\n• Processing and completing the application for an Italian visa.\n• Customer representative to make an appointment.\n• Representing clients to submit documents.\n• Track records and get results instead.\n• Italy visa application fee.\n• Service charge"
+          },
+          {
+            "attributes": {
+              "align": "justify"
+            },
+            "insert": "\n"
+          }
+        ]
+      },
+      "excludes": {
+        "ops": [
+          {
+            "insert": "• Postal application fee\n• Air tickets and hotels\n• Travel insurance\n• Demonstrate financial\n• Urgent processing fee."
+          },
+          {
+            "attributes": {
+              "align": "justify"
+            },
+            "insert": "\n"
+          }
+        ]
+      }
+    },
+    "terms": {
+      "cancellation": {
+        "ops": [
+          {
+            "insert": "• 16 days before the selected date, 10% cancellation fee\n• From 8 - 15 days before the selected date, 50% cancellation fee\n• From 0-7 days before the selected date, 100% cancellation fee\n• For details, please contact Hotline 1900 xxxx for thoughtful support!\n"
+          }
+        ]
+      },
+      "notes": {
+        "ops": [
+          {
+            "insert": "• Please apply for an Italian visa 3 - 6 months before your intended date of travel.\n• You will receive a full refund if you cancel the service at least 1 month in advance.\n• If your application is denied, you will be refunded (subject to case).\n• Visa is issued in the form of a visa stamped on the passport.\n• You will not need to be interviewed, but in some special cases, the Competent Authority may call to review the application.\n"
+          }
+        ]
+      }
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "644a92d4f9203fd960b1b0a6"
+  },
+  "name": "Visa Phần Lan Du Lịch, Công Tác & Thăm Thân (Người lớn)",
+  "slug": "visa-phan-lan-du-lich-cong-tac-tham-than-nguoi-lon",
+  "type": {
+    "$oid": "6439181edc5be5ab8316f066"
+  },
+  "country": {
+    "$oid": "6438fa2fa968ef8111bb62ff"
+  },
+  "detail": {
+    "ops": [
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "Loại visa đi Phần Lan và hồ sơ tương ứng:"
+      },
+      {
+        "insert": "\n❖ Visa du lịch: Cấp cho các mục đích tham quan, du lịch tại Phần Lan.\n❖ Visa công tác: Cấp cho các mục đích làm việc ngắn hạn, dự hội nghị/hội thảo,…\n❖ Visa thăm thân: Cấp cho các mục đích thăm người thân (bố mẹ, con cái, anh chị em) và khách hàng có con là du học sinh.\n\n"
+      },
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "Hồ sơ xin visa Phần Lan cần thiết:"
+      },
+      {
+        "insert": "\n"
+      },
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "1. Chứng minh nhân thân:"
+      },
+      {
+        "insert": "\n- Đơn xin cấp visa đi Phần Lan theo mẫu mới nhất.\n- 2 ảnh 4x6, nền trắng, chụp không quá 6 tháng, yêu cầu rõ mặt.\n- Bản gốc và bản sao Hộ chiếu còn thời hạn ít nhất 6 tháng.\n- Photo đầy đủ các trang hộ khẩu và có chứng thực.\n- Chứng minh nhân dân bản sao, sơ yếu lí lịch. Thông tin về tình trạng hôn nhân hiện tại có xác nhận của chính quyền địa phương.\n- Giấy khai sinh bản gốc kèm phản photo có chứng thực.\n\n"
+      },
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "2. Chứng minh về công việc:"
+      },
+      {
+        "insert": "\n- Chủ doanh nghiệp: Giấy phép đăng kPhần Lan kinh doanh, biên lai nộp thuế 3 tháng gần nhất.\n- Nhân viên: Hợp đồng lao động/ giấy bổ nhiệm chức vụ, bảo hiểm Y tế, giấy xin nghỉ phép đi du lịch Phần Lan.\n- Người nghỉ hưu: Quyết định nghỉ hưu và bảng lương nghỉ hưu có xác nhận của chính quyền địa phương.\n- Học sinh/sinh viên: Thẻ học sinh, sinh viên kèm giấy phép nghỉ học đến Phần Lan hoặc xác nhận học tập có chữ kí của hiệu trưởng.\n\n"
+      },
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "3. Chứng minh về tài chính:"
+      },
+      {
+        "insert": "\n- Sổ tiết kiệm được gửi ngân hàng ít nhất 3 tháng và có số dư tối thiểu 5.000 USD, bảng lương 3 tháng gần nhất.\n- Cung cấp giấy tờ đất đai, cổ phiếu, bất động sản, xe ô-tô (nếu có),…\n\n"
+      },
+      {
+        "attributes": {
+          "bold": true
+        },
+        "insert": "4. Lịch trình chuyến đi:"
+      },
+      {
+        "insert": "\n- Kế hoạch đi Phần Lan rõ ràng, chi tiết (địa điểm tham quan từng ngày, thời gian dự định nhập cảnh và thời gian dự định về nước,…).\n- Xác nhận đặt vé máy bay đi Phần Lan khứ hồi và đặt khách sạn tại Phần Lan.\n- Bảo hiểm du lịch Phần Lan có giá trị tối thiểu 30.000 EUR cho toàn bộ thời gian lưu trú tại Phần Lan và khối Schengen.\nNếu xin visa đi Phần Lan thăm thân nhân, vợ/chồng, hay bạn bè ở Phần Lan, vui lòng nộp:\n- Bằng chứng về mối quan hệ của đương đơn với người định đi thăm (ảnh chụp chung, tin nhắn qua lại, email,…).\n- Thư mời của người mà đương đơn định đến thăm.\n- Bằng chứng về thu nhập và tài chính của người mời trong trường hợp người mời là người chi trả cho chuyến đi của bạn.\n- Bản sao trang hộ chiếu cá nhân của người mời hoặc bằng chứng khác như thẻ cư trú trong trường hợp người mời là người nước ngoài.\nLoại visa Phần Lan và hồ sơ tNếu xin visa đi Phần Lan công tác ngắn hạn, vui lòng bổ sung:\n- Thư mời từ công ty ở Phần Lan. Nếu bạn đi tham dự hội nghị/ hội thảo, nộp chi tiết đăng kPhần Lan hội thảo và thư của cơ quan nơi bạn công tác (trong thư nêu rõ lPhần Lan do chuyến đi).\n- Giấy tờ chứng minh mối quan hệ của doanh nghiệp tại Việt Nam và doanh nghiệp tại Phần Lan.\n- Giấy tờ đăng kPhần Lan kinh doanh của cả 2 công ty.\n"
+      }
+    ],
+    "_id": {
+      "$oid": "644a92d4f9203fd960b1b0a7"
+    }
+  },
+  "price": 350,
+  "price_policies": {
+    "includes": {
+      "ops": [
+        {
+          "insert": "• Tư vấn giải pháp xin visa Ý."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Hướng dẫn chuẩn bị hồ sơ xin visa Ý."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Xử lý, hoàn thiện hồ sơ xin visa Ý."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Đại diện khách hàng đặt lịch hẹn."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Đại diện khách hàng nộp hồ sơ."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Theo dõi hồ sơ và nhận kết quả thay."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Phí nộp hồ sơ xin visa Ý."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Phí dịch vụ"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        }
+      ]
+    },
+    "excludes": {
+      "ops": [
+        {
+          "insert": "• Phí gửi hồ sơ qua bưu điện"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Vé máy bay và khách sạn"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Bảo hiểm du lịch"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Chứng minh tài chính"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Phí xử lý hồ sơ khẩn."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        }
+      ]
+    }
+  },
+  "terms": {
+    "cancellation": {
+      "ops": [
+        {
+          "attributes": {
+            "color": "#1d1d1d"
+          },
+          "insert": "• Trước ngày đã chọn 16 ngày, phí huỷ 10%"
+        },
+        {
+          "insert": "\n"
+        },
+        {
+          "attributes": {
+            "color": "#1d1d1d"
+          },
+          "insert": "• Từ 8 - 15 ngày trước ngày đã chọn, phí huỷ 50%"
+        },
+        {
+          "insert": "\n"
+        },
+        {
+          "attributes": {
+            "color": "#1d1d1d"
+          },
+          "insert": "• Từ 0 - 7 ngày trước ngày đã chọn, phí huỷ 100%"
+        },
+        {
+          "insert": "\n"
+        },
+        {
+          "attributes": {
+            "color": "#1d1d1d"
+          },
+          "insert": "• Chi tiết vui lòng liên hệ "
+        },
+        {
+          "attributes": {
+            "color": "#ff0000",
+            "bold": true
+          },
+          "insert": "Hotline 1900 xxxx"
+        },
+        {
+          "attributes": {
+            "color": "#1d1d1d"
+          },
+          "insert": " để được hỗ trợ chu đáo!"
+        },
+        {
+          "insert": "\n"
+        }
+      ]
+    },
+    "notes": {
+      "ops": [
+        {
+          "insert": "• Vui lòng xin visa Ý từ 3 - 6 tháng trước ngày bạn dự định đi. "
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Bạn sẽ được hoàn đầy đủ tiền nếu huỷ dịch vụ trước ít nhất 1 tháng."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Nếu hồ sơ của bạn bị từ chối, bạn sẽ được hoàn lại tiền (tùy trường hợp cụ thể)"
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Visa được cấp dưới dạng visa dán vào hộ chiếu."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "• Bạn sẽ không cần phải phỏng vấn, tuy nhiên trong một số trường hợp đặc biệt, Cơ quan thẩm quyền có thể sẽ gọi điện để thẩm định hồ sơ."
+        },
+        {
+          "attributes": {
+            "align": "justify"
+          },
+          "insert": "\n"
+        }
+      ]
+    }
+  },
+  "en": {
+    "name": "Finland Tourist, Business & Visiting Visa (Adult)",
+    "detail": {
+      "ops": [
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "Type of visa to Finland and corresponding documents:"
+        },
+        {
+          "insert": "\n❖ Tourist Visa: Issued for the purpose of sightseeing, tourism in Finland.\n❖ Work visa: Issued for short-term work purposes, attending conferences/conferences, etc.\n❖ Visa to visit relatives: Issued for the purpose of visiting relatives (parents, children, siblings) and customers whose children are international students.\n\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "Required documents for Finland visa:"
+        },
+        {
+          "insert": "\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "1. Proof of identity:"
+        },
+        {
+          "insert": "\n- Application for visa to Finland according to the latest form.\n- 2 4x6 photos, white background, taken not more than 6 months old, clearly face required.\n- Original and copy of Passport valid for at least 6 months.\n- Full photo of household registration pages and certified.\n- Copy of identity card, curriculum vitae. Information on current marital status certified by local authorities.\n- Original birth certificate with certified true copy.\n\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "2. Proof of work:"
+        },
+        {
+          "insert": "\n- Business owner: Business registration license, tax payment receipt for the last 3 months.\n- Employees: Labor contract / appointment letter, Health insurance, letter of leave to travel to Finland.\n- Retirees: Retirement decisions and retirement payrolls certified by local authorities.\n- Students/students: Student card, student with a leave of absence to or academic confirmation signed by the principal.\n\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "3. Financial proof:"
+        },
+        {
+          "insert": "\n- Savings books must be deposited in the bank for at least 3 months and have a minimum balance of USD 5,000, salary slips of the last 3 months.\n- Provide documents for land, stocks, real estate, cars (if any), ...\n\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "4. Trip schedule:"
+        },
+        {
+          "insert": "\n- A clear and detailed plan to go to Finland (places to visit each day, intended time of entry and intended time of return home, …).\n- Confirm return flight ticket to Finland and hotel reservation in Finland.\n- Finland travel insurance with a minimum value of EUR 30,000 for the entire period of stay in Finland and the Schengen area.\nIf applying for a visa to visit Finland to visit relatives, spouses, or friends in Finland, please submit:\n- Evidence of the applicant's relationship with the person intending to visit (together photos, text messages, emails, ...).\n- Invitation letter from the person the applicant intends to visit.\n- Proof of the inviter's income and finances in case the inviter is the one paying for your trip.\n- A copy of the inviter's personal passport page or other proof such as a residence card in case the inviter is a foreigner.\nFinland visa type and documents If applying for a short-term business visa to Finland, please add:\n- Invitation letter from the company in Finland. If you are going to a conference/conference, submit your registration details for the seminar and a letter from the institution where you work (in the letter stating the reason for your visit).\n- Documents proving the relationship of the enterprise in Vietnam and the enterprise in Finland.\n- Business registration papers of both companies.\n"
+        }
+      ]
+    },
+    "price_policies": {
+      "includes": {
+        "ops": [
+          {
+            "insert": "• Consulting solutions to apply for an Italian visa.\n• Instructions for preparing documents for an Italian visa.\n• Processing and completing the application for an Italian visa.\n• Customer representative to make an appointment.\n• Representing clients to submit documents.\n• Track records and get results instead.\n• Italy visa application fee.\n• Service charge"
+          },
+          {
+            "attributes": {
+              "align": "justify"
+            },
+            "insert": "\n"
+          }
+        ]
+      },
+      "excludes": {
+        "ops": [
+          {
+            "insert": "• Postal application fee\n• Air tickets and hotels\n• Travel insurance\n• Demonstrate financial\n• Urgent processing fee."
+          },
+          {
+            "attributes": {
+              "align": "justify"
+            },
+            "insert": "\n"
+          }
+        ]
+      }
+    },
+    "terms": {
+      "cancellation": {
+        "ops": [
+          {
+            "insert": "• 16 days before the selected date, 10% cancellation fee\n• From 8 - 15 days before the selected date, 50% cancellation fee\n• From 0-7 days before the selected date, 100% cancellation fee\n• For details, please contact Hotline 1900 xxxx for thoughtful support!\n"
+          }
+        ]
+      },
+      "notes": {
+        "ops": [
+          {
+            "insert": "• Please apply for an Italian visa 3 - 6 months before your intended date of travel.\n• You will receive a full refund if you cancel the service at least 1 month in advance.\n• If your application is denied, you will be refunded (subject to case).\n• Visa is issued in the form of a visa stamped on the passport.\n• You will not need to be interviewed, but in some special cases, the Competent Authority may call to review the application.\n"
+          }
+        ]
+      }
+    }
+  },
+  "__v": 0
+}]

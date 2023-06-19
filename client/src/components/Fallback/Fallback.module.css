@@ -1,0 +1,33 @@
+.fallback {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 120px;
+  animation: logoAnimation 2s linear 0s infinite;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.logo .domain {
+  font-weight: 300;
+  font-size: 12px;
+  margin-top: -4px;
+}
+
+@keyframes logoAnimation {
+  0% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

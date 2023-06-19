@@ -1,0 +1,65 @@
+.label {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.label h6 {
+  margin-bottom: 2px;
+}
+
+.label input,
+.label select {
+  padding: 4px 6px;
+  height: 30px;
+  border-radius: 3.8px;
+  width: 100%;
+  display: block;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.dateField input::placeholder {
+  color: #050505;
+}
+
+.formBody form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.formBody form > * {
+  width: calc(50% - 10px);
+}
+
+.spinner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffffab;
+  border-radius: 6px;
+  z-index: 9999;
+}
+
+.closeButton {
+  background: transparent;
+  border: 1px solid #ccc;
+  transition: 0.1s;
+  width: 25px;
+  height: 25px;
+}
+
+.closeButton:hover {
+  background: rgb(240, 101, 101);
+  border: 1px solid rgb(229, 83, 83);
+  color: white;
+}

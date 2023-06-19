@@ -1,0 +1,36 @@
+/* ===================== filter ======================  */
+.filter {
+  display: flex;
+  gap: 8px;
+}
+
+.filter select,
+.filter form,
+.filter button {
+  height: 35px;
+  margin: 0;
+}
+
+.filter form {
+  display: flex;
+}
+
+.filter input {
+  height: 100%;
+  flex: 1;
+  padding: 2px 8px;
+}
+
+.filter button svg {
+  width: 20px;
+}
+
+.searchBtn {
+  background: rgb(47, 190, 97);
+  color: white;
+}
+
+.resetBtn {
+  background: rgb(239, 111, 111);
+  color: white;
+}

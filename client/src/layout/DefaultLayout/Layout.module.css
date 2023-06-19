@@ -1,0 +1,11 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: auto;
+}
+
+.body {
+  flex: 1;
+  min-height: calc(100vh - 120px);
+}

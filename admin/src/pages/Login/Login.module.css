@@ -1,0 +1,78 @@
+.login {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: linear-gradient(to right top, #000000, #22545a);
+}
+
+.login form {
+  border-radius: 6px;
+  width: calc(100vw - 16px);
+  max-width: 350px;
+  box-shadow: var(--box-shadow);
+  background: white;
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.login label {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.login input {
+  width: 100%;
+  padding: 0 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  height: 38px;
+  border-radius: 3.8px;
+}
+
+.login button {
+  padding: 8px 16px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  width: 100%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 3.8px;
+  font-size: 15px;
+  background: #4f5dd3;
+  transition: 0.2s;
+}
+
+.login button:hover {
+  background: #616edd;
+}
+
+.login .expiredSession {
+  background: #fff8f8;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  padding: 16px;
+  border-radius: 6px;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.login .expiredSession h1 {
+  font-size: 17px;
+  color: #d84444;
+}

@@ -1,0 +1,16 @@
+/* màu success   */
+
+.success .modal-body {
+    background-color: rgb(235, 235, 235);
+    border-radius: 0.5rem;
+}
+.success .notification{
+    margin: 8px 0px;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(3, 189, 117)
+}
+.opacity{
+    opacity: 0 !important;
+}

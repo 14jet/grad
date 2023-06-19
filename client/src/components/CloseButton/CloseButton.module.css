@@ -1,0 +1,13 @@
+.closeButton {
+  background: transparent;
+  border: 1px solid #ccc;
+  transition: 0.1s;
+  width: 25px;
+  height: 25px;
+}
+
+.closeButton:hover {
+  background: rgb(240, 101, 101);
+  border: 1px solid rgb(229, 83, 83);
+  color: white;
+}

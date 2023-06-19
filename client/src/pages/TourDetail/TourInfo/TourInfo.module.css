@@ -1,0 +1,19 @@
+.tabs {
+  flex-wrap: nowrap;
+  overflow: hidden;
+  overflow-x: auto;
+  white-space: nowrap;
+  transform: translateY(0.5px);
+}
+
+@media screen and (max-width: 576px) {
+  .tabs li {
+    font-size: 13px;
+    text-align: center;
+    flex: 1;
+  }
+
+  .tabs li button {
+    padding: 8px 6px;
+  }
+}

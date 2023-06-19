@@ -1,0 +1,52 @@
+.itinerary .accordionItem {
+  position: relative;
+}
+
+.itinerary .accordionItem::before {
+  content: "";
+  position: absolute;
+  display: block;
+  z-index: 10;
+  left: -6px;
+  width: 15px;
+  top: 15px;
+  height: 15px;
+  border: 3px solid #050505;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.itinerary .accordionItem::after {
+  content: "";
+  position: absolute;
+  display: block;
+  left: 0.5px;
+  width: 0px;
+  border-left: 3px dashed #555;
+  top: 0;
+  bottom: 0;
+  z-index: 5;
+}
+
+.itinerary .accordionItem:first-of-type::after {
+  top: 29px;
+}
+
+.header h6 {
+  font-size: 14px;
+}
+
+.header h5 {
+  font-size: 17px;
+}
+
+.slider {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+
+.slider img {
+  cursor: pointer;
+}

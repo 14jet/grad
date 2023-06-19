@@ -1,0 +1,14 @@
+.dataRow:hover {
+  cursor: pointer;
+  background: #f5f7f8;
+}
+
+.paidSuccess {
+  background: rgb(228, 252, 236) !important;
+  color: rgb(0, 87, 0);
+}
+
+.paidError {
+  background: rgb(252, 234, 228) !important;
+  color: rgb(87, 0, 0);
+}

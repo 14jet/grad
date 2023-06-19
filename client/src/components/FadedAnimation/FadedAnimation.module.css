@@ -1,0 +1,13 @@
+.container {
+  animation: faded 500ms ease-in;
+}
+
+@keyframes faded {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

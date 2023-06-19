@@ -1,0 +1,7 @@
+.VisaDetail .tab-content {
+  height: 100%;
+}
+
+.VisaDetail .tab-pane.active {
+  height: 100%;
+}

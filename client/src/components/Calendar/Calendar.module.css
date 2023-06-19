@@ -1,0 +1,133 @@
+.container {
+  border: 1px solid rgb(174, 174, 174);
+  padding: 8px;
+  font-size: 13px;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+h6.month {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.dates {
+  display: flex;
+  background: white;
+  list-style-type: none;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-top: 16px;
+}
+
+.indicator {
+  font-weight: 500;
+  font-size: 15px;
+  background: transparent;
+}
+
+.indicator.disabled {
+  cursor: not-allowed;
+  color: rgb(170, 170, 170);
+  pointer-events: none;
+}
+
+.indicatorMiddle {
+  font-weight: 700;
+  color: grey;
+}
+
+.dates li {
+  width: calc(100% / 7);
+  line-height: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+}
+
+.dates li span {
+  color: rgb(197, 197, 197);
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: white;
+}
+
+.dates li.available span {
+  color: #050505;
+  cursor: pointer;
+  background: white;
+}
+
+.dates li.available span:hover {
+  border: 0.5px solid #ccc;
+}
+
+.dates li.isSelected span {
+  background: var(--color-accent);
+  color: white;
+}
+
+.dates li.isCurrentDate.available span {
+  color: #050505;
+  border: 0.5px solid #ccc;
+  background: #ffe4d4;
+}
+
+.dates li.unavailable,
+.dates li.notCurrentMonth {
+  pointer-events: none;
+}
+
+.dates li.notCurrentMonth {
+  color: #ccc;
+  opacity: 0;
+}
+
+.availableNote {
+  width: 15px;
+  height: 15px;
+  background: var(--color-accent);
+}
+
+.unavailableNote {
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  border: 1px solid #ccc;
+}
+
+/* ======= days ============  */
+.days {
+  display: flex;
+  background: rgb(24, 24, 24);
+  list-style-type: none;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  padding: 4px 0;
+}
+
+.days li {
+  width: calc(100% / 7);
+  line-height: 30px;
+  text-align: center;
+  color: white;
+}
+
+li.date {
+  color: #050505 !important;
+}
+
+li.notCurrentMonth span {
+  color: rgb(168, 168, 168);
+}
+
+li.available {
+  color: white !important;
+}

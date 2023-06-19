@@ -1,0 +1,4 @@
+.guidesPagination .rc-pagination-item-active a {
+  background: #050505 !important;
+  color: white;
+}

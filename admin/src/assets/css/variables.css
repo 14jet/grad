@@ -1,0 +1,17 @@
+:root {
+  --main-color: #050505;
+  --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  --box-shadow-border: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+  --skeleton-color: rgb(217, 217, 217);
+  --main-border: 1px solid rgb(192, 188, 188);
+
+  --color-accent: rgb(214, 18, 188);
+
+  /* --box-shadow-border: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
+}
+
+.hover-underline:hover {
+  text-decoration: underline;
+}

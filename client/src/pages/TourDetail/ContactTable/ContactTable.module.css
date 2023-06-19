@@ -1,0 +1,127 @@
+.container {
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 992px) {
+  .container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+}
+
+.container > * {
+  width: 300px;
+}
+
+.card {
+  box-shadow: var(--box-shadow);
+  background: white;
+  padding: 16px;
+  padding-top: 30px;
+  border-radius: 6px;
+  padding-bottom: 24px;
+  overflow: hidden;
+}
+
+.card .price {
+  font-size: 20px;
+}
+
+.card ul {
+  padding: 0;
+  list-style-type: none;
+  padding-left: 16px;
+  padding-bottom: 20px;
+}
+
+.card ul li {
+  margin-bottom: 6px;
+}
+
+.card ul li span,
+.card ul li strong {
+  line-height: 1.2;
+  position: relative;
+}
+
+.card ul li span::before {
+  content: "•"; /* Insert content that looks like bullets */
+  position: absolute;
+  right: calc(100% + 3.6px);
+  top: 1px;
+  color: rgb(0, 0, 0); /* Or a color you prefer */
+  font-size: 15px;
+}
+
+.specificDepartureDate {
+  cursor: pointer;
+}
+
+.specificDepartureDate:hover {
+  text-decoration: underline;
+}
+
+.card button {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 8px;
+  color: #050505;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background: white;
+  font-weight: 600;
+}
+
+.card button:first-of-type {
+  position: relative;
+}
+
+.card button:first-of-type svg {
+  position: absolute;
+  right: 15px;
+  width: 12px;
+  margin-top: 2px;
+}
+
+.card button:nth-of-type(1) {
+  background: #000;
+  /* background: var(--color-accent); */
+  color: white;
+  color: var(--color-accent);
+}
+
+.card button.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+/* ========= contactInfo ==========  */
+.contactInfo {
+  padding: 16px;
+}
+
+.contactInfo ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.contactInfo li {
+  white-space: nowrap;
+}
+
+.contactInfo img {
+  width: 80%;
+}
+
+.contactInfo li a {
+  color: #050505;
+  cursor: pointer;
+}
+
+.contactInfo li a:hover {
+  color: #050505;
+  cursor: pointer;
+  text-decoration: underline;
+}

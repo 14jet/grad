@@ -1,0 +1,101 @@
+.container label {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.container form {
+  margin-top: 24px;
+}
+
+.container label,
+.label {
+  display: block;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.container h6 {
+  margin-bottom: 3.8px;
+  font-size: 14px;
+}
+
+.container label h6 em,
+.container .label h6 em {
+  color: #777;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.container input {
+  width: 100%;
+  padding: 6px 8px;
+  border-radius: 3.8px;
+  background: white;
+}
+
+.container label h6 {
+  margin-bottom: 3.8px;
+  font-size: 14px;
+}
+
+.quillEditor {
+  background: white;
+}
+
+.quillEditor img {
+  width: 100%;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.quillEditor figure {
+  /* margin-bottom: 36px; */
+  max-width: 300px;
+  border: 0.5px solid #ccc;
+  margin: 0 auto;
+}
+
+.quillEditor figcaption {
+  font-style: italic;
+  padding: 2px;
+}
+
+/* ======= submit btn ========  */
+.layout label {
+  width: auto;
+}
+
+.layout input {
+  width: auto;
+}
+
+.container textarea {
+  min-height: 200px;
+}
+
+.plusImg {
+  background: rgb(214, 228, 225);
+  border-radius: 6px;
+  border: 3px dashed rgb(139, 164, 167);
+  height: 120px;
+}
+
+.plusImg p {
+  font-size: 20px;
+  line-height: 120px;
+  margin: 0;
+  text-align: center;
+  font-weight: 500;
+  color: rgb(85, 116, 119);
+}
+
+.container .imgLabel {
+  display: inline;
+  width: auto;
+  background: #ccc;
+}
+
+.imgLabel img {
+  width: 100%;
+  max-width: 360px;
+}

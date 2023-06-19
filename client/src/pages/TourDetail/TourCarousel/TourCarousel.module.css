@@ -1,0 +1,119 @@
+.container {
+  display: flex;
+  aspect-ratio: 1.62;
+}
+
+.container div {
+  height: 100%;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+}
+
+.image > div {
+  position: relative;
+  height: auto;
+}
+
+.image .imageCaption {
+  bottom: 0;
+  font-size: 14px;
+  padding: 2px 8px;
+}
+
+.image img {
+  display: flex;
+  aspect-ratio: 1.62;
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+/* carousel modal  */
+
+.modalContent {
+  background: transparent !important;
+  animation-name: imgAnimation;
+  animation-duration: 1s;
+  position: relative;
+}
+
+.modalBackdrop {
+  background: rgba(0, 0, 0, 0.83) !important;
+  opacity: 1 !important;
+}
+
+.carouselItemModal {
+  background: transparent;
+}
+
+.imageModal {
+  width: 100%;
+  max-height: 90vh;
+  position: relative;
+}
+
+.imageCaption {
+  background: rgba(0, 0, 0, 0.722);
+  position: absolute;
+  color: white;
+  bottom: 16px;
+  z-index: 9999;
+  font-size: 20px;
+  font-weight: 400;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 4px 16px;
+}
+
+.carouselItemModal img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  max-height: 90vh;
+  margin: 0 auto;
+}
+
+@keyframes imgAnimation {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+.modalInner {
+  position: relative;
+}
+
+.closeModalBtn {
+  width: 36px;
+  position: fixed;
+  right: 5px;
+  top: 5px;
+  z-index: 999999;
+  background: #fafafa;
+  font-size: 20px;
+  color: #050505;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s;
+  padding: 8px;
+}
+
+/* placeholder  */
+.image.placeholder {
+  background: var(--skeleton-color);
+  height: 110px;
+}
+
+.carouselItem.placeholder {
+  background: var(--skeleton-color);
+  height: 400px;
+}

@@ -1,0 +1,93 @@
+.travel__navbar {
+  position: sticky;
+  background: white;
+  left: 0;
+  right: 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  top: 0;
+  z-index: 999;
+}
+
+.travel__navbar__inner {
+  max-width: 1500px;
+  max-width: var(--page-max-width);
+}
+
+.mobileNavbar {
+  z-index: 999999 !important;
+}
+
+@media screen and (max-width: 400px) {
+  .travel__navbar__inner {
+    padding: 0 !important;
+  }
+}
+
+/* =========== logo =============  */
+.travel__navbar__branch {
+  text-decoration: none;
+  color: #050505;
+}
+
+.travel__navbar__branch:hover {
+  color: #050505;
+}
+
+.travel__navbar__branch h5 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.travel__navbar__branch h6 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* ============ nav bar ==========  */
+.travel__navbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-nav a {
+  color: #050505;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 13px;
+  padding: 6px 4px;
+  margin: 0 2px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.navbar-nav a:hover {
+  color: #050505;
+}
+
+.navbar-nav a::after {
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  right: 50%;
+  height: 0.5px;
+  transition: 0.3s;
+  background: #050505;
+}
+
+.navbar-nav a:hover::after,
+.navbar-nav a.active::after {
+  left: 0;
+  right: 0;
+}
+
+.travel__navbar .navbar-nav {
+  justify-content: flex-end;
+}
+
+.joyaLogo {
+  width: 60px;
+  transform: scale(1.3);
+}

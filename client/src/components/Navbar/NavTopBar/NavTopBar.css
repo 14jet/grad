@@ -1,0 +1,35 @@
+/* ============ top bar ==========  */
+
+.travel__topbar {
+  font-size: 13px;
+  height: 35px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.travel__topbar select {
+  border: none;
+  font-size: 13px;
+}
+
+.travel__topbar .travel__language svg {
+  width: 15px;
+  margin-bottom: 1px;
+  margin-right: 1px;
+}
+
+.travel__topbar__tel {
+  color: #050505;
+}
+
+.travel__topbar__tel:hover {
+  color: #050505;
+  text-decoration: underline;
+}
+
+/* .travel__topbar__tel:hover {} */
+
+@media screen and (max-width: 992px) {
+  .travel__topbar__contact {
+    border-right: 0.5px solid #e5e5e5;
+  }
+}

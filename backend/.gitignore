@@ -1,0 +1,8 @@
+/node_modules
+.env
+.env.production
+/uploads/destinations/*
+/uploads/guides/*
+/uploads/tours/*
+/credentials.json
+project.zip

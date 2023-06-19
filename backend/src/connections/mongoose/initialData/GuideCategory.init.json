@@ -1,0 +1,44 @@
+[{
+  "_id": {
+    "$oid": "6439181edc5be5ab8316f06d"
+  },
+  "slug": "cam-nang-du-lich",
+  "name": "Cẩm nang du lịch",
+  "en": {
+    "name": "Travel handbooks"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6439181edc5be5ab8316f070"
+  },
+  "slug": "diem-den-hap-dan",
+  "name": "Điểm đến hấp dẫn",
+  "en": {
+    "name": "Nice places"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6439181edc5be5ab8316f06e"
+  },
+  "slug": "nhat-ky-hanh-trinh",
+  "name": "Nhật ký hành trình",
+  "en": {
+    "name": "Travel Diaries"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6439181edc5be5ab8316f06f"
+  },
+  "slug": "trai-nghiem-kham-pha",
+  "name": "Trải nghiệm khám phá",
+  "en": {
+    "name": "Travel experiences"
+  },
+  "__v": 0
+}]

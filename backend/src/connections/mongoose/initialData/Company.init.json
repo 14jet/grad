@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "6438e64857ec8a226cb34628"
+  },
+  "name": "vVVv Travel",
+  "address": "Biên Hòa, Đồng Nai",
+  "phone": "0777777777",
+  "hotline": "0777777777",
+  "email": "vuntafxxxxx@funix.edu.vn",
+  "website": "http://vvvv.space",
+  "license_name": "GPKD-01",
+  "license_agency": "BH",
+  "license_number": "001",
+  "license_date": "20/02/2022",
+  "facebook": "https://facebook.com/vvvv",
+  "instagram": "https://facebook.com/vvvv",
+  "youtube": "https://facebook.com/vvvv",
+  "en": {
+    "name": "vVVv Travel",
+    "address": "Bien Hoa, Dong Nai",
+    "license_name": "GPKD-01",
+    "license_agency": "BH"
+  },
+  "__v": 0
+}]

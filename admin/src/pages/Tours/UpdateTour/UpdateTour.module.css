@@ -1,0 +1,34 @@
+.header {
+  position: sticky;
+  top: 0;
+  height: 64px;
+  background: #131b2a;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  z-index: 9;
+}
+
+.successBtn {
+  margin-bottom: 4px;
+  padding: 4px 16px;
+  color: white;
+  background: #29c465;
+}
+
+.successBtn:hover {
+  color: white;
+}
+
+.errorBtn {
+  margin-bottom: 4px;
+  padding: 4px 16px;
+  color: white;
+  background: rgb(232, 97, 97);
+}
+
+.errorBtn:hover {
+  background: rgb(231, 75, 75);
+}

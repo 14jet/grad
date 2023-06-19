@@ -1,0 +1,22 @@
+.item {
+  display: flex;
+}
+
+.item p,
+.item h6 {
+  font-size: 14px;
+}
+
+.item > h6:first-of-type {
+  width: 100px;
+  flex-shrink: 0;
+}
+
+.item ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.item li::before {
+  content: "- ";
+}

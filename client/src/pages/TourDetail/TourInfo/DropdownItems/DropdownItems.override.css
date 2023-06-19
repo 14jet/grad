@@ -1,0 +1,22 @@
+.tourDetail .accordion-button:focus {
+  box-shadow: none;
+}
+
+.tourDetail .accordion-header {
+  text-transform: uppercase;
+}
+
+.tourDetail .accordion-item {
+  border: none;
+  border-bottom: 0.5px solid #ccc;
+}
+
+.tourDetail .accordion-button:not(.collapsed) {
+  color: inherit;
+  background-color: inherit;
+  box-shadow: none;
+}
+
+.tourDetail .accordion-button:not(.collapsed)::after {
+  background-image: var(--bs-accordion-btn-icon);
+}

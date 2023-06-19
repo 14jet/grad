@@ -1,0 +1,61 @@
+.container {
+  width: 160px;
+  position: relative;
+}
+
+.image {
+  position: relative;
+}
+
+.image::after {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.588);
+  z-index: 2;
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.image:hover::after {
+  opacity: 1;
+}
+
+.imgBtns {
+  position: absolute;
+  top: 25px;
+  text-align: center;
+  z-index: 4;
+  display: none;
+}
+
+.image:hover .imgBtns {
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgBtns button {
+  margin: 2px;
+  margin-left: 50px;
+  color: rgb(245, 245, 245);
+  background: #ff0600;
+  border-radius: 2px;
+}
+
+.image img {
+  width: 100%;
+  height: 100px;
+}
+
+.container input {
+  margin-top: 2px;
+  width: 100%;
+  padding: 4px;
+  display: block;
+}

@@ -1,0 +1,269 @@
+{
+  "translation": {
+    "header": {
+      "topBar": {
+        "language": "Ngôn ngữ"
+      },
+      "navBar": {
+        "home": "Trang chủ",
+        "about": "Giới thiệu",
+        "viTours": "Du lịch trong nước",
+        "euTours": "Du lịch châu Âu",
+        "visaService": "Dịch vụ visa",
+        "guides": "Guides"
+      }
+    },
+    "footer": {
+      "other": {
+        "issuedBy": "Do",
+        "issuedOn": "cấp ngày"
+      },
+      "services": {
+        "title": "DU LỊCH",
+        "content": {
+          "euTours": "Du lịch châu Âu",
+          "vnTours": "Du lịch trong nước",
+          "guides": "Guides",
+          "visa": "Dịch vụ visa"
+        }
+      },
+      "terms": {
+        "title": "ĐIỀU KHOẢN",
+        "content": {
+          "registration": "Điều kiện đăng ký",
+          "cancellation": "Điều kiện hủy đổi",
+          "notes": "Thông tin cần lưu ý",
+          "payment": "Phương thức thanh toán",
+          "privacy": "Bảo mật dữ liệu khách hàng"
+        }
+      },
+      "links": {
+        "title": "LIÊN KẾT",
+        "content": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "youtube": "Youtube"
+        }
+      }
+    },
+    "pages": {
+      "home": {
+        "title": "Trang chủ",
+        "intro": {
+          "highClassService": {
+            "title": "Dịch vụ đẳng cấp",
+            "content": "Chúng tôi cam kết đem lại cho quý khách những dịch vụ uy tín nhất về lữ hành, khách sạn và nghỉ dưỡng, đảm bảo các tiêu chuẩn quốc tế về an toàn trong toàn bộ hành trình."
+          },
+          "impressiveJourney": {
+            "title": "Hành trình ấn tượng",
+            "content": "Không chỉ là khám phá những địa danh nổi tiếng hay thắng cảnh độc đáo, hành trình cùng vVVv còn đem tới những trải nghiệm đáng nhớ về phong tục, văn hóa, ẩm thực và nhiều câu chuyện lịch sử thú vị xoay quanh các điểm đến."
+          },
+          "trustedPartner": {
+            "title": "Đối tác tin cậy",
+            "content": "Với đội ngũ nhân viên chuyên nghiệp và chu đáo, vVVv luôn sẵn sàng hỗ trợ quý khách trong mọi trường hợp và tận tình chăm sóc khách hàng xuyên suốt các hành trình."
+          }
+        }
+      },
+      "europeTravel": {
+        "title": "Du lịch châu Âu"
+      },
+      "domesticTravel": {
+        "title": "Du lịch trong nước"
+      },
+      "guides": {
+        "title": "Guides"
+      },
+      "tour": {
+        "sidebar": {
+          "contactInfo": "Thông tin liên hệ",
+          "departureDateIsUnavailable": "không có sẵn"
+        },
+        "details": {
+          "overview": {
+            "title": "Tổng quan",
+            "tourName": "Tên tour",
+            "tourCode": "Mã tour",
+            "itinerary": "Hành trình",
+            "countries": "Nước",
+            "duration": "Thời gian",
+            "fullPackage": "Trọn gói",
+            "description": "Mô tả",
+            "highlights": "Điểm nổi bật"
+          },
+          "itinerary": {
+            "title": "Lộ trình"
+          },
+          "pricePolicy": {
+            "title": "Bảng giá",
+            "includes": "Giá bao gồm",
+            "excludes": "Giá không bao gồm",
+            "childrenAndOther": "Giá phụ thu và trẻ em"
+          },
+          "terms": {
+            "title": "Điều khoản",
+            "registration": "Điều kiện đăng ký",
+            "cancellation": "Điều kiện hủy, đổi",
+            "paymentMethods": "Phương thức thanh toán",
+            "notes": "Thông tin cần lưu ý"
+          },
+          "rating": {
+            "title": "Đánh giá",
+            "fromOurCurrentCustomers": "Từ khách hàng của chúng tôi",
+            "noReview": "Chưa có đánh giá"
+          }
+        }
+      },
+      "notFound": {
+        "title": "Trang không tồn tại",
+        "messagePart1": "Trang bạn yêu cầu",
+        "messagePart2": "không tồn tại"
+      },
+      "about": {
+        "title": "Giới thiệu"
+      },
+      "visaPayment": {
+        "title": "Thanh toán visa",
+        "paid": "Đơn hàng đã được thanh toán",
+        "orderInfo": "Thông tin đơn hàng",
+        "paidSuccessfully": "Thanh toán thành công. Chúng tôi sẽ liên hệ với bạn trong vòng 2 giờ."
+      },
+      "visaServices": {
+        "title": "Dịch vụ visa",
+        "searchBox": {
+          "title": "Nhập tên nước bạn muốn làm visa",
+          "placeholder": "tên nước..."
+        },
+        "quickVisa": "Làm visa nhanh",
+        "visaTo": "Dịch vụ visa"
+      },
+      "visaCountry": {
+        "title": "Dịch vụ visa",
+        "chooseService": "Chọn gói dịch vụ",
+        "seeDetails": "Xem chi tiết",
+        "collapse": "Thu gọn",
+        "details": {
+          "details": "Chi tiết phiếu dịch vụ",
+          "terms": "Điều khoản",
+          "cancellationPolicies": "Điều kiện hoàn, hủy",
+          "priceIncludes": "Giá bao gồm",
+          "priceExcludes": "Giá không bao gồm"
+        },
+        "applyFor": "Áp dụng cho",
+        "total": "Tổng tiền",
+        "passenger": "khách",
+        "entryDate": "Ngày nhập cảnh"
+      }
+    },
+    "components": {
+      "calendar": {
+        "picked": "Đã chọn",
+        "pickDepartureDate": "Chọn ngày khởi hành"
+      },
+      "pagination": {
+        "go": "Đi tới"
+      },
+      "sort": {
+        "sort": "Sắp xếp",
+        "priceAscending": "Giá tăng dần",
+        "priceDescending": "Giá giảm dần",
+        "durationAscending": "Số ngày lưu trú tăng dần",
+        "durationDescending": "Số ngày lưu trú giảm dần"
+      }
+    },
+    "general": {
+      "companyName": "vVVv Travel",
+      "day": "ngày",
+      "night": "đêm",
+      "days": "ngày",
+      "nights": "đêm",
+      "fullPackage": "Trọn gói",
+      "language": "Ngôn ngữ",
+      "address": "Địa chỉ",
+      "phoneNumber": "Điện thoại",
+      "licenseNumber": "Số giấy phép",
+      "destinations": "Điểm đến",
+      "duration": "Thời gian",
+      "departurePoint": "Điểm khởi hành",
+      "departureDates": "Ngày khởi hành",
+      "contactInfo": "Liên hệ",
+      "europeTravel": "Du lịch châu Âu",
+      "domesticTravel": "Du lịch trong nước",
+      "guides": "Guides",
+      "noProducts": "Không có sản phẩm nào",
+      "noTours": "Không có tour nào",
+      "noGuides": "Không có bài viết nào",
+      "views": "lượt xem"
+    },
+    "search": {
+      "tour": {
+        "title": "Tìm kiếm tour",
+        "placholder": "Nước, tỉnh, thành phố, địa điểm",
+        "notMatch": "Không tìm thấy kết quả phù hợp",
+        "seeAll": "Xem tất cả",
+        "result": "kết quả",
+        "results": "kết quả",
+        "searchForTour": "Tìm kiếm tour"
+      }
+    },
+    "buttons": {
+      "seeAll": "Xem tất cả",
+      "bookTour": "Đặt tour",
+      "contactUs": "Liên hệ tư vấn",
+      "callMe": "Gọi lại cho tôi",
+      "seeNow": "Xem ngay",
+      "goBack": "Quay lại",
+      "goHome": "Về trang chủ",
+      "choose": "Chọn",
+      "book": "Đặt ngay",
+      "discard": "Hủy"
+    },
+    "form": {
+      "selectDate": "Chọn ngày",
+      "required": "Bắt buộc",
+      "firstname": "Họ",
+      "surname": "Tên",
+      "email": "Email",
+      "phoneNumber": "Số điện thoại",
+      "address": "Địa chỉ",
+      "gender": "Giới tính",
+      "selectGender": "Chọn giới tính",
+      "male": "Nam",
+      "female": "Nữ",
+      "adults": "Số người lớn",
+      "children": "Số trẻ em",
+      "guessesQuantity": "Số khách",
+      "invalidEmail": "Email không hợp lệ",
+      "invalidPhoneNumber": "Số điện thoại không hợp lệ",
+      "departureDates": "Ngày khởi hành",
+      "bookTour": "Đặt tour",
+      "bookVisa": "Đặt visa",
+      "callMe": "Yêu cầu gọi lại",
+      "fullname": "Họ và tên",
+      "country": "Nước",
+      "type": "Loại",
+      "price": "Đơn giá",
+      "passengers": "Số hành khách",
+      "total": "Tổng tiền",
+      "entryDate": "Ngày nhập cảnh",
+      "errors": {
+        "invalidPhoneNumber": "Số điện thoại không hợp lệ",
+        "invalidEmail": "Email không hợp lệ",
+        "tooLong": "Quá dài"
+      }
+    },
+    "messages": {
+      "error": {
+        "offline": "Bạn đang offline",
+        "networkError": "Lỗi kết nối"
+      },
+      "bookTour": {
+        "success": "Đặt tour thành công. Chúng tôi sẽ gọi lại cho bạn trong vòng 2 giờ.",
+        "failed": "Đặt tour thất bại. Vui lòng liên hệ số..."
+      },
+      "callMeBack": {
+        "success": "Đặt tour thành công. Chúng tôi sẽ gọi lại cho bạn trong vòng 2 giờ.",
+        "failed": "Đặt tour thất bại. Vui lòng liên hệ số..."
+      }
+    }
+  }
+}

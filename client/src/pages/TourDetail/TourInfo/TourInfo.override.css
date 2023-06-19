@@ -1,0 +1,38 @@
+.tourInfo .nav-item button {
+  color: #838383;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  width: 100%;
+}
+
+.tourInfo .nav-item button.active {
+  color: #141414;
+  z-index: 999;
+  position: relative;
+}
+
+.tourInfo .nav-item button.active::after {
+  position: absolute;
+  content: "";
+  display: block;
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  height: 4px;
+  background: rgb(255, 255, 255);
+  z-index: 99999;
+}
+
+.tourInfo .nav-tabs .nav-item .nav-link,
+.tourInfo .nav-tabs .nav-link {
+  border-color: var(--bs-nav-tabs-link-active-border-color);
+  /* border-color: red; */
+}
+
+.tourInfo .nav-tabs {
+  border-bottom: none !important;
+}
+
+.tourInfo .tab-content {
+  border-top: 0.5px solid #dee2e6;
+}

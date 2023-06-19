@@ -1,0 +1,42 @@
+.container ul {
+  list-style-type: none;
+}
+
+.sliderImages {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.dropZone {
+  background: rgb(242, 242, 242);
+  padding: 6px;
+  border: 2px dashed rgb(203, 203, 203);
+  border-radius: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.addImage {
+  background: rgb(205, 226, 226);
+  width: 160px;
+  height: 100px;
+  cursor: pointer;
+  transition: 0.2s;
+  border: 5px dashed #3f9b96;
+  border-radius: 8px;
+}
+
+.addImage:active {
+  transform: scale(0.98);
+}
+
+.plusMark {
+  font-size: 50px;
+  text-align: center;
+  line-height: 90px;
+  margin: 0;
+  color: #2e8d88;
+}

@@ -1,0 +1,24 @@
+.container {
+  padding: 8px;
+  padding-bottom: 36px;
+}
+
+.container li {
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.container li:hover {
+  background: rgb(239, 244, 246);
+}
+
+.listContainer {
+  border: 0.5px solid #ccc;
+  padding: 8px;
+  overflow-y: auto;
+  height: 250px;
+}
+
+.chosenItems li {
+  background: #c1d5e4;
+}

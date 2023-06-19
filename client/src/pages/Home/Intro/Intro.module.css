@@ -1,0 +1,48 @@
+.header {
+  width: 100%;
+}
+.header > .image > img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  min-height: 270px;
+  object-position: center;
+}
+.header > .container {
+  width: 100%;
+  padding: 32px 20px 0px 20px;
+}
+
+.about {
+  background-color: rgba(244, 241, 236, 255);
+  border-radius: 24px;
+  padding: 1em;
+  height: 100%;
+}
+.about > div {
+  display: inline-table;
+  text-align: center;
+  padding: 8px 0px 8px 8px;
+}
+.about > div > img {
+  width: 3rem;
+  height: 3rem;
+  margin-bottom: 8px;
+}
+@media screen and (max-width: 600px) {
+  .header > .container {
+    padding: 14px 8px 0px 8px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .header > .container {
+    padding: 20px 12px 0px 12px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header > .container {
+    padding: 32px 20px 0px 20px;
+  }
+}

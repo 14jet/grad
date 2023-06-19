@@ -1,0 +1,59 @@
+.formGroups {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.formGroups > * {
+  width: calc(50% - 10px);
+  /* flex: 1; */
+}
+
+.bookBtn {
+  color: var(--color-accent);
+  background: #050505;
+  font-weight: bold;
+  width: 100%;
+  min-width: 160px;
+}
+
+@media screen and (min-width: 768px) {
+  .bookBtn {
+    width: auto;
+  }
+}
+
+.bookBtn:hover {
+  color: var(--color-accent-light);
+  background: #050505;
+}
+
+.plusBtn {
+  border: 0.5px solid #ccc;
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  margin: 6px 12px;
+  border-radius: 4px;
+  transition: 0.2s;
+  transform: scale(1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(250, 250, 250);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.plusBtn:active {
+  transform: scale(0.9);
+}
+
+.borderBottom {
+  border-bottom: 0.5px solid #ccc;
+}
+
+@media screen and (min-width: 768px) {
+  .borderBottom {
+    border-bottom: 0;
+  }
+}

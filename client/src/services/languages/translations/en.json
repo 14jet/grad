@@ -1,0 +1,270 @@
+{
+  "translation": {
+    "header": {
+      "topBar": {
+        "language": "Language"
+      },
+      "navBar": {
+        "home": "Home",
+        "about": "About",
+        "viTours": "Domestic Travel",
+        "euTours": "Europe Travel",
+        "visaService": "Visa services",
+        "guides": "Guides"
+      }
+    },
+    "footer": {
+      "other": {
+        "issuedBy": "Issued by",
+        "issuedOn": "on"
+      },
+      "services": {
+        "title": "TRAVEL",
+        "content": {
+          "euTours": "Europe tours",
+          "vnTours": "Vietnam tours",
+          "guides": "Guides",
+          "visa": "Visa services"
+        }
+      },
+      "terms": {
+        "title": "TERMS",
+        "content": {
+          "registration": "Registration Conditions",
+          "cancellation": "Cancellation policy",
+          "notes": "Notes",
+          "payment": "Payment methods",
+          "privacy": "Privacy policy"
+        }
+      },
+      "links": {
+        "title": "LINKS",
+        "content": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "youtube": "Youtube"
+        }
+      }
+    },
+    "pages": {
+      "home": {
+        "title": "Home",
+        "intro": {
+          "highClassService": {
+            "title": "High-class service",
+            "content": "We are committed to providing you with the most prestigious services in travel, hotels and resorts, ensuring international standards of safety during the entire journey."
+          },
+          "impressiveJourney": {
+            "title": "Impressive journey",
+            "content": "Not only discovering famous landmarks or unique landscapes, the journey with vVVv also brings memorable experiences about customs, culture, cuisine and many interesting historical stories revolving around the destinations. ."
+          },
+          "trustedPartner": {
+            "title": "Trusted partner",
+            "content": "With a team of professional and attentive staff, vVVv is always ready to support you in all cases and take care of customers throughout the journey."
+          }
+        }
+      },
+      "europeTravel": {
+        "title": "Europe Travel"
+      },
+      "domesticTravel": {
+        "title": "Domestic Travel"
+      },
+      "guides": {
+        "title": "Guides"
+      },
+      "tour": {
+        "sidebar": {
+          "contactInfo": "Contact Info",
+          "departureDateIsUnavailable": "unavailable"
+        },
+        "details": {
+          "overview": {
+            "title": "Overview",
+            "tourName": "Name",
+            "tourCode": "code",
+            "itinerary": "Itinerary",
+            "countries": "Countries",
+            "duration": "Duration",
+            "fullPackage": "Full package",
+            "description": "Description",
+            "highlights": "Highlights"
+          },
+          "itinerary": {
+            "title": "Itinerary"
+          },
+          "pricePolicy": {
+            "title": "Price",
+            "includes": "Price includes",
+            "excludes": "Price excludes",
+            "childrenAndOther": "Price for children and extra charge"
+          },
+          "terms": {
+            "title": "Terms",
+            "registration": "Registration Policy",
+            "cancellation": "Cancellation Policy",
+            "paymentMethods": "Payment Methods",
+            "notes": "Notes"
+          },
+          "rating": {
+            "title": "Rating",
+            "fromOurCurrentCustomers": "From our current customers",
+            "noReview": "There are currently no reviews yet"
+          }
+        }
+      },
+      "notFound": {
+        "title": "Page Not Found",
+        "messagePart1": "THE PAGE YOU REQUESTED",
+        "messagePart2": "COULD NOT BE FOUND"
+      },
+      "about": {
+        "title": "About"
+      },
+      "visaPayment": {
+        "title": "Visa payment",
+        "paid": "The order was paid",
+        "orderInfo": "The order info",
+        "paidSuccessfully": "Success. We will contact you within 2 hours."
+      },
+      "visaServices": {
+        "title": "Visa services",
+        "searchBox": {
+          "title": "Type in the country name you would like to go",
+          "placeholder": "country name..."
+        },
+        "quickVisa": "Quick visa",
+        "visaTo": "Visa to"
+      },
+      "visaCountry": {
+        "title": "Visa services for",
+        "chooseService": "Choose service",
+        "seeDetails": "See details",
+        "collapse": "Collapse",
+        "details": {
+          "details": "Details",
+          "terms": "Terms",
+          "cancellationPolicies": "Cancellation policies",
+          "priceIncludes": "Price includes",
+          "priceExcludes": "Price excludes"
+        },
+        "applyFor": "Apply for",
+        "total": "Total",
+        "passenger": "passenger",
+        "entryDate": "Entry date"
+      }
+    },
+    "components": {
+      "calendar": {
+        "picked": "Picked",
+        "pickDepartureDate": "Pick departure date"
+      },
+      "pagination": {
+        "go": "Go"
+      },
+      "sort": {
+        "sort": "Sort",
+        "priceAscending": "Price low to high",
+        "priceDescending": "Price high to low",
+        "durationAscending": "Duration ascending",
+        "durationDescending": "Duration descending"
+      }
+    },
+    "general": {
+      "companyName": "vVVv Travel",
+      "day": "day",
+      "night": "night",
+      "days": "days",
+      "nights": "nights",
+      "fullPackage": "Full package",
+      "language": "Language",
+      "address": "Address",
+      "phoneNumber": "Phone number",
+      "licenseNumber": "License number",
+      "destinations": "Destinations",
+      "duration": "Duration",
+      "departurePoint": "Point of departure",
+      "departureDates": "Departure dates",
+      "contactInfo": "Contact",
+      "europeTravel": "Europe Travel",
+      "domesticTravel": "Domestic Travel",
+      "guides": "Guides",
+      "noProducts": "No products",
+      "noTours": "No tours to display",
+      "noGuides": "No guides to display",
+      "views": "views"
+    },
+    "search": {
+      "tour": {
+        "title": "Search for tours",
+        "placholder": "Country, province, city, place",
+        "notMatch": "Not match any tours",
+        "seeAll": "See all",
+        "result": "result",
+        "results": "results",
+        "searchForTour": "Search for tour"
+      }
+    },
+    "buttons": {
+      "seeAll": "See all",
+      "bookTour": "Book",
+      "contactUs": "Contact Us",
+      "callMe": "Contact me",
+      "seeNow": "See now",
+      "goBack": "Go back",
+      "goHome": "Go to home",
+      "choose": "Choose",
+      "book": "Book",
+      "discard": "Discard"
+    },
+    "form": {
+      "selectDate": "Select date",
+      "required": "Required",
+      "firstname": "Firstname",
+      "surname": "Surname",
+      "email": "Email",
+      "phoneNumber": "Phone number",
+      "address": "Address",
+      "gender": "Gender",
+      "selectGender": "Select gender",
+      "male": "Male",
+      "female": "Female",
+      "adults": "Adults",
+      "children": "Children",
+      "guessesQuantity": "Guesses quantity",
+      "invalidEmail": "Invalid email",
+      "invalidPhoneNumber": "Invalid phone number",
+      "departureDates": "Departure dates",
+      "bookTour": "Book this tour",
+      "bookVisa": "Book this visa",
+      "callMe": "Call me",
+      "fullname": "Full name",
+      "country": "Country",
+      "type": "Type",
+      "price": "Price",
+      "passengers": "Passengers quantity",
+      "total": "Total",
+      "entryDate": "Entry date",
+
+      "errors": {
+        "invalidPhoneNumber": "Invalid phone number",
+        "invalidEmail": "Invalid Email",
+        "tooLong": "Too Long"
+      }
+    },
+    "messages": {
+      "error": {
+        "offline": "Your are offline",
+        "networkError": "Network Error"
+      },
+      "bookTour": {
+        "success": "Success. We will contact you in 2 hours.",
+        "failed": "Failed. Please contact us..."
+      },
+      "callMeBack": {
+        "success": "Success. We will contact you in 2 hours.",
+        "failed": "Failed. Please contact us..."
+      }
+    }
+  }
+}

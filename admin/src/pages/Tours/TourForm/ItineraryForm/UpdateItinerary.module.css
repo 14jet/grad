@@ -1,0 +1,73 @@
+.plan label {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.plan label h6 {
+  margin-bottom: 3px;
+}
+
+.plan label input::placeholder {
+  font-size: 13px;
+  font-style: italic;
+  color: grey;
+  font-weight: 300;
+}
+
+.editor > * {
+  background: white;
+}
+
+.planItem {
+  background: white;
+}
+
+.previewImages {
+  display: flex;
+  gap: 8px;
+  padding-bottom: 32px;
+}
+
+.previewImages .image {
+  max-width: 300px;
+}
+
+.previewImages .image img {
+  width: 100%;
+}
+
+.removeDayBtn {
+  background: #f44336;
+  position: absolute;
+  top: 0;
+  right: 0px;
+  width: 60px;
+  bottom: 0;
+  opacity: 0.6;
+  transition: 0.1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.removeDayBtn.disabled {
+  background: #ccc;
+  cursor: default;
+}
+
+.removeDayBtn:not(.disabled):hover {
+  opacity: 1;
+}
+
+.removeDayBtn svg {
+  width: 20px;
+  color: white;
+}
+
+.questionMark svg {
+  width: 16px;
+  color: grey;
+  margin-left: 6px;
+  margin-bottom: 1px;
+  cursor: help;
+}

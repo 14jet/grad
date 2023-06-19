@@ -1,0 +1,70 @@
+.card {
+  max-width: 350px;
+  margin: 0px auto;
+}
+
+.card > a {
+  display: block;
+  color: #050505;
+  border-radius: 6px;
+  box-shadow: var(--box-shadow-border);
+  overflow: hidden;
+  height: 100%;
+}
+
+.card > a:hover {
+  color: #050505;
+}
+
+.card:hover {
+  transition: 3px;
+}
+.img {
+  height: 0;
+  padding-top: 66.67%;
+  position: relative;
+}
+.img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  top: 0;
+}
+
+.textBox {
+  padding: 16px 12px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  .textBox {
+    padding: 10px 8px;
+  }
+}
+
+.textBox > h5 {
+  font-size: 14px;
+  font-weight: 900;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* white-space: nowrap; */
+}
+
+.textBox p {
+  margin-bottom: 2px;
+  line-height: 1.3;
+  max-width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.textBox p:last-of-type {
+  margin-bottom: 0;
+}
+.textBox p::before {
+  content: "•";
+  padding-right: 6px;
+}

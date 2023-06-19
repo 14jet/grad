@@ -1,0 +1,27 @@
+.container form {
+  width: 350px;
+  background: white;
+  padding: 8px;
+}
+
+.container form label {
+  margin-bottom: 16px;
+  display: block;
+}
+
+.container form label h6 {
+  margin-bottom: 2px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.container form label input {
+  width: 100%;
+  padding: 4px;
+}
+
+.container form label p {
+  color: red;
+  font-size: 13px;
+  margin-top: 2px;
+}

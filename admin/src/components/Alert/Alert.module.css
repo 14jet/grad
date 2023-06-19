@@ -1,0 +1,33 @@
+.container {
+  position: fixed;
+  bottom: 60px;
+  left: 20px;
+  z-index: 10px;
+  background: rgb(92, 190, 133);
+
+  border: 0.5px solid #4d9156;
+  border-radius: 6px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  min-width: 250px;
+  display: flex;
+  align-items: center;
+}
+
+.container p {
+  color: white;
+  margin: 0;
+  padding: 18px 8px;
+  flex: 1;
+}
+
+.container button {
+  height: 100%;
+  background: transparent;
+  cursor: pointer;
+  border-left: 0.5px solid #ffffff;
+  padding: 0 10px;
+  display: block;
+  color: white;
+  font-size: 30px;
+}

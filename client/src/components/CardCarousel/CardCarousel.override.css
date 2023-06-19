@@ -1,0 +1,86 @@
+.cardCarousel .slick-arrow.slick-next.slick-disabled,
+.cardCarousel .slick-arrow.slick-prev.slick-disabled {
+  display: none !important;
+}
+
+.cardCarousel .slick-prev:before,
+.cardCarousel .slick-next:before {
+  display: none;
+  font-family: "slick";
+  font-size: 20px;
+  line-height: 1;
+  opacity: 0.75;
+  color: #b9b4b4;
+  -webkit-font-smoothing: antialiased;
+}
+
+.cardCarousel .slick-arrow::before {
+  display: none;
+}
+
+.cardCarousel .slick-initialized .slick-slide {
+  display: block;
+}
+
+.cardCarousel .slick-next {
+  right: -14px;
+}
+
+.cardCarousel .slick-prev {
+  left: -14px;
+}
+
+.cardCarousel .slick-arrow {
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 20;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 4px;
+  border: 0.5px solid rgb(167, 166, 166);
+  background: #ffffffab;
+}
+
+.cardCarousel .slick-next svg {
+  stroke-width: 3;
+  color: black;
+  width: 17px;
+}
+.cardCarousel .slick-prev svg {
+  stroke-width: 3;
+  color: black;
+  width: 17px;
+}
+
+@media screen and (max-width: 576px) {
+  .cardCarousel .slick-arrow {
+    width: 36px;
+    height: 36px;
+  }
+
+  .cardCarousel .slick-next {
+    right: -10px;
+  }
+
+  .cardCarousel .slick-prev {
+    left: -11px;
+  }
+}
+
+/* ======== force carousel items to have the same height ==========  */
+.cardCarousel .slick-track {
+  display: flex !important;
+}
+
+.cardCarousel .slick-track .slick-slide {
+  height: inherit !important;
+}
+
+.cardCarousel .slick-track .slick-slide > div {
+  height: 100% !important;
+}
+
+/* .cardCarousel .slick-track .slick-slide > div > * {
+  height: 100% !important;
+} */

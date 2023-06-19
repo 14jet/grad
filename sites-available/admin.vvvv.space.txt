@@ -1,0 +1,12 @@
+server {
+	listen 80;
+	listen [::]:80;
+
+	server_name admin.vvvv.space www.admin.vvvv.space;
+	index index.html;
+	location / {
+		root /var/www/vvvv.space/admin;
+		try_files $uri /index.html;
+	}
+}
+

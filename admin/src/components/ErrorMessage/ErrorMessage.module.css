@@ -1,0 +1,10 @@
+.errorMessage {
+  color: #d22626;
+  display: flex;
+  font-size: 18px;
+}
+.errorMessage svg {
+  width: 18px;
+  margin-right: 2px;
+  margin-bottom: 2px;
+}

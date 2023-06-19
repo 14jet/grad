@@ -1,0 +1,25 @@
+server {
+	listen 80;
+	listen [::]:80;
+	
+	server_name vvvv.space www.vvvv.space;
+	index index.html;
+
+	location ~ ^/admin(/.*)*$ {
+		root /var/www/vvvv.space;
+		try_files $uri /admin/index.html;
+	}
+	
+	
+	location /api/ {
+		rewrite /api/(.*) /$1 break;
+		proxy_pass http://localhost:5000;
+	}
+	
+	location / {
+		root /var/www/vvvv.space/html;
+		try_files $uri $uri/ $uri.html /index.html;
+	}
+	
+}
+

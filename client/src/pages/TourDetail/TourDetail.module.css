@@ -1,0 +1,17 @@
+.banner {
+  height: 500px;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.tourDetail {
+  list-style-type: disc;
+  max-width: 1500px;
+  max-width: var(--page-max-width);
+  margin: 0 auto;
+}

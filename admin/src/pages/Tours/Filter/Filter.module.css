@@ -1,0 +1,57 @@
+/* ===================== filter ======================  */
+.filter {
+  display: flex;
+  margin-bottom: 16px;
+  gap: 8px;
+}
+
+.filter a:last-child {
+  flex: 1;
+  text-align: right;
+  height: 35px;
+  line-height: 35px;
+}
+
+.filter select,
+.filter form,
+.filter button {
+  /* height: 35px; */
+  /* margin: 0; */
+}
+
+.filter form {
+  display: flex;
+}
+
+.filter form input {
+  height: 100%;
+  flex: 1;
+  padding: 2px 8px;
+}
+
+.filter button svg {
+  width: 20px;
+}
+
+.searchBtn {
+  background: rgb(47, 190, 97);
+  color: white;
+}
+
+.resetBtn {
+  background: rgb(239, 111, 111);
+  color: white;
+}
+
+.filter label {
+  cursor: pointer;
+}
+
+.filter label:active,
+.filter div:active {
+  background: inherit;
+}
+
+.filter label:hover span {
+  color: #050505 !important;
+}
