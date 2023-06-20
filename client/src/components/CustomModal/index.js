@@ -52,7 +52,6 @@ function CustomModal(props) {
             <h5 className={styles.title}>{title}</h5>
             <CloseButton
               onClick={() => {
-                console.log("click");
                 other.onHide();
               }}
               className={styles.closeBtn}

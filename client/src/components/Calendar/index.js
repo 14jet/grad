@@ -238,7 +238,6 @@ function Calendar({
             })}
             onClick={() => {
               if (item.is_available) {
-                console.log(item.value);
                 onSelect(item.value);
               }
             }}

@@ -2,8 +2,7 @@ const createError = require("../../helpers/errorCreator");
 const Place = require("../../models/place.model");
 const Tour = require("../../models/tour.model");
 const Visa = require("../../models/visa.model");
-const mongoose = require("mongoose")
-
+const mongoose = require("mongoose");
 
 module.exports.addPlace = async (req, res, next) => {
   try {
@@ -11,7 +10,7 @@ module.exports.addPlace = async (req, res, next) => {
 
     const createdPlace = await Place.create(place);
 
-    const getUrl = require("../../helpers/urlFromPath")
+    const getUrl = require("../../helpers/urlFromPath");
     return res.status(200).json({
       message: "Thành công",
       data: {
@@ -48,7 +47,7 @@ module.exports.updatePlace = async (req, res, next) => {
 
     await foundPlace.save();
 
-    const getUrl =require("../../helpers/urlFromPath")
+    const getUrl = require("../../helpers/urlFromPath");
     return res.status(200).json({
       message: "Thành công",
       data: {
@@ -70,16 +69,16 @@ module.exports.updatePlace = async (req, res, next) => {
 module.exports.getPlaces = async (req, res, next) => {
   try {
     const places = await Place.find({
-      deleted: false
+      deleted: false,
     });
 
-    const getUrl =require("../../helpers/urlFromPath")
+    const getUrl = require("../../helpers/urlFromPath");
     return res.status(200).json({
-      data: places.map(place => ({
+      data: places.map((place) => ({
         _id: place._id,
         name: place.name,
         slug: place.slug,
-        image: getUrl(place.image),
+        image: place.image ? getUrl(place.image) : "",
         en: place.en,
         region: place.region,
         type: place.type,
@@ -121,12 +120,11 @@ module.exports.deletePlace = async (req, res, next) => {
     }
 
     place.deleted = true;
-    await place.save()
+    await place.save();
 
     return res.status(200).json({
       message: "Thành công",
     });
-   
   } catch (error) {
     return next(createError(error, 500));
   }

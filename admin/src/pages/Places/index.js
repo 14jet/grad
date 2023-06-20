@@ -17,7 +17,7 @@ import { deletePlace, resetPlacesState } from "../../store/place.slice";
 import PlaceItem from "./PlaceItem";
 import { selectIsAdmin } from "../../store/user.slice";
 import * as pageHelper from "../../services/helpers/pageHelpers";
-import  searchHelper from "../../services/helpers/searchHelper";
+import searchHelper from "../../services/helpers/searchHelper";
 import usePageTitle from "../../hooks/usePageTitle";
 
 function Places() {
@@ -38,7 +38,6 @@ function Places() {
   const navigate = useNavigate();
   let { page, category } = useParams();
   page = pageHelper.getPage(page);
-  console.log('PAGEEEEEEEEEEEEEEEEEEEEE', page)
 
   if (!category) {
     category = "";
@@ -138,14 +137,13 @@ function Places() {
   if (search) {
     filteredPlaces = searchHelper(search, filteredPlaces);
   }
-  
+
   const totalPage = pageHelper.getTotalPage(filteredPlaces);
 
   paginatedPlaces = pageHelper.getItems(filteredPlaces, page);
 
-
   const paginationHandler = (pageNumber) => {
-    console.log('PAGE NUMBER', pageNumber)
+    console.log("PAGE NUMBER", pageNumber);
     let path = `/diem-den`;
 
     if (pageNumber > 1) {

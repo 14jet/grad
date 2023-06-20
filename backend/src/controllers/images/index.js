@@ -19,8 +19,6 @@ module.exports = async (req, res, next) => {
 
     const originImage = path.join(uploadDir, year, month, date, fileName);
 
-    console.log(originImage);
-
     // if not require dimensions
     if (!d) {
       return sendFile(originImage);

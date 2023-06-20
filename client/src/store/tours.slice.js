@@ -46,7 +46,6 @@ export const fetchTours = createAsyncThunk(
         catalog,
       };
     } catch (error) {
-      console.log("TOUR SLICE", error);
       return rejectWithValue(error);
     }
   }

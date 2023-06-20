@@ -1,8 +1,4 @@
 const checkIsString = (text) => {
-  console.log("********************************************");
-  console.log(text);
-  console.log("********************************************");
-
   if (typeof text !== "string")
     throw new Error("From checkIsString validator: input must be string");
 };

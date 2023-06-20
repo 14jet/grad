@@ -8,7 +8,6 @@ function FacebookLikeButton({ href, ...props }) {
 
   useEffect(() => {
     if (facebookSDKWasInitialized) {
-      console.log("LIKE BUTTON RE-RENDER");
       window.FB.XFBML.parse(document.querySelector(".joya-fb-like"));
     }
   }, [facebookSDKWasInitialized, href]);

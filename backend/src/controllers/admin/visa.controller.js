@@ -61,6 +61,8 @@ module.exports.getVisas = async (req, res, next) => {
   try {
     const visas = await Visa.find().populate("country");
 
+    const vs = await Visa.find();
+
     return res.status(200).json({
       data: visas,
     });

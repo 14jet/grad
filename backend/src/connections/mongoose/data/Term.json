@@ -1,0 +1,1777 @@
+[{
+  "_id": {
+    "$oid": "6438e3a519a7cccbb9438d0a"
+  },
+  "cancellation": {
+    "ops": [
+      {
+        "insert": "Việc huỷ/ đổi tour đi phải được quý khách thông báo trực tiếp với nhân viên hoặc bằng văn bản gửi trực tiếp tới công ty hoặc qua email, và phải được công ty xác nhận bằng văn bản. (Chia ra các trường hợp chi tiết)"
+      },
+      {
+        "attributes": {
+          "align": "justify"
+        },
+        "insert": "\n\n"
+      },
+      {
+        "attributes": {
+          "italic": true,
+          "bold": true
+        },
+        "insert": "1.Hủy do rớt visa: "
+      },
+      {
+        "insert": "Trường hợp Quý khách bị từ chối visa, lệ phí không hoàn lại là 8.000.000 VND/Khách."
+      },
+      {
+        "attributes": {
+          "align": "justify"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Không hoàn lại mọi chi phí trong trường hợp hủy tour do trượt visa vì một trong các lý do sau:"
+      },
+      {
+        "attributes": {
+          "align": "justify"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Không phối hợp với công ty để cung cấp đủ giấy tờ theo quy định của đại sứ quán, không tham gia khi đã có lịch hẹn phỏng vấn hoặc lấy vân tay."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Đã từng cư trú bất hợp pháp tại Châu Âu."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Thuộc diện cấm xuất cảnh hoặc cấm nhập cảnh mà không khai báo."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Từng có hành vi vi phạm pháp luật và vi phạm quy định về xuất nhập cảnh."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "attributes": {
+          "align": "justify"
+        },
+        "insert": "\n"
+      },
+      {
+        "attributes": {
+          "italic": true,
+          "bold": true
+        },
+        "insert": "2. Các điều kiện huỷ tour ngày thường:"
+      },
+      {
+        "attributes": {
+          "align": "justify"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Hủy tour ngay sau khi đăng ký (từ 46 ngày trước ngày khởi hành): Phí hủy tour là 20% trên tổng giá tour."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Hủy tour từ 30 – 45 ngày trước ngày khởi hành: Phí huỷ tour là 30% trên tổng giá tour (+Phí Visa nếu có)."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Hủy tour từ 15 – 29 ngày trước ngày khởi hành: Phí huỷ tour là 50% trên tổng giá tour (+Phí Visa nếu có)."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Hủy tour từ 01 – 14 ngày trước ngày khởi hành: Phí huỷ tour là 100% trên tổng giá tour (+Phí Visa nếu có)."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Hủy tour ngay sau khi Đại Sứ Quán, Lãnh Sự Quán đã cấp visa: Chi phí huỷ tour là 100% tiền tour."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Thời gian hủy tour được tính cho ngày làm việc, không tính thứ bảy, chủ nhật và các ngày Lễ Tết."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Đối với những khách đã có visa, Công ty sẽ giữ hộ chiếu 3 tháng (thời hạn hiệu lực của visa) và đóng dấu hủy visa đó."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Trường hợp quý khách hủy tour trước 46 ngày tính từ ngày khởi hành, JOYA hỗ trợ quý khách bảo lưu chi phí và chuyển đổi miễn phí sang một tour khác khởi hành trong 6 tháng kể từ thời gian báo hủy (có tính chênh lệch chi phí giữa hai tour và chỉ hỗ trợ chuyển đổi một lần duy nhất)."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n\n"
+      },
+      {
+        "attributes": {
+          "italic": true,
+          "bold": true
+        },
+        "insert": "3. Các điều kiện huỷ tour ngày lễ, Tết:"
+      },
+      {
+        "attributes": {
+          "align": "justify"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Hủy tour ngay sau khi đăng ký (từ 61 ngày trước ngày khởi hành): Phí hủy tour là 30% trên tổng giá tour."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Hủy tour từ 45 – 60 ngày trước ngày khởi hành: Phí huỷ tour là 40% trên tổng giá tour ( +Phí Visa nếu có)."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Hủy tour từ 30 – 44 ngày trước ngày khởi hành: Phí huỷ tour là 60% trên tổng giá tour ( +Phí Visa nếu có)."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Hủy tour từ 15 – 29 ngày trước ngày khởi hành: Phí huỷ tour là 100% trên tổng giá tour (+Phí Visa nếu có)."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Hủy tour ngay sau khi Đại Sứ Quán, Lãnh Sự Quán đã cấp visa: Chi phí huỷ tour là 100% tiền tour ( + Phí Visa nếu có)."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Thời gian hủy tour được tính cho ngày làm việc, không tính thứ bảy, chủ nhật và các ngày Lễ Tết."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Các tour ngày lễ, tết là các tour có thời gian diễn ra rơi vào một trong các ngày lễ, tết theo qui định."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Đối với những khách đã có visa, Công ty sẽ giữ hộ chiếu 3 tháng (thời hạn hiệu lực của visa) và đóng dấu hủy visa đó."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "attributes": {
+          "align": "justify"
+        },
+        "insert": "\n"
+      },
+      {
+        "attributes": {
+          "italic": true,
+          "bold": true
+        },
+        "insert": "4. Các điều kiện đổi Tour:"
+      },
+      {
+        "attributes": {
+          "align": "justify"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Tour ngày thường: Trường hợp Quý Khách hủy tour trước 46 ngày (so với ngày khởi hành), EuroTravel hỗ trợ Quý Khách chuyển đổi tour miễn phí sang tour khác khởi hành trong 6 tháng so với thời gian báo hủy. (chỉ hỗ trợ chuyển đổi 01 lần)."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Tour ngày Lễ, Tết: Trường hợp Quý Khách hủy tour trước 61 ngày (so với ngày khởi hành), EuroTravel hỗ trợ Quý Khách chuyển đổi tour miễn phí sang tour khác khởi hành trong 6 tháng so với thời gian báo hủy. (chỉ hỗ trợ chuyển đổi 01 lần)."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "attributes": {
+          "align": "justify"
+        },
+        "insert": "\n"
+      },
+      {
+        "attributes": {
+          "italic": true,
+          "bold": true
+        },
+        "insert": "5. Trường hợp tour không khởi hành:"
+      },
+      {
+        "attributes": {
+          "align": "justify"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Tour ngày thường: JOYA thông báo cho Quý Khách Hàng trước 21 ngày (so với ngày khởi hành) và hỗ trợ chuyển đổi miễn phí sang tour khác có giá trị tương đương, hoặc hoàn lại tiền cọc tour."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Tour ngày Lễ, Tết: JOYA thông báo cho Quý Khách Hàng trước 30 ngày (so với ngày khởi hành) và hỗ trợ chuyển đổi miễn phí sang tour khác có giá trị tương đương, hoặc hoàn lại tiền cọc tour."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      }
+    ],
+    "_id": {
+      "$oid": "644be4b504876e0f517d9ee8"
+    }
+  },
+  "privacy": {
+    "ops": [
+      {
+        "attributes": {
+          "background": "transparent",
+          "color": "#000000"
+        },
+        "insert": "Chính sách bảo mật mô tả về phạm vi thông tin vVVv thu thập từ Qúy khách và mục đích sử dụng, cách sử dụng và các phương tiện sử dụng nhằm tối đa hóa việc bảo mật thông tin Qúy khách. vVVv cam kết bảo mật tuyệt đối thông tin cá nhân của Qúy khách và các thông tin. Dữ liệu vVVv thu thập đều được bảo vệ bằng hệ thống bảo vệ dữ liệu cá nhân trực tuyến."
+      },
+      {
+        "attributes": {
+          "align": "justify"
+        },
+        "insert": "\n"
+      },
+      {
+        "attributes": {
+          "background": "transparent",
+          "color": "#000000"
+        },
+        "insert": "1. Cách vVVv thu thập dữ liệu"
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "header": 2
+        },
+        "insert": "\n"
+      },
+      {
+        "attributes": {
+          "background": "transparent",
+          "color": "#000000"
+        },
+        "insert": "Thông tin của Qúy khách trên trang web vVVv được thu thập khi Qúy khách đăng nhập thông tin vào đơn đặt hàng trong quá trình "
+      },
+      {
+        "attributes": {
+          "background": "transparent",
+          "color": "#428bca",
+          "link": "http://vietnambooking.com/ve-may-bay-gia-re"
+        },
+        "insert": "mua vé máy bay trực tuyến"
+      },
+      {
+        "attributes": {
+          "background": "transparent",
+          "color": "#000000"
+        },
+        "insert": ", đặt tour du lịch và khi máy chủ tự động ghi chép các dữ liệu liên quan đến trang web bao gồm địa chỉ IP, loại trình duyệt nhằm phục vụ cho mục đích thống kê."
+      },
+      {
+        "attributes": {
+          "align": "justify"
+        },
+        "insert": "\n"
+      },
+      {
+        "attributes": {
+          "background": "transparent",
+          "color": "#000000"
+        },
+        "insert": "2. Phạm vi các dữ liệu được thu thập"
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "header": 2
+        },
+        "insert": "\n"
+      },
+      {
+        "attributes": {
+          "background": "transparent",
+          "color": "#000000"
+        },
+        "insert": "Địa chỉ email của Qúy khách được thu thập trong quá trình đăng ký nhận tin mới từ vVVv. Thông tin Qúy khách bao gồm: họ tên đầy đủ, địa chỉ, số điện thoại, số fax, thông tin công ty (tùy chọn xuất hóa đơn) và địa chỉ mail sẽ được thu thập trong quá trình mua vé, đặt khách sạn, đặt tour du lịch. Trường hợp Qúy khách thanh toán bằng thẻ tín dụng, hệ thống vVVv sẽ thu thập thông tin số thẻ tín dụng, loại thẻ, ngày hết hạn. Trong trường hợp Qúy khách không muốn nhận các tiếp thị hoặc thông tin khuyến mãi từ vVVv, Qúy khách không nhất thiết phải tạo tài khoản trên vVVv để mua hàng và sử dụng dịch vụ. Tuy nhiên, Qúy khách phải cung cấp những thông tin cần thiết như thông tin cá nhân, chi tiết thẻ tín dụng trong quá trình book vé trực tuyến."
+      },
+      {
+        "attributes": {
+          "align": "justify"
+        },
+        "insert": "\n"
+      },
+      {
+        "attributes": {
+          "background": "transparent",
+          "color": "#000000"
+        },
+        "insert": "Ngoài ra, trong quá trình sử dụng web vVVv, vì lý do an ninh, các dữ liệu liên quan đến kết nối máy tính và trình duyệt Internet của Qúy khách đều được cập nhật tự động."
+      },
+      {
+        "attributes": {
+          "align": "justify"
+        },
+        "insert": "\n"
+      },
+      {
+        "attributes": {
+          "background": "transparent",
+          "color": "#000000"
+        },
+        "insert": "3. vVVv thu thập thông tin để làm gì?"
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "header": 2
+        },
+        "insert": "\n"
+      },
+      {
+        "attributes": {
+          "background": "transparent",
+          "color": "#000000"
+        },
+        "insert": "Thông tin cá nhân của Qúy khách được thu thập nhằm hoàn thành quá trình mua bán trực tuyến và các dịch vụ vVVv cung cấp, đặc biệt là vé máy bay, đặt phòng khách sạn và "
+      },
+      {
+        "attributes": {
+          "background": "transparent",
+          "color": "#428bca",
+          "link": "http://vietnambooking.com/du-lich-gia-re"
+        },
+        "insert": "tour du lịch"
+      },
+      {
+        "attributes": {
+          "background": "transparent",
+          "color": "#000000"
+        },
+        "insert": ". Dữ liệu được thu thập cũng có thể sử dụng để cung cấp sản phẩm và dịch vụ khác của vVVv trong tương lai. Trong một số trường hợp, vVVv sẽ sử dụng thông tin để thực hiện khuyến mãi, quảng cáo hoặc hảo sát thăm dò ý kiến khách hàng sử dụng dịch vụ."
+      },
+      {
+        "attributes": {
+          "align": "justify"
+        },
+        "insert": "\n"
+      },
+      {
+        "attributes": {
+          "background": "transparent",
+          "color": "#000000"
+        },
+        "insert": "vVVv cũng thu thập thông tin cho mục đích thống kê. Dựa trên các dữ liệu, vVVv có thể thống kê sở thích của người dùng nhằm cải thiện chất lượng web mang đến sự hài lòng cho Qúy khách."
+      },
+      {
+        "attributes": {
+          "align": "justify"
+        },
+        "insert": "\n"
+      },
+      {
+        "attributes": {
+          "background": "transparent",
+          "color": "#000000"
+        },
+        "insert": "4. Chuyển dữ liệu khách hàng qua đơn vị khác"
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "header": 2
+        },
+        "insert": "\n"
+      },
+      {
+        "attributes": {
+          "background": "transparent",
+          "color": "#000000"
+        },
+        "insert": "Thông tin của Qúy khách chỉ được chuyển cho các hãng hàng không, khách sạn, ngân hàng và các nhà cung cấp dịch vụ trực tiếp khác cho vVVv. vVVv đảm bảo thông tin cá nhân khách hàng chỉ được chuyển đến các đơn vị đáng tin cậy và không lạm dụng quyền riêng tư đối với thông tin khách hàng cung cấp."
+      },
+      {
+        "attributes": {
+          "align": "justify"
+        },
+        "insert": "\n"
+      },
+      {
+        "attributes": {
+          "background": "transparent",
+          "color": "#000000"
+        },
+        "insert": "5. Cách thức liên lạc giữa vVVv và khách hàng"
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "header": 2
+        },
+        "insert": "\n"
+      },
+      {
+        "attributes": {
+          "background": "transparent",
+          "color": "#000000"
+        },
+        "insert": "vVVv liên lạc với Qúy khách khi cần thiết qua: mail, tin nhắn SMS, fax, điện thoại hoặc gặp trực tiếp để thực hiện giao dịch hoặc thăm dò ý kiến, sự hài lòng của Qúy khách và từng bước cải thiện chức năng, tiện ích của trang web vVVv."
+      },
+      {
+        "attributes": {
+          "align": "justify"
+        },
+        "insert": "\n"
+      },
+      {
+        "attributes": {
+          "background": "transparent",
+          "color": "#000000"
+        },
+        "insert": "vVVv cũng sẽ liên lạc với Qúy khách để cung cấp các thông tin liên quan đến chương trình khuyến mãi của các hãng hàng không, nhà điều hành tour, khách sạn. Qúy khách có thể đăng ký sử dụng bất cứ lúc nào."
+      },
+      {
+        "attributes": {
+          "align": "justify"
+        },
+        "insert": "\n"
+      },
+      {
+        "attributes": {
+          "background": "transparent",
+          "color": "#000000"
+        },
+        "insert": "6. Thay đổi thông tin cá nhân và từ chối nhận quảng cáo"
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "header": 2
+        },
+        "insert": "\n"
+      },
+      {
+        "attributes": {
+          "background": "transparent",
+          "color": "#000000"
+        },
+        "insert": "Qúy khách đã đăng ký nhận thông tin từ vVVv có thể từ chối nhận các bản tin, thông tin quảng cáo bất cứ lúc nào. Tuy nhiên, để thực hiện các giao dịch trực tuyến, quý khách vẫn phải cung cấp đầy đủ thông tin."
+      },
+      {
+        "attributes": {
+          "align": "justify"
+        },
+        "insert": "\n"
+      },
+      {
+        "attributes": {
+          "background": "transparent",
+          "color": "#000000"
+        },
+        "insert": "7. Bảo mật dữ liệu"
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "header": 2
+        },
+        "insert": "\n"
+      },
+      {
+        "attributes": {
+          "background": "transparent",
+          "color": "#000000"
+        },
+        "insert": "Nhằm bảo mật dữ liệu và thông tin thẻ tín dụng của Qúy khách, thông tin liên lạc giữa máy tính Qúy khách và máy chủ vVVv được mã hóa bằng giao thức Secure Socket Layer. Cơ sở dữ liệu thu thập được và lưu trên máy chủ vVVv được bảo vệ chống truy cập."
+      },
+      {
+        "attributes": {
+          "align": "justify"
+        },
+        "insert": "\n"
+      },
+      {
+        "attributes": {
+          "background": "transparent",
+          "color": "#000000"
+        },
+        "insert": "Chính sách bảo mật có thể được thay đổi để phù hợp với thực tế. Các thay đổi sẽ được cập nhật tới Qúy khách trên trang web vVVv."
+      },
+      {
+        "attributes": {
+          "align": "justify"
+        },
+        "insert": "\n"
+      },
+      {
+        "attributes": {
+          "background": "transparent",
+          "color": "#000000"
+        },
+        "insert": "Một số thông tin liên quan:"
+      },
+      {
+        "attributes": {
+          "align": "justify"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "\n"
+      }
+    ],
+    "_id": {
+      "$oid": "64680b4276eb895e1482e15d"
+    }
+  },
+  "payment": {
+    "ops": [
+      {
+        "insert": "x\n"
+      }
+    ],
+    "_id": {
+      "$oid": "6438e46919a7cccbb9438d16"
+    }
+  },
+  "notes": {
+    "ops": [
+      {
+        "insert": "JOYA sẽ được miễn trừ trách nhiệm bảo đảm các điểm tham quan theo lộ trình trong các trường hợp bất khả kháng sau: thiên tai, dịch bệnh, đình công, sự cố an ninh và sự cố hàng không."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Công ty không hoàn tiền đối với quý khách bỏ dở lịch trình du lịch với bất kỳ lý do gì."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Trường hợp quý khách bị từ chối xuất cảnh hoặc nhập cảnh vì yếu tố cá nhân, JOYA được miễn trừ trách nhiệm, không hoàn trả tiền tour và sẽ không chịu những chi phí phát sinh nếu có."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Quý khách có bệnh lý cá nhân hoặc bệnh mãn tính cần thông báo với nhân viên phụ trách trước khi đăng kí tour và vui lòng tự mang theo thuốc điều trị khi tham gia hành trình."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Đối với quý khách đã có visa du lịch Châu Âu và có mong muốn theo đoàn của JOYA, chúng tôi sẽ được phép giữ hỗ chiếu của quý khách cho đến khi visa hết thời hạn, hoặc sẽ thông báo với LSQ/ĐSQ (nơi cấp visa) để đóng dấu hủy visa của quý khách sau hành trình."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "JOYA có quyền từ chối xin visa cho hành khách bị nghi ngờ có động cơ bỏ trốn tại châu Âu và sẽ hoàn trả lại tiền đặt cọc cũng như các khoản phí đã thu của khách hàng đó, trừ phí xét duyệt hồ sơ là 1.000.000 VNĐ."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      }
+    ],
+    "_id": {
+      "$oid": "644bbf4983fda305fc3365f5"
+    }
+  },
+  "registration": {
+    "ops": [
+      {
+        "insert": "Việc huỷ/ đổi tour đi phải được quý khách thông báo trực tiếp với nhân viên hoặc bằng văn bản gửi trực tiếp tới công ty hoặc qua email, và phải được công ty xác nhận bằng văn bản. (Chia ra các trường hợp chi tiết)"
+      },
+      {
+        "attributes": {
+          "align": "justify"
+        },
+        "insert": "\n\n"
+      },
+      {
+        "attributes": {
+          "italic": true,
+          "bold": true
+        },
+        "insert": "1.Hủy do rớt visa: "
+      },
+      {
+        "insert": "Trường hợp Quý khách bị từ chối visa, lệ phí không hoàn lại là 8.000.000 VND/Khách."
+      },
+      {
+        "attributes": {
+          "align": "justify"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Không hoàn lại mọi chi phí trong trường hợp hủy tour do trượt visa vì một trong các lý do sau:"
+      },
+      {
+        "attributes": {
+          "align": "justify"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Không phối hợp với công ty để cung cấp đủ giấy tờ theo quy định của đại sứ quán, không tham gia khi đã có lịch hẹn phỏng vấn hoặc lấy vân tay."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Đã từng cư trú bất hợp pháp tại Châu Âu."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Thuộc diện cấm xuất cảnh hoặc cấm nhập cảnh mà không khai báo."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Từng có hành vi vi phạm pháp luật và vi phạm quy định về xuất nhập cảnh."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "attributes": {
+          "align": "justify"
+        },
+        "insert": "\n"
+      },
+      {
+        "attributes": {
+          "italic": true,
+          "bold": true
+        },
+        "insert": "2. Các điều kiện huỷ tour ngày thường:"
+      },
+      {
+        "attributes": {
+          "align": "justify"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Hủy tour ngay sau khi đăng ký (từ 46 ngày trước ngày khởi hành): Phí hủy tour là 20% trên tổng giá tour."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Hủy tour từ 30 – 45 ngày trước ngày khởi hành: Phí huỷ tour là 30% trên tổng giá tour (+Phí Visa nếu có)."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Hủy tour từ 15 – 29 ngày trước ngày khởi hành: Phí huỷ tour là 50% trên tổng giá tour (+Phí Visa nếu có)."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Hủy tour từ 01 – 14 ngày trước ngày khởi hành: Phí huỷ tour là 100% trên tổng giá tour (+Phí Visa nếu có)."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Hủy tour ngay sau khi Đại Sứ Quán, Lãnh Sự Quán đã cấp visa: Chi phí huỷ tour là 100% tiền tour."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Thời gian hủy tour được tính cho ngày làm việc, không tính thứ bảy, chủ nhật và các ngày Lễ Tết."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Đối với những khách đã có visa, Công ty sẽ giữ hộ chiếu 3 tháng (thời hạn hiệu lực của visa) và đóng dấu hủy visa đó."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Trường hợp quý khách hủy tour trước 46 ngày tính từ ngày khởi hành, JOYA hỗ trợ quý khách bảo lưu chi phí và chuyển đổi miễn phí sang một tour khác khởi hành trong 6 tháng kể từ thời gian báo hủy (có tính chênh lệch chi phí giữa hai tour và chỉ hỗ trợ chuyển đổi một lần duy nhất)."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n\n"
+      },
+      {
+        "attributes": {
+          "italic": true,
+          "bold": true
+        },
+        "insert": "3. Các điều kiện huỷ tour ngày lễ, Tết:"
+      },
+      {
+        "attributes": {
+          "align": "justify"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Hủy tour ngay sau khi đăng ký (từ 61 ngày trước ngày khởi hành): Phí hủy tour là 30% trên tổng giá tour."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Hủy tour từ 45 – 60 ngày trước ngày khởi hành: Phí huỷ tour là 40% trên tổng giá tour ( +Phí Visa nếu có)."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Hủy tour từ 30 – 44 ngày trước ngày khởi hành: Phí huỷ tour là 60% trên tổng giá tour ( +Phí Visa nếu có)."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Hủy tour từ 15 – 29 ngày trước ngày khởi hành: Phí huỷ tour là 100% trên tổng giá tour (+Phí Visa nếu có)."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Hủy tour ngay sau khi Đại Sứ Quán, Lãnh Sự Quán đã cấp visa: Chi phí huỷ tour là 100% tiền tour ( + Phí Visa nếu có)."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Thời gian hủy tour được tính cho ngày làm việc, không tính thứ bảy, chủ nhật và các ngày Lễ Tết."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Các tour ngày lễ, tết là các tour có thời gian diễn ra rơi vào một trong các ngày lễ, tết theo qui định."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Đối với những khách đã có visa, Công ty sẽ giữ hộ chiếu 3 tháng (thời hạn hiệu lực của visa) và đóng dấu hủy visa đó."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "attributes": {
+          "align": "justify"
+        },
+        "insert": "\n"
+      },
+      {
+        "attributes": {
+          "italic": true,
+          "bold": true
+        },
+        "insert": "4. Các điều kiện đổi Tour:"
+      },
+      {
+        "attributes": {
+          "align": "justify"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Tour ngày thường: Trường hợp Quý Khách hủy tour trước 46 ngày (so với ngày khởi hành), EuroTravel hỗ trợ Quý Khách chuyển đổi tour miễn phí sang tour khác khởi hành trong 6 tháng so với thời gian báo hủy. (chỉ hỗ trợ chuyển đổi 01 lần)."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Tour ngày Lễ, Tết: Trường hợp Quý Khách hủy tour trước 61 ngày (so với ngày khởi hành), EuroTravel hỗ trợ Quý Khách chuyển đổi tour miễn phí sang tour khác khởi hành trong 6 tháng so với thời gian báo hủy. (chỉ hỗ trợ chuyển đổi 01 lần)."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "attributes": {
+          "align": "justify"
+        },
+        "insert": "\n"
+      },
+      {
+        "attributes": {
+          "italic": true,
+          "bold": true
+        },
+        "insert": "5. Trường hợp tour không khởi hành:"
+      },
+      {
+        "attributes": {
+          "align": "justify"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Tour ngày thường: JOYA thông báo cho Quý Khách Hàng trước 21 ngày (so với ngày khởi hành) và hỗ trợ chuyển đổi miễn phí sang tour khác có giá trị tương đương, hoặc hoàn lại tiền cọc tour."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      },
+      {
+        "insert": "Tour ngày Lễ, Tết: JOYA thông báo cho Quý Khách Hàng trước 30 ngày (so với ngày khởi hành) và hỗ trợ chuyển đổi miễn phí sang tour khác có giá trị tương đương, hoặc hoàn lại tiền cọc tour."
+      },
+      {
+        "attributes": {
+          "align": "justify",
+          "list": "bullet"
+        },
+        "insert": "\n"
+      }
+    ],
+    "_id": {
+      "$oid": "644be4b504876e0f517d9ee8"
+    }
+  },
+  "en": {
+    "cancellation": {
+      "ops": [
+        {
+          "insert": "Cancellation/change of tour must be notified by you directly to the staff or in writing sent directly to the company or via email, and must be confirmed by the company in writing. (Separate cases in detail)\n\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "1.Cancellation due to visa failure: "
+        },
+        {
+          "insert": "In case you are refused a visa, the non-refundable fee is VND 8,000,000/guest.\nNo refund of all costs in case of tour cancellation due to visa slippage due to one of the following reasons:\nFailing to cooperate with the company to provide enough documents as prescribed by the embassy, not participating when scheduled for an interview or fingerprinting."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "Previously resided illegally in Europe."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "Being banned from exiting or from entering without declaring."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "Have committed violations of the law and violated regulations on immigration."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "2. Conditions for canceling the tour on weekdays:"
+        },
+        {
+          "insert": "\nCancel tour immediately after registration (from 46 days before departure date): Tour cancellation fee is 20% of total tour price."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "Cancel tour from 30-45 days before departure: Tour cancellation fee is 30% of total tour price (+Visa fee if any)."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "Cancel tour from 15 to 29 days before departure date: Tour cancellation fee is 50% of total tour price (+Visa fee if any)."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "Cancel tour from 01-14 days before departure date: Tour cancellation fee is 100% of total tour price (+Visa fee if any)."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "Cancel the tour right after the Embassy or Consulate has issued a visa: The cost of tour cancellation is 100% of the tour price."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "Tour cancellation time is calculated for working days, excluding Saturday, Sunday and New Year holidays."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "For guests who already have a visa, the Company will keep the passport for 3 months (visa validity period) and stamp that visa cancellation."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "In case you cancel the tour before 46 days from the date of departure, JOYA will support you to save the cost and change it for free to another tour departing within 6 months from the time of cancellation notice (including the cost difference). fees between two tours and only one-time conversion is supported)."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "3. Conditions for tour cancellation on holidays and Tet:"
+        },
+        {
+          "insert": "\nCancellation of tour immediately after registration (from 61 days before departure date): Tour cancellation fee is 30% of total tour price."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "Cancellation of tour from 45 to 60 days before departure date: Tour cancellation fee is 40% of total tour price (+Visa fee if any)."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "Cancel tour from 30 to 44 days before departure: Tour cancellation fee is 60% of total tour price (+Visa fee if any)."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "Cancel tour from 15 to 29 days before departure date: Tour cancellation fee is 100% of total tour price (+Visa fee if any)."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "Cancel the tour right after the Embassy or Consulate has issued a visa: The cost of tour cancellation is 100% of the tour price (+ Visa fee if any)."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "Tour cancellation time is calculated for working days, excluding Saturday, Sunday and New Year holidays."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "Holiday and New Year tours are tours whose time falls on one of the prescribed holidays."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "For guests who already have a visa, the Company will keep the passport for 3 months (visa validity period) and stamp that visa cancellation."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "4. Conditions for changing Tour:"
+        },
+        {
+          "insert": "\nWeekday tour: In case you cancel the tour before 46 days (compared to the departure date), EuroTravel supports you to change the tour for free to another tour departing within 6 months compared to the cancellation notice period. (only one time conversion is supported)."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "Tours on Holidays and Tet: In case you cancel your tour 61 days before (compared to the departure date), EuroTravel supports you to change your tour for free to another tour departing within 6 months compared to the cancellation notice time. (only one time conversion is supported)."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "5. In case the tour does not depart:"
+        },
+        {
+          "insert": "\nWeekday tour: JOYA informs customers 21 days in advance (compared to departure date) and supports free conversion to another tour of equivalent value, or refund of tour deposit."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "Tours on holidays and Tet: JOYA informs customers 30 days in advance (compared to departure date) and supports free conversion to another tour of equivalent value, or refund of tour deposit."
+        },
+        {
+          "attributes": {
+            "align": "justify",
+            "list": "bullet"
+          },
+          "insert": "\n"
+        }
+      ],
+      "_id": {
+        "$oid": "644bbf4983fda305fc3365fd"
+      }
+    },
+    "privacy": {
+      "ops": [
+        {
+          "insert": "Privacy Policy describes the scope of information vVVv collects from you and the purpose of use, how to use it and the means of use to maximize the security of your information. vVVv is committed to absolute confidentiality of your personal information and information. The data vVVv collects is protected by an online personal data protection system.\n1. How vVVv collects data"
+        },
+        {
+          "attributes": {
+            "header": 2
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "Your information on the vVVv website is collected when you log in to your order in the process of buying airline tickets online, booking tours and when the server automatically records the relevant data. to the website including IP address, browser type for statistical purposes.\n2. Range of Data Collected"
+        },
+        {
+          "attributes": {
+            "header": 2
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "Your email address is collected during the process of registering to receive news from vVVv. Customer information including: full name, address, phone number, fax number, company information (invoice option) and email address will be collected during ticket purchase, hotel booking , book tours. In case you pay by credit card, vVVv system will collect credit card number, card type, expiration date. In case you do not want to receive marketing or promotional information from vVVv, you do not need to create an account on vVVv to purchase goods and use services. However, you must provide necessary information such as personal information, credit card details during the online booking process.\nIn addition, in the process of using the web vVVv, for security reasons, the data related to your computer connection and Internet browser are automatically updated.\n3. What does vVVv collect information for?"
+        },
+        {
+          "attributes": {
+            "header": 2
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "Your personal information is collected to complete the online shopping process and the services we provide, especially air tickets, hotel reservations and tours. The collected data may also be used to provide other products and services of vVVv in the future. In some cases, vVVv will use the information to conduct promotions, advertising or to survey customers using the service.\nvVVv also collects information for statistical purposes. Based on the data, vVVv can statistic the user's preferences in order to improve web quality to bring satisfaction to customers.\n4. Transfer customer data to another unit"
+        },
+        {
+          "attributes": {
+            "header": 2
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "Your information is only transferred to airlines, hotels, banks and other direct service providers for vVVv. vVVv ensures that personal information of customers is only transferred to trusted units and does not abuse the privacy of information provided by customers.\n5. Communication method between vVVv and customers"
+        },
+        {
+          "attributes": {
+            "header": 2
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "vVVv contact you when necessary via: mail, SMS, fax, phone or meet in person to make transactions or poll, your satisfaction and gradually improve the function, site utility vVVv.\nvVVv will also contact you to provide information related to promotions of airlines, tour operators and hotels. Customers can register to use at any time.\n6. Change personal information and refuse to receive advertising"
+        },
+        {
+          "attributes": {
+            "header": 2
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "Customers who have registered to receive information from vVVv can opt out of receiving newsletters and advertising information at any time. However, to make online transactions, you still have to provide complete information.\n7. Data security"
+        },
+        {
+          "attributes": {
+            "header": 2
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "In order to secure your data and credit card information, communication between your computer and the server vVVv is encrypted using the Secure Socket Layer protocol. The database collected and stored on the vVVv server is protected against access.\nThe Privacy Policy may be changed to conform to reality. Changes will be updated to you on the website vVVv.\nSome related information:\n"
+        }
+      ],
+      "_id": {
+        "$oid": "64680b4276eb895e1482e15e"
+      }
+    },
+    "payment": {
+      "ops": [
+        {
+          "insert": "x3\n"
+        }
+      ],
+      "_id": {
+        "$oid": "6460a5f29aad4dd97f57f63c"
+      }
+    },
+    "notes": {
+      "ops": [
+        {
+          "insert": "JOYA will be exempt from responsibility for ensuring the attractions according to the itinerary in the following force majeure cases: natural disasters, epidemics, strikes, security incidents and aviation incidents."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "The company does not refund customers who cancel the tour for any reason."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "In case you are refused exit or entry due to personal factors, JOYA is exempt from responsibility, does not refund the tour and will not bear any additional costs if any."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "If you have a personal or chronic illness, you need to notify the staff in charge before booking the tour and please bring your own medication when joining the itinerary."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "For customers who already have a tourist visa to Europe and wish to join a group of JOYA, we will be allowed to keep your passport until the visa expires, or will notify the Embassy / Consulate (where it is issued. visa) to stamp your visa cancellation after the journey."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "JOYA reserves the right to refuse visa applications for passengers suspected of having a motive to flee in Europe and will refund the deposit and fees collected by that customer, minus the application processing fee of 1,000. 000 VND."
+        },
+        {
+          "attributes": {
+            "align": "justify",
+            "list": "bullet"
+          },
+          "insert": "\n"
+        }
+      ],
+      "_id": {
+        "$oid": "644bbf4983fda305fc3365fa"
+      }
+    },
+    "registration": {
+      "ops": [
+        {
+          "insert": "Cancellation/change of tour must be notified by you directly to the staff or in writing sent directly to the company or via email, and must be confirmed by the company in writing. (Separate cases in detail)\n\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "1.Cancellation due to visa failure: "
+        },
+        {
+          "insert": "In case you are refused a visa, the non-refundable fee is VND 8,000,000/guest.\nNo refund of all costs in case of tour cancellation due to visa slippage due to one of the following reasons:\nFailing to cooperate with the company to provide enough documents as prescribed by the embassy, not participating when scheduled for an interview or fingerprinting."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "Previously resided illegally in Europe."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "Being banned from exiting or from entering without declaring."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "Have committed violations of the law and violated regulations on immigration."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "2. Conditions for canceling the tour on weekdays:"
+        },
+        {
+          "insert": "\nCancel tour immediately after registration (from 46 days before departure date): Tour cancellation fee is 20% of total tour price."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "Cancel tour from 30-45 days before departure: Tour cancellation fee is 30% of total tour price (+Visa fee if any)."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "Cancel tour from 15 to 29 days before departure date: Tour cancellation fee is 50% of total tour price (+Visa fee if any)."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "Cancel tour from 01-14 days before departure date: Tour cancellation fee is 100% of total tour price (+Visa fee if any)."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "Cancel the tour right after the Embassy or Consulate has issued a visa: The cost of tour cancellation is 100% of the tour price."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "Tour cancellation time is calculated for working days, excluding Saturday, Sunday and New Year holidays."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "For guests who already have a visa, the Company will keep the passport for 3 months (visa validity period) and stamp that visa cancellation."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "In case you cancel the tour before 46 days from the date of departure, JOYA will support you to save the cost and change it for free to another tour departing within 6 months from the time of cancellation notice (including the cost difference). fees between two tours and only one-time conversion is supported)."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "3. Conditions for tour cancellation on holidays and Tet:"
+        },
+        {
+          "insert": "\nCancellation of tour immediately after registration (from 61 days before departure date): Tour cancellation fee is 30% of total tour price."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "Cancellation of tour from 45 to 60 days before departure date: Tour cancellation fee is 40% of total tour price (+Visa fee if any)."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "Cancel tour from 30 to 44 days before departure: Tour cancellation fee is 60% of total tour price (+Visa fee if any)."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "Cancel tour from 15 to 29 days before departure date: Tour cancellation fee is 100% of total tour price (+Visa fee if any)."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "Cancel the tour right after the Embassy or Consulate has issued a visa: The cost of tour cancellation is 100% of the tour price (+ Visa fee if any)."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "Tour cancellation time is calculated for working days, excluding Saturday, Sunday and New Year holidays."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "Holiday and New Year tours are tours whose time falls on one of the prescribed holidays."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "For guests who already have a visa, the Company will keep the passport for 3 months (visa validity period) and stamp that visa cancellation."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "4. Conditions for changing Tour:"
+        },
+        {
+          "insert": "\nWeekday tour: In case you cancel the tour before 46 days (compared to the departure date), EuroTravel supports you to change the tour for free to another tour departing within 6 months compared to the cancellation notice period. (only one time conversion is supported)."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "Tours on Holidays and Tet: In case you cancel your tour 61 days before (compared to the departure date), EuroTravel supports you to change your tour for free to another tour departing within 6 months compared to the cancellation notice time. (only one time conversion is supported)."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "\n"
+        },
+        {
+          "attributes": {
+            "bold": true
+          },
+          "insert": "5. In case the tour does not depart:"
+        },
+        {
+          "insert": "\nWeekday tour: JOYA informs customers 21 days in advance (compared to departure date) and supports free conversion to another tour of equivalent value, or refund of tour deposit."
+        },
+        {
+          "attributes": {
+            "list": "bullet"
+          },
+          "insert": "\n"
+        },
+        {
+          "insert": "Tours on holidays and Tet: JOYA informs customers 30 days in advance (compared to departure date) and supports free conversion to another tour of equivalent value, or refund of tour deposit."
+        },
+        {
+          "attributes": {
+            "align": "justify",
+            "list": "bullet"
+          },
+          "insert": "\n"
+        }
+      ],
+      "_id": {
+        "$oid": "644bbf4983fda305fc3365fd"
+      }
+    }
+  },
+  "__v": 8
+}]

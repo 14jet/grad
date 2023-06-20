@@ -13,10 +13,9 @@ import {
   resetPlacesState,
 } from "../../store/place.slice";
 import styles from "./AddNewDestination.module.css";
-import {
-  mediumTextValidator as mt,
-  slugValidator,
-} from "../../services/helpers/validator.helper";
+import { mediumTextValidator as mt } from "../../services/helpers/validator.helper";
+const isValidString = (value) =>
+  typeof value === "string" && value.length > 0 && value.length <= 500;
 
 function PlaceModal({ destinations, initialValues, mode, ...props }) {
   const dispatch = useDispatch();
@@ -24,22 +23,22 @@ function PlaceModal({ destinations, initialValues, mode, ...props }) {
 
   const submitHandler = (values) => {
     const formData = new FormData();
-  
+
     const place = {
       _id: values._id,
-      continent: values.type === 'province' ? 'chau-a' : values.continent,
+      continent: values.type === "province" ? "chau-a" : values.continent,
       region: values.region,
       name: values.name,
       slug: values.slug,
       en: values.en,
-      image: typeof values.image !== 'string' ? '': values.image,
+      image: typeof values.image !== "string" ? "" : values.image,
       type: values.type,
-    }
+    };
 
-    formData.append("place", JSON.stringify(place))
-    if (typeof values.image !== 'string') {
-      const ext = values.image.name.slice(values.image.name.lastIndexOf("."))
-      formData.append('image', values.image , values.slug + ext)
+    formData.append("place", JSON.stringify(place));
+    if (typeof values.image !== "string") {
+      const ext = values.image.name.slice(values.image.name.lastIndexOf("."));
+      formData.append("image", values.image, values.slug + ext);
     }
 
     if (mode === "edit") {
@@ -52,6 +51,8 @@ function PlaceModal({ destinations, initialValues, mode, ...props }) {
   };
 
   const validator = (v) => {
+    const ERROR_STRING = "1 - 500 ký tự.";
+
     const errors = {};
     if (!v.type) {
       errors.type = "Bắt buộc";
@@ -65,17 +66,18 @@ function PlaceModal({ destinations, initialValues, mode, ...props }) {
       errors.region = "Bắt buộc";
     }
 
-    if (mt(v.name)) {
-      errors.name = mt(v.name);
+    if (!isValidString(v.name)) {
+      errors.name = ERROR_STRING;
     }
 
-    if (slugValidator(v.slug)) {
-      errors.slug = slugValidator(v.slug);
+    if (!/^[a-z0-9-]{1,500}$/.test(v.slug)) {
+      errors.slug =
+        "Chỉ gồm ký tự a - z, 0 - 9 và dấu gạch ngang, 1 - 500 ký tự";
     }
 
-    if (mt(v.en.name)) {
+    if (!isValidString(v.en.name)) {
       errors.en = {
-        name: mt(v.en.name),
+        name: ERROR_STRING,
       };
     }
 

@@ -105,7 +105,6 @@ const emptyTour = {
   cancellationPolicy: DELTA,
 
   thumb: "",
-  banner: "",
 
   itinerary: [
     {
@@ -150,7 +149,6 @@ function TourForm({ initialValues, onSubmit }, ref) {
   let vn_provinces = useSelector(selectVnProvinces);
 
   const days = Object.keys(new Array(31).fill(1)).slice(1);
-  console.log(days);
 
   // submit handler
   const submitHandler = async (e, formik) => {
@@ -169,8 +167,6 @@ function TourForm({ initialValues, onSubmit }, ref) {
 
     v.thumb =
       fileInputs.find((item) => item.tempSrc === v.thumb)?.file || v.thumb;
-    v.banner =
-      fileInputs.find((item) => item.tempSrc === v.banner)?.file || v.banner;
 
     v.itinerary = v.itinerary.map((iti) => ({
       ...iti,

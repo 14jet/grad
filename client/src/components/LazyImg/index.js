@@ -5,8 +5,6 @@ const LazyImg = (props) => {
   const [inView, setInView] = useState(false);
   const placeholderRef = useRef();
 
-  console.log("From LazyImg: ", inView);
-
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries, obs) => {

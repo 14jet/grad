@@ -1,0 +1,169 @@
+[{
+  "_id": {
+    "$oid": "6485602237b468d9d4afa055"
+  },
+  "type": "tour",
+  "phone": "7287748282",
+  "fullname": "anh vu",
+  "gender": "male",
+  "solved": false,
+  "otherDetails": {
+    "tourCode": "VN-3",
+    "adult": 1,
+    "children": 0,
+    "departureDate": "2023-06-10T17:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2023-06-11T05:48:18.968Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-11T05:48:18.968Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648564cdff1e5d7347367963"
+  },
+  "type": "call",
+  "phone": "7287748282",
+  "fullname": "aafdsfa",
+  "gender": "male",
+  "solved": false,
+  "createdAt": {
+    "$date": "2023-06-11T06:08:13.047Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-11T06:08:13.047Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648564fbff1e5d7347367966"
+  },
+  "type": "call",
+  "phone": "7287748282",
+  "fullname": "aafdsfa",
+  "gender": "male",
+  "solved": false,
+  "createdAt": {
+    "$date": "2023-06-11T06:08:59.438Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-11T06:08:59.438Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64856590bcfdfe1003085134"
+  },
+  "type": "call",
+  "phone": "7287748282",
+  "fullname": "aafdsfa",
+  "gender": "female",
+  "solved": false,
+  "createdAt": {
+    "$date": "2023-06-11T06:11:28.818Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-11T06:11:28.818Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648565a1bcfdfe1003085137"
+  },
+  "type": "tour",
+  "phone": "7287748282",
+  "fullname": "aafdsfa",
+  "gender": "male",
+  "solved": false,
+  "otherDetails": {
+    "tourCode": "VN-3",
+    "adult": 1,
+    "children": 0,
+    "departureDate": "2023-06-20T17:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2023-06-11T06:11:45.578Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-11T06:11:45.578Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64900d31fd7a8934bf8dcf10"
+  },
+  "type": "tour",
+  "phone": "0774990612",
+  "fullname": "asdfasd",
+  "gender": "male",
+  "solved": false,
+  "otherDetails": {
+    "tourCode": "16871sr",
+    "adult": 1,
+    "children": 5,
+    "departureDate": "2023-06-18T17:00:00.000Z"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": "2023-06-19T08:09:21.625Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-19T08:09:21.625Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "649063f417d15b568ed3bc81"
+  },
+  "type": "tour",
+  "phone": "0777777777",
+  "fullname": "asdfasd",
+  "gender": "male",
+  "solved": false,
+  "otherDetails": {
+    "tourCode": "tour21",
+    "adult": 1,
+    "children": 0,
+    "departureDate": "2023-08-07T17:00:00.000Z"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": "2023-06-19T14:19:32.584Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-19T14:19:32.584Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6490be6525c212c680f8b236"
+  },
+  "type": "tour",
+  "phone": "0777777777",
+  "fullname": "Nguyen A",
+  "gender": "male",
+  "solved": false,
+  "otherDetails": {
+    "tourCode": "tour22",
+    "adult": 12,
+    "children": 4,
+    "departureDate": "2023-10-17T17:00:00.000Z"
+  },
+  "deleted": false,
+  "createdAt": {
+    "$date": "2023-06-19T20:45:25.061Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-19T20:45:25.061Z"
+  },
+  "__v": 0
+}]

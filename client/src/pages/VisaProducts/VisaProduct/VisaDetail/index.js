@@ -69,22 +69,22 @@ function VisaDetail({ product }) {
                   </Tab.Pane>
                   <Tab.Pane eventKey="price_includes">
                     <div className="bg-light border p-2 rounded h-100 w-100">
-                      <QuillReader delta={product.price_policies.includes} />
+                      <QuillReader delta={product.priceIncludes} />
                     </div>
                   </Tab.Pane>
                   <Tab.Pane eventKey="price_excludes">
                     <div className="bg-light border p-2 rounded h-100 w-100">
-                      <QuillReader delta={product.price_policies.excludes} />
+                      <QuillReader delta={product.priceExcludes} />
                     </div>
                   </Tab.Pane>
                   <Tab.Pane eventKey="terms">
                     <div className="bg-light border p-2 rounded h-100 w-100">
-                      <QuillReader delta={product.terms.notes} />
+                      <QuillReader delta={product.term} />
                     </div>
                   </Tab.Pane>
                   <Tab.Pane eventKey="cancellation_policy">
                     <div className="bg-light border p-2 rounded h-100 w-100">
-                      <QuillReader delta={product.terms.cancellation} />
+                      <QuillReader delta={product.cancellationPolicy} />
                     </div>
                   </Tab.Pane>
                 </Tab.Content>

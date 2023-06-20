@@ -16,27 +16,19 @@ const schema = new Schema({
     ref: "Place",
     required: true,
   },
-  detail: mongooseDeltaSchema,
   price: {
     type: Number,
     min: 1,
-  },    
+  },
   deleted: {
-    type: Boolean, 
-    default: false
+    type: Boolean,
+    default: false,
   },
-  price_policies: {
-    type: Object,
-    required: true,
-    includes: mongooseDeltaSchema,
-    excludes: mongooseDeltaSchema,
-  },
-  terms: {
-    type: Object,
-    required: true,
-    cancellation: mongooseDeltaSchema,
-    notes: mongooseDeltaSchema,
-  },
+  detail: mongooseDeltaSchema,
+  term: mongooseDeltaSchema,
+  priceIncludes: mongooseDeltaSchema,
+  priceExcludes: mongooseDeltaSchema,
+  cancellationPolicy: mongooseDeltaSchema,
   en: {
     type: Object,
     required: true,
@@ -45,18 +37,10 @@ const schema = new Schema({
       required: true,
     },
     detail: mongooseDeltaSchema,
-    price_policies: {
-      type: Object,
-      required: true,
-      includes: mongooseDeltaSchema,
-      excludes: mongooseDeltaSchema,
-    },
-    terms: {
-      type: Object,
-      required: true,
-      cancellation: mongooseDeltaSchema,
-      notes: mongooseDeltaSchema,
-    },
+    term: mongooseDeltaSchema,
+    priceIncludes: mongooseDeltaSchema,
+    priceExcludes: mongooseDeltaSchema,
+    cancellationPolicy: mongooseDeltaSchema,
   },
 });
 

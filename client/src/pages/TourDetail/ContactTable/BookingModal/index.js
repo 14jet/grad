@@ -24,7 +24,6 @@ const initialValues = {
 function BookingModal({ selectedDate, setSelectedDate, onHide, ...props }) {
   const [sendRequest, isLoading, data, error, resetStates] = useAxios();
   const numbers = Object.keys(new Array(31).fill(1)).slice(1);
-  console.log(numbers)
 
   const { t } = useTranslation();
 

@@ -4,7 +4,7 @@ const CACHE_EXPIRATION = 600;
 module.exports =
   (duration = CACHE_EXPIRATION, flushCache) =>
   (req, res, next) => {
-    return next()
+    // return next()
 
     if (flushCache && req.method !== "GET") {
       cache.flushAll();
