@@ -11,7 +11,7 @@ const {
 
 // middlewares
 const multer = require("../../middlewares/multer.middleware");
-const { ADMIN, MODERATOR } = require("../../config/auth.config");
+const { CLIENT, MODERATOR } = require("../../config/auth.config");
 const requireAuth = require("../../middlewares/requireAuth.middleware");
 
 // validators
@@ -19,20 +19,24 @@ const addPlaceValidator = require("../../validators/place/addPlace.validator");
 const updatePlaceValidator = require("../../validators/place/updatePlace.validator");
 
 // multer
-const placeMulter = multer.upload().fields([
-  { name: "image", maxCount: 1 },
-]);
+const placeMulter = multer.upload().fields([{ name: "image", maxCount: 1 }]);
 
 // routes
-router.post("/", requireAuth(ADMIN), placeMulter, addPlaceValidator, addPlace);
+router.post(
+  "/",
+  requireAuth(MODERATOR),
+  placeMulter,
+  addPlaceValidator,
+  addPlace
+);
 router.put(
   "/",
-  requireAuth(ADMIN),
+  requireAuth(MODERATOR),
   placeMulter,
   updatePlaceValidator,
   updatePlace
 );
-router.get("/", requireAuth(MODERATOR), getPlaces);
-router.delete("/", requireAuth(ADMIN), deletePlace);
+router.get("/", requireAuth(CLIENT), getPlaces);
+router.delete("/", requireAuth(MODERATOR), deletePlace);
 
 module.exports = router;

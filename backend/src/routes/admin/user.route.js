@@ -21,7 +21,7 @@ router.post("/change-password", requireAuth(CLIENT), changePassword);
 router.put("/change-role", requireAuth(ADMIN), changeRole);
 router.put("/reset-password", resetPassword);
 router.post("/register", requireAuth(ADMIN), register);
-router.get("/", requireAuth(MODERATOR), getAll);
+router.get("/", requireAuth(CLIENT), getAll);
 router.delete("/", requireAuth(ADMIN), deleteUser);
 
 module.exports = router;

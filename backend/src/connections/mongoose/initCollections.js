@@ -1,3 +1,6 @@
+require("dotenv").config({
+  path: require("path").join(__dirname, "..", "..", "..", ".env"),
+});
 const Company = require("../../models/company.model");
 const Guide = require("../../models/guide.model");
 const GuideCategory = require("../../models/guides-category.model");

@@ -64,6 +64,7 @@ function GuideForm({ onSubmit, initialValues }, ref) {
                         />
                         <button
                           type="button"
+                          className="d-none"
                           style={{
                             height: "36px",
                             width: "120px",
@@ -92,7 +93,6 @@ function GuideForm({ onSubmit, initialValues }, ref) {
                         isRequired
                       />
                     </div>
-
                   </div>
 
                   <div className="mb-4">

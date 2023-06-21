@@ -12,7 +12,7 @@ const {
 
 // middlewares
 const multer = require("../../middlewares/multer.middleware");
-const { ADMIN, MODERATOR } = require("../../config/auth.config");
+const { ADMIN, MODERATOR, CLIENT } = require("../../config/auth.config");
 const requireAuth = require("../../middlewares/requireAuth.middleware");
 
 // validators
@@ -41,16 +41,22 @@ const tourMulter = multer.upload(tourFilenameHandler).fields([
 ]);
 
 // routes
-router.post("/", requireAuth(ADMIN), tourMulter, addTourValidator, createTour);
+router.post(
+  "/",
+  requireAuth(MODERATOR),
+  tourMulter,
+  addTourValidator,
+  createTour
+);
 router.put(
   "/",
-  requireAuth(ADMIN),
+  requireAuth(MODERATOR),
   tourMulter,
   updateTourValidator,
   updateTour
 );
-router.get("/", requireAuth(MODERATOR), getTours);
-router.get("/:tourCode", requireAuth(MODERATOR), fetchSingleTour);
-router.delete("/", requireAuth(ADMIN), deleteTourValidator, deleteTour);
+router.get("/", requireAuth(CLIENT), getTours);
+router.get("/:tourCode", requireAuth(CLIENT), fetchSingleTour);
+router.delete("/", requireAuth(MODERATOR), deleteTourValidator, deleteTour);
 
 module.exports = router;

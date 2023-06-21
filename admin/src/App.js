@@ -76,13 +76,17 @@ function App() {
     });
 
     socket.on("NEW_ORDER", (data) => {
-      console.log('new order', data, data.message)
+      console.log("new order", data, data.message);
       setNewOrderEvent(data.message);
     });
   }, []);
 
   const onHideAlert = () => {
     setUpdateVisaEvent("");
+  };
+
+  const onHideTourOrder = () => {
+    setNewOrderEvent("");
   };
 
   return (
@@ -93,11 +97,11 @@ function App() {
         </Alert>
       )}
 
-     {newOrderEvent && (
-        <Alert onHide={onHideAlert} time={10000}>
-         {newOrderEvent}
+      {newOrderEvent && (
+        <Alert onHide={onHideTourOrder} time={10000}>
+          {newOrderEvent}
         </Alert>
-      )}  
+      )}
       <SpinnerModal show={isLoading} />
       <Routes>
         {routes.map((route, index) => {

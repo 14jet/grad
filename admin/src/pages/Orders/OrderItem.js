@@ -28,7 +28,7 @@ function OrderItem({ order, orderNumber, onDelete, onShowModal }) {
       <TCell>{order.type}</TCell>
       <TCell>{order.fullname}</TCell>
       <TCell>{phoneNumberFormater(order.phone)}</TCell>
-      <TCell>{format(new Date(order.updatedAt), "hh:mm dd/MM/yyyy")}</TCell>
+      <TCell>{order.updatedAtString}</TCell>
       <TCell>{order.solved ? "Đã giải quyết" : "Chưa giải quyết"}</TCell>
       <TCell>
         <button className="btn btn-danger" onClick={clickDeleteHandler}>

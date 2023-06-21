@@ -96,7 +96,7 @@ module.exports.updateGuide = async (req, res, next) => {
     foundGuide.title = guideObject.title;
     foundGuide.content = {
       ops: guideObject.content.ops.map((item) => {
-        const output = structuredClone(item);
+        const output = item;
         if (output.insert?.image?.src.startsWith("http")) {
           output.insert.image.src =
             output.insert.image.src.split("/images/")[1];
@@ -113,7 +113,7 @@ module.exports.updateGuide = async (req, res, next) => {
       title: guideObject.en.title,
       content: {
         ops: guideObject.en.content.ops.map((item) => {
-          const output = structuredClone(item);
+          const output = item;
           if (output.insert?.image?.src.startsWith("http")) {
             output.insert.image.src =
               output.insert.image.src.split("/images/")[1];
@@ -156,7 +156,7 @@ module.exports.fetchSingleGuide = async (req, res, next) => {
         category: guide.category,
         content: {
           ops: guide.content.ops.map((item) => {
-            let output = structuredClone(item);
+            let output = item;
             if (output.insert.image?.src) {
               output.insert.image.src = getUrl(output.insert.image.src);
             }
@@ -168,7 +168,7 @@ module.exports.fetchSingleGuide = async (req, res, next) => {
           title: guide.en.title,
           content: {
             ops: guide.en.content.ops.map((item) => {
-              let output = structuredClone(item);
+              let output = item;
               if (output.insert.image?.src) {
                 output.insert.image.src = getUrl(output.insert.image.src);
               }

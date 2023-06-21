@@ -21,13 +21,13 @@ const addVisaValidator = require("../../validators/visa/addVisa.validator");
 const updateVisaValidator = require("../../validators/visa/updateVisa.validator");
 
 // routes
-router.get("/", requireAuth(MODERATOR), getVisas);
-router.post("/", requireAuth(ADMIN), addVisaValidator, addVisa);
-router.put("/", requireAuth(ADMIN), updateVisaValidator, updateVisa);
-router.delete("/", requireAuth(ADMIN), deleteVisa);
+router.get("/", requireAuth(CLIENT), getVisas);
+router.post("/", requireAuth(MODERATOR), addVisaValidator, addVisa);
+router.put("/", requireAuth(MODERATOR), updateVisaValidator, updateVisa);
+router.delete("/", requireAuth(MODERATOR), deleteVisa);
 
-router.get("/payments", requireAuth(MODERATOR), getVisaPayments);
-router.delete("/payments", requireAuth(ADMIN), deleteVisaPayment);
-router.get("/:slug", requireAuth(MODERATOR), getSingleVisa);
+router.get("/payments", requireAuth(CLIENT), getVisaPayments);
+router.delete("/payments", requireAuth(MODERATOR), deleteVisaPayment);
+router.get("/:slug", requireAuth(CLIENT), getSingleVisa);
 
 module.exports = router;

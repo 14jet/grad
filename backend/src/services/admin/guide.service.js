@@ -1,4 +1,5 @@
 const stringHandler = require("../../helpers/stringHandler");
+const { v4: uuid } = require("uuid");
 
 module.exports.getBase64ImgsFromQuillDelta = (delta) => {
   let base64Imgs = [];

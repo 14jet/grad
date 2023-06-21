@@ -5,9 +5,7 @@ const Order = require("../../models/order.model");
 const User = require("../../models/user.model");
 const getLocalTimeString = require("../../helpers/getLocalTimeString");
 const { getSocketIO } = require("../../connections/socket.io/socketIO.init");
-const {
-  default: formatRelativeWithOptions,
-} = require("date-fns/fp/formatRelativeWithOptions");
+
 const io = getSocketIO();
 
 module.exports.getTours = async (req, res, next) => {
@@ -246,6 +244,7 @@ module.exports.bookTour = async (req, res, next) => {
         children,
         departureDate,
       },
+      deleted: false,
     });
 
     io.to("ADMIN").emit("NEW_ORDER", {
@@ -307,6 +306,7 @@ module.exports.callMeBack = async (req, res, next) => {
       otherDetails: {
         tourCode,
       },
+      deleted: false,
     });
 
     io.to("ADMIN").emit("NEW_ORDER", {

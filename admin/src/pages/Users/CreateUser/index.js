@@ -19,7 +19,7 @@ const validator = (values) => {
     errors.username = "Bắt buộc";
   }
 
-  if (!/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g.test(values.username)) {
+  if (!/^[\w-\.]+@([\w-]+\.)+[\w-]{2,10}$/g.test(values.username)) {
     errors.username = "Email không hợp lệ";
   }
 

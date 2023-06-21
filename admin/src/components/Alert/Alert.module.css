@@ -2,7 +2,7 @@
   position: fixed;
   bottom: 60px;
   left: 20px;
-  z-index: 10px;
+  z-index: 9999;
   background: rgb(92, 190, 133);
 
   border: 0.5px solid #4d9156;

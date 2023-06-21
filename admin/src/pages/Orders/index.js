@@ -17,16 +17,17 @@ import usePageTitle from "../../hooks/usePageTitle";
 import * as pageHelper from "../../services/helpers/pageHelpers";
 import OrderItem from "./OrderItem";
 import useAxios from "../../hooks/useAxios";
-import {fetchOrders, deleteOrder} from '../../services/apis'
+import { fetchOrders, deleteOrder } from "../../services/apis";
 
 function Orders() {
-  const [sendRequest, isLoading, data, error, resetStates] = useAxios();
+  const [sendRequest, isLoading, data, error] = useAxios();
   const [goDelete, deleting, deleted, deletingError, resetDelete] = useAxios();
   const [modalDetails, setModalDetails] = useState(null);
   const [confirmDelete, setConfirmDelete] = useState(null);
+
   const navigate = useNavigate();
   let { page } = useParams();
-  page = pageHelper.getPage(page)
+  page = pageHelper.getPage(page);
 
   const orders = data?.data;
 
@@ -38,7 +39,6 @@ function Orders() {
     setConfirmDelete(order);
   };
 
-
   const paginationHandler = (pageNumber) => {
     let path = `/don-hang`;
 
@@ -49,7 +49,6 @@ function Orders() {
     navigate(path);
   };
 
-
   let notify = {};
   if (deleted) {
     notify = {
@@ -58,7 +57,7 @@ function Orders() {
       btn: {
         text: "OK",
         cb: () => {
-          resetDelete()
+          resetDelete();
         },
         component: "button",
       },
@@ -73,12 +72,12 @@ function Orders() {
       btn: {
         text: "OK",
         cb: () => {
-            resetDelete()
+          resetDelete();
         },
         component: "button",
       },
       onHide: () => {
-        resetDelete()
+        resetDelete();
       },
       show: deletingError,
     };
@@ -111,15 +110,13 @@ function Orders() {
   }
 
   useEffect(() => {
-    sendRequest(fetchOrders(page))
-  }, [page])
+    sendRequest(fetchOrders(page));
+  }, [page]);
 
   usePageTitle("Đơn hàng");
   return (
     <>
-      <SpinnerModal
-        show={isLoading || deleting}
-      />
+      <SpinnerModal show={isLoading || deleting} />
       <NotifyModal {...notify} />
 
       <TopBar title="Đơn hàng"></TopBar>
@@ -132,7 +129,7 @@ function Orders() {
           }}
         />
       )}
-      
+
       <div className="p-2">
         <div className="p-2 shadow rounded bg-light">
           {orders?.length > 0 && (
@@ -141,12 +138,12 @@ function Orders() {
                 <THead>
                   <tr>
                     <TCell w="70px">STT</TCell>
-                    <TCell>Loại</TCell>
+                    <TCell w="80px">Loại</TCell>
                     <TCell w="280px">Họ tên</TCell>
                     <TCell w="160px">SĐT</TCell>
                     <TCell w="300px">Thời gian cập nhật</TCell>
                     <TCell w="150px">Trạng thái</TCell>
-                    <TCell w="100px">Công cụ</TCell>
+                    <TCell w="100px">Công cụ {page}</TCell>
                   </tr>
                 </THead>
 
@@ -168,16 +165,14 @@ function Orders() {
           {orders && orders.length === 0 && <p>Không có đơn hàng nào</p>}
 
           {orders && orders.length > 0 && (
-              <Pagination
-                totalPage={data?.metadata.totalPage}
-                currentPage={page}
-                callback={paginationHandler}
-              />
-            )}
-
-          {error && (
-            <p className="text-danger m-0">{error.message}</p>
+            <Pagination
+              totalPage={data?.metadata.totalPage}
+              currentPage={page}
+              callback={paginationHandler}
+            />
           )}
+
+          {error && <p className="text-danger m-0">{error.message}</p>}
         </div>
       </div>
     </>

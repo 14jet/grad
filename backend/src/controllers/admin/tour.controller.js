@@ -44,7 +44,10 @@ module.exports.getTours = async (req, res, next) => {
 
 module.exports.createTour = async (req, res, next) => {
   try {
-    const tour = await Tour.create(req.tour);
+    const tour = await Tour.create({
+      ...req.tour,
+      deleted: false,
+    });
 
     return res.status(200).json({
       data: {

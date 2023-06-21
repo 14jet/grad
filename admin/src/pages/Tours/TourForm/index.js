@@ -31,7 +31,7 @@ import { v4 as uuid } from "uuid";
 const randomTour = () => ({
   destinations: [],
 
-  code: Date.now().toString().slice(0, 6),
+  code: Date.now().toString().slice(6),
   slug: Date.now().toString(),
   name: Date.now().toString(),
   journey: Date.now().toString(),
@@ -264,6 +264,7 @@ function TourForm({ initialValues, onSubmit }, ref) {
 
                   <button
                     type="button"
+                    className="btn btn-primary"
                     onClick={() => {
                       createRandom(formik);
                     }}
@@ -299,6 +300,7 @@ function TourForm({ initialValues, onSubmit }, ref) {
                               <button
                                 style={{ height: "36px" }}
                                 type="button"
+                                class="d-none"
                                 onClick={() => {
                                   formik.setFieldValue(
                                     "slug",

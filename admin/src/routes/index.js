@@ -43,7 +43,6 @@ import ForgotPassword from "../pages/ForgotPassword";
 import Places from "../pages/Places";
 
 const CLIENT = "client";
-const ADMIN = "admin";
 
 export default [
   {
@@ -79,7 +78,7 @@ export default [
     path: "/tours/them-moi",
     element: <AddTour />,
     layout: Layout,
-    role: ADMIN,
+    role: CLIENT,
   },
   {
     path: "/tours/cap-nhat/:tourCode",
@@ -109,7 +108,7 @@ export default [
     path: "guides/them-moi",
     element: <AddGuide />,
     layout: Layout,
-    role: ADMIN,
+    role: CLIENT,
   },
   {
     path: "/guides/cap-nhat/:slug",
@@ -128,7 +127,7 @@ export default [
     path: "/visas/them-moi",
     element: <AddVisa />,
     layout: Layout,
-    role: ADMIN,
+    role: CLIENT,
   },
   {
     path: "/visas/cap-nhat-visa/:slug",
@@ -140,7 +139,7 @@ export default [
     paths: ["/visas/thanh-toan", "/visas/thanh-toan/:page"],
     element: <VisaPayments />,
     layout: Layout,
-    role: ADMIN,
+    role: CLIENT,
   },
   // tenrs
   {
@@ -167,7 +166,7 @@ export default [
     paths: ["/don-hang", "/don-hang/:page"],
     element: <Orders />,
     layout: Layout,
-    role: ADMIN,
+    role: CLIENT,
   },
   // users
   {
@@ -180,7 +179,7 @@ export default [
     path: "/users/them-user",
     element: <CreateUser />,
     layout: Layout,
-    role: ADMIN,
+    role: CLIENT,
   },
   // not found
   {

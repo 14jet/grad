@@ -16,7 +16,7 @@ const {
 
 // middlewares
 const multer = require("../../middlewares/multer.middleware");
-const { ADMIN, MODERATOR, CLIENT } = require("../../config/auth.config");
+const { MODERATOR, CLIENT } = require("../../config/auth.config");
 const requireAuth = require("../../middlewares/requireAuth.middleware");
 
 // validators
@@ -31,35 +31,41 @@ const deleteGuideCategoryItemValidator = require("../../validators/guide/deleteG
 const guideMulter = multer.upload().fields([{ name: "thumb", maxCount: 1 }]);
 
 // routes
-router.post("/", requireAuth(ADMIN), guideMulter, addGuideValidator, addGuide);
-router.get("/", requireAuth(MODERATOR), fetchGuides);
+router.post(
+  "/",
+  requireAuth(MODERATOR),
+  guideMulter,
+  addGuideValidator,
+  addGuide
+);
+router.get("/", requireAuth(CLIENT), fetchGuides);
 router.put(
   "/",
-  requireAuth(ADMIN),
+  requireAuth(MODERATOR),
   guideMulter,
   updateGuideValidator,
   updateGuide
 );
-router.delete("/", requireAuth(ADMIN), deleteGuideValidator, deleteGuide);
-router.get("/category", requireAuth(MODERATOR), fetchCategory);
+router.delete("/", requireAuth(MODERATOR), deleteGuideValidator, deleteGuide);
+router.get("/category", requireAuth(CLIENT), fetchCategory);
 router.post(
   "/category",
-  requireAuth(ADMIN),
+  requireAuth(MODERATOR),
   addGuideCategoryItemValidator,
   addCategoryItem
 );
 router.put(
   "/category",
-  requireAuth(ADMIN),
+  requireAuth(MODERATOR),
   updateGuideCategoryItemValidator,
   updateCategoryItem
 );
 router.delete(
   "/category",
-  requireAuth(ADMIN),
+  requireAuth(MODERATOR),
   deleteGuideCategoryItemValidator,
   deleteCategoryItem
 );
-router.get("/:slug", requireAuth(MODERATOR), fetchSingleGuide);
+router.get("/:slug", requireAuth(CLIENT), fetchSingleGuide);
 
 module.exports = router;

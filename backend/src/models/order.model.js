@@ -31,7 +31,10 @@ const schema = new Schema(
       type: Boolean,
       default: false,
     },
-    otherDetails: Object,
+    otherDetails: {
+      type: Object,
+      default: {},
+    },
     deleted: {
       type: Boolean,
       default: false,

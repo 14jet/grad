@@ -1,0 +1,18 @@
+defd6094-4bea-4525-9f41-ff038859c935	21-06-2023	01:23:15	GET	/admin/place	
+f78647d6-2e9e-4eb2-bff7-af0badc08790	21-06-2023	01:23:15	GET	/admin/visa/payments	
+1c1cba7a-2666-47d5-88d4-022a34ba983d	21-06-2023	01:23:15	GET	/admin/visa	
+a2b14057-1cb2-44bc-b621-c154ccdfb6c1	21-06-2023	01:23:15	GET	/admin/tour	
+74853c1d-470a-4d16-a8df-5d878cb0f13b	21-06-2023	01:23:15	GET	/admin/guide	
+66835e5a-07dc-485f-98aa-8ed6accb9546	21-06-2023	01:23:28	POST	/admin/user/login	
+eaafb0b5-7b2d-46e0-bffe-a34b14893e5f	21-06-2023	01:27:28	PUT	/admin/guide	uuid is not defined	ReferenceError: uuid is not defined
+    at /home/vuuuuuuuuu/workspace/grad/funix/backend/src/services/admin/guide.service.js:23:24
+    at Array.map (<anonymous>)
+    at module.exports.saveBase64ImgsToDisk (/home/vuuuuuuuuu/workspace/grad/funix/backend/src/services/admin/guide.service.js:20:16)
+    at module.exports.updateGuide (/home/vuuuuuuuuu/workspace/grad/funix/backend/src/controllers/admin/guide.controller.js:85:27)
+    at Layer.handle [as handle_request] (/home/vuuuuuuuuu/workspace/grad/funix/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/vuuuuuuuuu/workspace/grad/funix/backend/node_modules/express/lib/router/route.js:144:13)
+    at module.exports (/home/vuuuuuuuuu/workspace/grad/funix/backend/src/validators/guide/updateGuide.validator.js:58:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+c11e7058-d5ad-4697-bb3a-147f998528ba	21-06-2023	04:02:22	POST	/admin/user/login	
+923e8766-d29e-4b9c-ba09-08b4858bc5ce	21-06-2023	04:06:28	GET	/admin/company	
+1f0683c7-75bd-457b-9c0f-2ae2ac3d1a50	21-06-2023	04:06:43	GET	/admin/term	

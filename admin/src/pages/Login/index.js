@@ -16,6 +16,7 @@ import { setUser } from "../../store/user.slice";
 
 // css
 import styles from "./Login.module.css";
+import usePageTitle from "../../hooks/usePageTitle";
 
 const validator = (values) => {
   const errors = {};
@@ -52,6 +53,8 @@ function Login() {
       localStorage.setItem("user", JSON.stringify(data.data));
     }
   }, [data]);
+
+  usePageTitle("Login");
 
   if (user && !location.state?.isExpired) {
     return <Navigate to="/" />;

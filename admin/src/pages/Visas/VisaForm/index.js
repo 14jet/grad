@@ -88,6 +88,7 @@ function VisaForm({ onSubmit, initialValues }, ref) {
                           width: "120px",
                         }}
                         type="button"
+                        className="d-none"
                         onClick={() => {
                           formik.setFieldValue(
                             "slug",

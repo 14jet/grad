@@ -26,19 +26,18 @@ function OrderModal({ order, ...props }) {
             "." +
             order.phone.slice(6)}
         </RowItem>
-        <RowItem name="Cập nhật lúc">
-          {format(new Date(order.updatedAt), "HH:mm dd/MM/yyyy")}
-        </RowItem>
+        <RowItem name="Cập nhật lúc">{order.updatedAtString}</RowItem>
         <RowItem name="Trạng thái">
           {order.solved ? "Đã giải quyết" : "Chưa giải quyết"}
         </RowItem>
-        {Object.entries(order.otherDetails).map(([key, value]) => (
-          <RowItem name={key}>
-            {key == "departureDate"
-              ? format(new Date(value), "dd/MM/yyyy")
-              : value}
-          </RowItem>
-        ))}
+        {Boolean(order.otherDetails) &&
+          Array.from(Object.entries(order.otherDetails)).map(([key, value]) => (
+            <RowItem name={key}>
+              {key == "departureDate"
+                ? format(new Date(value), "dd/MM/yyyy")
+                : value}
+            </RowItem>
+          ))}
       </Modal.Body>
     </Modal>
   );

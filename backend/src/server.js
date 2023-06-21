@@ -1,4 +1,6 @@
-require("dotenv").config();
+require("dotenv").config({
+  path: require("path").join(__dirname, "..", ".env"),
+});
 const { createServer } = require("http");
 const app = require("express")();
 const httpServer = createServer(app);
@@ -12,7 +14,6 @@ app.use(require("./middlewares/cors.middleware"));
 app.set("trust proxy", 1);
 app.use(require("helmet")({ crossOriginResourcePolicy: false }));
 app.use(require("body-parser").json({ limit: "50mb" }));
-// app.use("/images", require("./middlewares/staticFile.middleware"));
 app.use(require("./middlewares/languages.middleware"));
 
 // initialize socket.io
