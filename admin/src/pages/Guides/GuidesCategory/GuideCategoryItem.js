@@ -17,16 +17,14 @@ function GuideCategoryItem({ onUpdate, onDelete, categoryItem, order }) {
       <TCell>{order}</TCell>
       <TCell>{categoryItem.name}</TCell>
       <TCell>{categoryItem.en.name}</TCell>
-      {isAdmin && (
-        <TCell>
-          <button className="btn btn-warning me-2" onClick={onClickUpdate}>
-            Sửa
-          </button>
-          <button className="btn btn-danger" onClick={onClickDelete}>
-            Xóa
-          </button>
-        </TCell>
-      )}
+      <TCell>
+        <button className="btn btn-warning me-2" onClick={onClickUpdate}>
+          Sửa
+        </button>
+        <button className="btn btn-danger" onClick={onClickDelete}>
+          Xóa
+        </button>
+      </TCell>
     </tr>
   );
 }

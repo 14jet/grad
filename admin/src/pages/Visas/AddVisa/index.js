@@ -12,6 +12,7 @@ import NotifyModal from "../../../components/NotifyModal";
 import { resetVisasState, addVisa } from "../../../store/visas.slice";
 import DELTA from "../../../services/helpers/quill/emptyDelta";
 import usePageTitle from "../../../hooks/usePageTitle";
+import useAuth from "../../../hooks/useAuth";
 
 function AddVisa() {
   const dispatch = useDispatch();
@@ -90,6 +91,7 @@ function AddVisa() {
   }
 
   usePageTitle("Tạo visa");
+  useAuth("moderator");
   return (
     <>
       <SpinnerModal show={status.addVisa === "pending"} />

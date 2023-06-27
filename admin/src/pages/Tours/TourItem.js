@@ -28,13 +28,11 @@ function TourItem({ tour, order, onDelete }) {
         </div>
       </TCell>
       <TCell>{getCategoryText(tour)}</TCell>
-      {isAdmin && (
-        <TCell>
-          <button className="btn btn-danger " onClick={onClickDelete}>
-            Xóa
-          </button>
-        </TCell>
-      )}
+      <TCell>
+        <button className="btn btn-danger " onClick={onClickDelete}>
+          Xóa
+        </button>
+      </TCell>
     </tr>
   );
 }

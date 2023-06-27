@@ -20,6 +20,7 @@ import { useEffect } from "react";
 import { fetchSingleTour } from "../../../services/apis";
 import { selectIsAdmin } from "../../../store/user.slice";
 import tourFormPacker from "../TourForm/tourFormPacker";
+import useAuth from '../../../hooks/useAuth';
 
 function UpdateTour() {
   const [sendRequest, isFetching, data, fetchingError] = useAxios();
@@ -72,6 +73,7 @@ function UpdateTour() {
   }
 
   usePageTitle("Cập nhật tour");
+  useAuth('moderator');
 
   let initialValues;
   const tour = data?.data;

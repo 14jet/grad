@@ -16,7 +16,7 @@ module.exports.fetchGuides = async (req, res, next) => {
       { _id: 1, title: 1, category: 1, slug: 1 }
     ).populate("category");
 
-    const category = await GuidesCategory.find();
+    const category = await GuidesCategory.find({deleted: false});
 
     return res.status(200).json({
       data: guides,
@@ -250,20 +250,9 @@ module.exports.fetchCategory = async (req, res, next) => {
 
 module.exports.deleteCategoryItem = async (req, res, next) => {
   try {
-    const { _id } = req.body;
-    const category = await GuidesCategory.findById(_id);
-    if (!category) {
-      return next(createError(new Error(""), 400, "Không tìm thấy category"));
-    }
+    category = req.category;
 
-    const guide = await Guide.findOne({ category: _id });
-    if (guide) {
-      return next(
-        createError(new Error(""), 400, "Category đang được sử dụng")
-      );
-    }
-
-    cagegory.deleted = true;
+    category.deleted = true;
     await category.save();
 
     return res.status(200).json({

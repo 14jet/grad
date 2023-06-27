@@ -14,6 +14,7 @@ import {
 } from "../../store/place.slice";
 import styles from "./AddNewDestination.module.css";
 import { mediumTextValidator as mt } from "../../services/helpers/validator.helper";
+import useAuth from "../../hooks/useAuth";
 const isValidString = (value) =>
   typeof value === "string" && value.length > 0 && value.length <= 500;
 

@@ -250,6 +250,7 @@ module.exports.bookTour = async (req, res, next) => {
     io.to("ADMIN").emit("NEW_ORDER", {
       ...newOrder._doc,
       message: newOrder.getVerboseType(),
+      updatedAtString: getLocalTimeString(new Date(newOrder.updatedAt))
     });
 
     // send mail
@@ -312,6 +313,7 @@ module.exports.callMeBack = async (req, res, next) => {
     io.to("ADMIN").emit("NEW_ORDER", {
       ...newOrder._doc,
       message: newOrder.getVerboseType(),
+      updatedAtString: getLocalTimeString(new Date(newOrder.updatedAt))
     });
 
     // send mail

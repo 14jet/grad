@@ -22,8 +22,10 @@ module.exports.updateVisa = async (req, res, next) => {
     visa.name = req.body.name;
     visa.slug = req.body.slug;
     visa.detail = req.body.detail;
-    visa.terms = req.body.terms;
-    visa.price_policies = req.body.price_policies;
+    visa.term = req.body.term;
+    visa.priceIncludes = req.body.priceIncludes;
+    visa.priceExcludes = req.body.priceExcludes;
+    visa.cancellationPolicy = req.body.cancellationPolicy;
     visa.country = req.body.country;
     visa.en = req.body.en;
     visa.price = req.body.price;
@@ -44,11 +46,9 @@ module.exports.updateVisa = async (req, res, next) => {
 
 module.exports.deleteVisa = async (req, res, next) => {
   try {
-    const visa = await Visa.findOne({ _id: req.body._id });
-    if (!visa) {
-      return next(createError(new Error(""), 400, "Not found"));
-    }
-    await Visa.deleteOne({ _id: req.body._id });
+    const visa = req.visa;
+    visa.deleted = true;
+    await visa.save();
     return res.status(200).json({
       message: "Thành công",
     });
@@ -59,10 +59,7 @@ module.exports.deleteVisa = async (req, res, next) => {
 
 module.exports.getVisas = async (req, res, next) => {
   try {
-    const visas = await Visa.find().populate("country");
-
-    const vs = await Visa.find();
-
+    const visas = await Visa.find({deleted: false}).populate("country");
     return res.status(200).json({
       data: visas,
     });
@@ -75,7 +72,7 @@ module.exports.getSingleVisa = async (req, res, next) => {
   try {
     const { slug } = req.params;
 
-    const visa = await Visa.findOne({ slug });
+    const visa = await Visa.findOne({ slug, deleted: false });
 
     if (!visa) {
       return next(createError(new Error(""), 400, "Not found"));

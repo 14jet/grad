@@ -27,7 +27,6 @@ export default (searchTerm, items) => {
   return items.filter((item) => {
     let text = (item.name || item.title).toLowerCase();
 
-    console.log("has accent", hasAccent(searchTerm));
     if (hasAccent(searchTerm))
       return text.toLowerCase().includes(searchTerm.toLowerCase());
 

@@ -16,3 +16,38 @@ eaafb0b5-7b2d-46e0-bffe-a34b14893e5f	21-06-2023	01:27:28	PUT	/admin/guide	uuid i
 c11e7058-d5ad-4697-bb3a-147f998528ba	21-06-2023	04:02:22	POST	/admin/user/login	
 923e8766-d29e-4b9c-ba09-08b4858bc5ce	21-06-2023	04:06:28	GET	/admin/company	
 1f0683c7-75bd-457b-9c0f-2ae2ac3d1a50	21-06-2023	04:06:43	GET	/admin/term	
+9b78dab6-34ac-4502-9ac4-69a94115f7bd	23-06-2023	11:10:18	MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at _handleConnectionErrors (/home/vuuuuuuuuu/workspace/grad/funix/backend/node_modules/mongoose/lib/connection.js:755:11)
+    at NativeConnection.openUri (/home/vuuuuuuuuu/workspace/grad/funix/backend/node_modules/mongoose/lib/connection.js:730:11)
+    at async connectMongodb (/home/vuuuuuuuuu/workspace/grad/funix/backend/src/connections/mongoose/mongoose.connection.js:8:5)
+c5727a5f-5983-4df8-807b-a3290efa3405	23-06-2023	11:12:47	GET	/tour?lang=vi	Operation `tours.aggregate()` buffering timed out after 10000ms	MongooseError: Operation `tours.aggregate()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/vuuuuuuuuu/workspace/grad/funix/backend/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:185:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+e2ea63f6-e013-4592-95c8-3493bc3dc9c7	23-06-2023	11:12:47	GET	/guide?lang=vi	Operation `guides.aggregate()` buffering timed out after 10000ms	MongooseError: Operation `guides.aggregate()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/vuuuuuuuuu/workspace/grad/funix/backend/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:185:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+166cf1bc-dd1f-4597-9d90-56a54246509e	23-06-2023	11:12:47	GET	/visa?lang=vi	Operation `visas.aggregate()` buffering timed out after 10000ms	MongooseError: Operation `visas.aggregate()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/vuuuuuuuuu/workspace/grad/funix/backend/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:185:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+c6d1f71d-8e3e-4e66-9829-99ce45701386	23-06-2023	11:12:47	GET	/company-info?lang=vi	Operation `companies.findOne()` buffering timed out after 10000ms	MongooseError: Operation `companies.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/vuuuuuuuuu/workspace/grad/funix/backend/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:185:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+d93ed6f7-a242-46a0-b0e4-1644ee7cbb7e	23-06-2023	11:15:45	POST	/visa/payment/capture-paypal-order?lang=vi	sendMail is not defined	ReferenceError: sendMail is not defined
+    at module.exports.capturePaypalOrder (/home/vuuuuuuuuu/workspace/grad/funix/backend/src/controllers/client/visa.controller.js:402:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+dcfe05ab-d0aa-4d03-9dfb-e6defc81e66f	27-06-2023	07:45:41	GET	/admin/tour	
+d4cb25c3-03ae-4fbb-8d50-e4039ffb6298	27-06-2023	07:45:41	GET	/admin/place	
+910fa925-90b3-4af5-9a36-8d858a7c4717	27-06-2023	07:45:41	GET	/admin/guide	
+d01b1daa-ff69-47de-8261-a1a2de55e633	27-06-2023	07:45:41	GET	/admin/visa	
+733fe8c3-be06-4a92-9ab1-c90f64d60aea	27-06-2023	07:45:41	GET	/admin/visa/payments	
+251f4f84-5ed1-4910-a39b-5163d1abbf3f	27-06-2023	07:45:47	POST	/admin/user/login	
+7a7cf193-35eb-41ae-b019-86cd0d1eee40	27-06-2023	08:21:16	POST	/admin/guide/category	
+35213beb-af20-4606-889b-9a1ddb5c059f	27-06-2023	08:21:18	POST	/admin/guide/category	
+a041142d-3655-4a84-b6d2-a97e040aaf4e	27-06-2023	08:21:32	DELETE	/admin/visa/payments	
+826ad6ab-2e6f-4ed8-a4c7-8f7b3ddb0672	27-06-2023	08:22:19	POST	/admin/place	
+2ff902ac-f6cb-4a89-a206-d6585853e526	27-06-2023	08:22:31	DELETE	/admin/place	
+d2179c8e-6b83-4a37-997b-69481b49d2ba	27-06-2023	08:22:38	DELETE	/admin/order	

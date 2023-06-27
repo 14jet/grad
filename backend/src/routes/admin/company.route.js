@@ -11,14 +11,14 @@ const {
 const updateCompanyInfoValidator = require("../../validators/companyInfo/updateCompany.validator");
 
 // middleware
-const { ADMIN, MODERATOR, CLIENT } = require("../../config/auth.config");
+const { MODERATOR, CLIENT } = require("../../config/auth.config");
 const requireAuth = require("../../middlewares/requireAuth.middleware");
 
 // routes
-router.get("/", requireAuth(MODERATOR), getCompanyInfo);
+router.get("/", requireAuth(CLIENT), getCompanyInfo);
 router.put(
   "/",
-  requireAuth(ADMIN),
+  requireAuth(MODERATOR),
   updateCompanyInfoValidator,
   updateCompanyInfo
 );

@@ -4,6 +4,7 @@ import Layout from "../Layout";
 // pages
 import Login from "../pages/Login";
 import NotFound from "../pages/NotFound";
+import Forbidden from "../pages/Forbidden";
 
 // visa
 import EditVisa from "../pages/Visas/EditVisa";
@@ -185,6 +186,12 @@ export default [
   {
     path: "/*",
     element: <NotFound />,
+    role: null,
+  },
+  // forbid
+  {
+    path: "/forbidden",
+    element: <Forbidden />,
     role: null,
   },
 ];

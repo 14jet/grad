@@ -6,7 +6,7 @@ module.exports = async (req, res, next) => {
     const place = JSON.parse(req.body.place);
 
     const foundPlace = await Place.findOne({
-      _id: place._id,
+      _id: place._id, deleted: false
     });
 
     if (!foundPlace) {
@@ -14,7 +14,7 @@ module.exports = async (req, res, next) => {
     }
 
     const placeWithTheSameName = await Place.findOne({
-      name: req.body.name,
+      name: req.body.name, deleted: false,
       _id: {
         $ne: place._id,
       },
@@ -24,7 +24,7 @@ module.exports = async (req, res, next) => {
     }
 
     const placeWithTheSameNameEN = await Place.findOne({
-      "en.name": place.en.name,
+      "en.name": place.en.name, deleted: false,
       _id: {
         $ne: place._id,
       },
@@ -34,7 +34,7 @@ module.exports = async (req, res, next) => {
     }
 
     const placeWithTheSameSlug = await Place.findOne({
-      slug: place.slug,
+      slug: place.slug, deleted: false,
       _id: {
         $ne: place._id,
       },

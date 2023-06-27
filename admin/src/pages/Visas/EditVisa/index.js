@@ -13,6 +13,7 @@ import TopBar from "../../../components/TopBar";
 // other
 import { updateVisa, resetVisasState } from "../../../store/visas.slice";
 import usePageTitle from "../../../hooks/usePageTitle";
+import useAuth from "../../../hooks/useAuth";
 import { selectIsAdmin } from "../../../store/user.slice";
 
 function EditVisa() {
@@ -67,6 +68,7 @@ function EditVisa() {
   }
 
   usePageTitle("Cập nhật visa");
+  useAuth("moderator");
   return (
     <>
       <SpinnerModal

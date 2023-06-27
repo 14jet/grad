@@ -1,12 +1,14 @@
 const createError = require("../../helpers/errorCreator");
 const Visa = require("../../models/visa.model");
-const visasService = require("../../services/client/visas.service");
-const destinationsService = require("../../services/client/destination.service");
+const User = require("../../models/user.model");
 const mongoose = require("mongoose");
 const paypal = require("../../helpers/paypal");
 const VisaOrder = require("../../models/visa-order.model");
 const { getSocketIO } = require("../../connections/socket.io/socketIO.init");
 const io = getSocketIO();
+const getLocalTimeString = require("../../helpers/getLocalTimeString");
+const { main: sendMail } = require("../../helpers/nodemailer");
+
 
 module.exports.getVisas = async (req, res, next) => {
   try {
@@ -15,6 +17,11 @@ module.exports.getVisas = async (req, res, next) => {
     let visas = [];
     if (lang === "vi") {
       visas = await Visa.aggregate([
+        {
+          $match: {
+            deleted: false
+          }
+        },
         {
           $lookup: {
             from: "places",
@@ -69,6 +76,11 @@ module.exports.getVisas = async (req, res, next) => {
 
     if (lang === "en") {
       visas = await Visa.aggregate([
+        {
+          $match: {
+            deleted: false
+          }
+        },
         {
           $lookup: {
             from: "places",
@@ -139,7 +151,7 @@ module.exports.getVisas = async (req, res, next) => {
           _id: visa.country._id,
           slug: visa.country.slug,
           name: visa.country.name,
-          image: getUrl(visa.country.image),
+          image: visa.country.image ? getUrl(visa.country.image) : '',
         },
       })),
     });
@@ -148,37 +160,6 @@ module.exports.getVisas = async (req, res, next) => {
   }
 };
 
-module.exports.getSingleVisa = async (req, res, next) => {
-  try {
-    const lang = req.lang;
-
-    const { slug } = req.params;
-
-    const destinations = await destinationsService.getDestinations(lang);
-    const visasCategory = await visasService.getVisasCategory(lang);
-    let visas = await visasService.getVisas(lang);
-
-    let visa = visas.find((item) => item.slug === slug);
-
-    if (!visa) {
-      return next(
-        createError(error, 404, {
-          en: "Visa Product Not Found",
-          vi: "Không tìm thấy sản phẩm visa",
-        })
-      );
-    }
-
-    visa.country = destinations.places.find((item) => item.id === visa.country);
-    visa.type = visasCategory.find((item) => item.id === visa.type);
-
-    return res.status(200).json({
-      data: visa,
-    });
-  } catch (error) {
-    return next(createError(error, 500));
-  }
-};
 
 module.exports.getVisasByCountry = async (req, res, next) => {
   try {
@@ -191,6 +172,7 @@ module.exports.getVisasByCountry = async (req, res, next) => {
         {
           $match: {
             country: new mongoose.Types.ObjectId(country),
+            deleted: false
           },
         },
         {
@@ -246,6 +228,7 @@ module.exports.getVisasByCountry = async (req, res, next) => {
         {
           $match: {
             country: new mongoose.Types.ObjectId(country),
+            deleted: false
           },
         },
         {
@@ -366,6 +349,37 @@ module.exports.capturePaypalOrder = async (req, res, next) => {
       order.paypalTransactionId = captureData.id;
       await order.save();
       io.to("ADMIN").emit("UPDATE_VISA_PAYMENT", order._doc);
+      
+      // send mail
+      const user = await User.findOne({
+        role: "admin",
+      });
+      const ownerEmail = user.username;
+      let html = `<div>
+      <h1>Thông báo: có khách thanh toán visa</h1>
+      <h2>Đặt lúc: ${getLocalTimeString(new Date(order.updatedAt))}</h2>
+      <br>
+      <ul>
+        <li>Họ tên: ${order.fullname}</li>
+        <li>SĐT: ${order.phone}</li>
+        <li>Email: ${order.email}</li>
+        <li>Địa chỉ: ${order.address}</li>
+        <li>Số khách: ${order.passengers}</li>
+        <li>Ngày khởi hành: ${getLocalTimeString(new Date(order.date))}</li>
+        <li>Tên dịch vụ: ${order.visaName}</li>
+        <li>Giá: ${order.price}</li>
+
+      </ul>
+      </div>`;
+
+      const config = {
+        to: ownerEmail,
+        subject: "Thông báo: có khách hàng thanh toán visa",
+        text: "Thông báo: có khách hàng thanh toán visa",
+        html: html,
+      };
+
+      await sendMail(config);
       return res.status(200).json(captureData);
     } catch (error) {
       order.status = "failed_to_capture";

@@ -19,12 +19,13 @@ const requireAuth = require("../../middlewares/requireAuth.middleware");
 // validators
 const addVisaValidator = require("../../validators/visa/addVisa.validator");
 const updateVisaValidator = require("../../validators/visa/updateVisa.validator");
+const deleteVisaValidator = require("../../validators/visa/deleteVisa.validator");
 
 // routes
 router.get("/", requireAuth(CLIENT), getVisas);
 router.post("/", requireAuth(MODERATOR), addVisaValidator, addVisa);
 router.put("/", requireAuth(MODERATOR), updateVisaValidator, updateVisa);
-router.delete("/", requireAuth(MODERATOR), deleteVisa);
+router.delete("/", requireAuth(MODERATOR),deleteVisaValidator, deleteVisa);
 
 router.get("/payments", requireAuth(CLIENT), getVisaPayments);
 router.delete("/payments", requireAuth(MODERATOR), deleteVisaPayment);

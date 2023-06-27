@@ -60,6 +60,9 @@ module.exports.deleteOrder = async (req, res, next) => {
 
     return res.status(200).json({
       message: "Thành công",
+      data: {
+        _id
+      }
     });
   } catch (error) {
     return next(createError(error, 500));

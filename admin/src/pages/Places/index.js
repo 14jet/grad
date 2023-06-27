@@ -168,11 +168,9 @@ function Places() {
         }
       />
       <TopBar title="Quản lý địa điểm">
-        {isAdmin && (
-          <button onClick={addHandler} className="btn btn-primary">
-            Thêm
-          </button>
-        )}
+        <button onClick={addHandler} className="btn btn-primary">
+          Thêm
+        </button>
       </TopBar>
 
       <div className="p-2">
@@ -190,7 +188,7 @@ function Places() {
                   <TCell>Vùng miền</TCell>
                   <TCell>Châu lục</TCell>
                   <TCell>Loại</TCell>
-                  {isAdmin && <TCell w="160px">Công cụ</TCell>}
+                  <TCell w="160px">Công cụ</TCell>
                 </tr>
               </THead>
 

@@ -11,6 +11,7 @@ import {
   mediumTextValidator as mt,
   slugValidator,
 } from "../../../services/helpers/validator.helper";
+import useAuth from "../../../hooks/useAuth";
 
 function GuidesCategoryModal({
   mode,
@@ -66,6 +67,8 @@ function GuidesCategoryModal({
       onHide();
     }
   }, [isSuccess]);
+
+
   return (
     <CustomModal
       title={mode === "add" ? "Thêm danh mục" : "Cập nhật danh mục"}

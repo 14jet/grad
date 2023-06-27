@@ -19,6 +19,8 @@ module.exports =
     const cachedResponse = cache.get(key);
 
     if (cachedResponse) {
+      console.log('cache');
+console.log(req.path)
       return res.send(cachedResponse);
     } else {
       res.originalSend = res.send;

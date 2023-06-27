@@ -12,6 +12,7 @@ import TopBar from "../../../components/TopBar";
 import usePageTitle from "../../../hooks/usePageTitle";
 import { addGuide, resetGuidesState } from "../../../store/guides.slice";
 import DELTA from "../../../services/helpers/quill/emptyDelta";
+import useAuth from "../../../hooks/useAuth";
 
 function AddGuide() {
   const [formKey, setFormKey] = useState(1);
@@ -78,6 +79,8 @@ function AddGuide() {
       },
     };
   }
+
+  useAuth('moderator')
 
   return (
     <>

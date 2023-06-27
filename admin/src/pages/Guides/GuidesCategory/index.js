@@ -103,7 +103,7 @@ function GuidesCategory() {
     <>
       <NotifyModal {...notify} />
       <TopBar title="Quản lý danh mục guides">
-        {status.fetchGuides === "succeeded" && isAdmin && (
+        {status.fetchGuides === "succeeded" && (
           <button className="btn btn-primary" onClick={onClickAddCategory}>
             Thêm danh mục
           </button>
@@ -119,7 +119,7 @@ function GuidesCategory() {
                   <TCell>STT</TCell>
                   <TCell>Tiếng Việt</TCell>
                   <TCell>Tiếng Anh</TCell>
-                  {isAdmin && <TCell>Công cụ</TCell>}
+                  <TCell>Công cụ</TCell>
                 </tr>
               </THead>
 

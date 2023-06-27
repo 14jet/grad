@@ -21,13 +21,11 @@ function VisaItem({ order, visa, onDelete }) {
         </Link>
       </TCell>
       <TCell>{visa.country.name}</TCell>
-      {isAdmin && (
-        <TCell>
-          <button className="btn btn-danger" onClick={onClickDelete}>
-            Xóa
-          </button>
-        </TCell>
-      )}
+      <TCell>
+        <button className="btn btn-danger" onClick={onClickDelete}>
+          Xóa
+        </button>
+      </TCell>
     </tr>
   );
 }

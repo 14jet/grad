@@ -155,11 +155,9 @@ function Guides() {
       <TopBar title="Guides">
         {status.fetchGuides === "succeeded" && (
           <>
-            {isAdmin && (
-              <Link to="/guides/them-moi" className="btn btn-primary">
-                Tạo bài viết mới
-              </Link>
-            )}
+            <Link to="/guides/them-moi" className="btn btn-primary">
+              Tạo bài viết mới
+            </Link>
             <Link to="/guides/quan-ly-danh-muc" className="btn btn-primary">
               Danh mục
             </Link>
@@ -182,7 +180,7 @@ function Guides() {
                     <TCell w="80px">STT</TCell>
                     <TCell>Tiêu đề</TCell>
                     <TCell w="200px">Danh mục</TCell>
-                    {isAdmin && <TCell w="120px">Hành động</TCell>}
+                    <TCell w="120px">Hành động</TCell>
                   </tr>
                 </THead>
 

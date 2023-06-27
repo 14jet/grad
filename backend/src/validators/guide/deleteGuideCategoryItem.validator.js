@@ -13,7 +13,7 @@ module.exports = async (req, res, next) => {
       return next(createError(new Error(""), 400, "_id phải là chuỗi."));
     }
 
-    const guideIsUsingThisCategory = await Guide.findOne({ category: _id });
+    const guideIsUsingThisCategory = await Guide.findOne({ category: _id , deleted: false});
 
     if (guideIsUsingThisCategory) {
       return next(
@@ -26,6 +26,7 @@ module.exports = async (req, res, next) => {
       return next(createError(new Error(""), 400, "Không tìm thấy danh mục."));
     }
 
+    req.category = categoryItem;
     return next();
   } catch (error) {
     return next(createError(error, 500));

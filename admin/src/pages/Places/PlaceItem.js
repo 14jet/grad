@@ -1,6 +1,4 @@
-import { useSelector } from "react-redux";
 import { TCell } from "../../components/table";
-import { selectIsAdmin } from "../../store/user.slice";
 
 const continentsMap = new Map([
   ["chau-au", "Châu Âu"],
@@ -21,12 +19,11 @@ const regionsMap = new Map([
 ]);
 
 const typesMap = new Map([
-  ["continent", "Châu lục"],
+  ["country", "Nước"],
   ["province", "Tỉnh"],
 ]);
 
 function PlaceRow({ place, onEdit, onConfirmDelete, order }) {
-  const isAdmin = useSelector(selectIsAdmin);
 
   const onClickEdit = () => {
     onEdit(place);
@@ -43,16 +40,14 @@ function PlaceRow({ place, onEdit, onConfirmDelete, order }) {
       <TCell>{regionsMap.get(place.region)}</TCell>
       <TCell>{continentsMap.get(continentsMap)}</TCell>
       <TCell>{typesMap.get(place.type)}</TCell>
-      {isAdmin && (
-        <TCell>
-          <button className="btn btn-warning me-2 " onClick={onClickEdit}>
-            Sửa
-          </button>
-          <button className="btn btn-danger " onClick={onClickDelete}>
-            Xóa
-          </button>
-        </TCell>
-      )}
+      <TCell>
+        <button className="btn btn-warning me-2 " onClick={onClickEdit}>
+          Sửa
+        </button>
+        <button className="btn btn-danger " onClick={onClickDelete}>
+          Xóa
+        </button>
+      </TCell>
     </tr>
   );
 }

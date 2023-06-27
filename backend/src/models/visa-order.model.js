@@ -9,6 +9,8 @@ const schema = new Schema(
     price: {
       type: Number,
       required: true,
+      min: 1, 
+      max: 1000 * 1000 * 1000
     },
     fullname: {
       type: String,

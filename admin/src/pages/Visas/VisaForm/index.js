@@ -168,7 +168,6 @@ function VisaForm({ onSubmit, initialValues }, ref) {
                       formik={formik}
                       type="editor"
                       label="Chính sách hoàn hủy đổi"
-                      // name="terms.cancellation"
                       name="cancellationPolicy"
                     />
                   </div>
@@ -208,7 +207,6 @@ function VisaForm({ onSubmit, initialValues }, ref) {
                     <VisaFormGroup
                       formik={formik}
                       label="Giá bao gồm"
-                      // name="price_policies.includes"
                       name="priceIncludes"
                       type="editor"
                     />
@@ -218,7 +216,6 @@ function VisaForm({ onSubmit, initialValues }, ref) {
                       formik={formik}
                       label="Giá bao gồm Tiếng Anh"
                       name="en.priceIncludes"
-                      // name="en.price_policies.includes"
                       type="editor"
                     />
                   </div>
@@ -230,7 +227,6 @@ function VisaForm({ onSubmit, initialValues }, ref) {
                       formik={formik}
                       label="Giá không bao gồm"
                       name="priceExcludes"
-                      // name="price_policies.excludes"
                       type="editor"
                     />
                   </div>
@@ -238,7 +234,6 @@ function VisaForm({ onSubmit, initialValues }, ref) {
                     <VisaFormGroup
                       formik={formik}
                       label="Giá không bao gồm Tiếng Anh"
-                      // name="en.price_policies.excludes"
                       name="en.priceExcludes"
                       type="editor"
                     />

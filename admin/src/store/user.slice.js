@@ -27,4 +27,5 @@ const userSlice = createSlice({
 
 export const { setUser, removeUser, setIsExpiredSession } = userSlice.actions;
 export const selectIsAdmin = (state) => state.user.user?.role === "admin";
+export const selectIsModerator = (state) => state.user.user?.role === "moderator";
 export default userSlice.reducer;

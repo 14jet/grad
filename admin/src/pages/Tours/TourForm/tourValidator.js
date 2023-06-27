@@ -35,6 +35,10 @@ const getItineraryErrors = (value, language) => {
     })
   })
 
+  if (language && value.every(item => item.images.length == 0)) {
+    pushError("Lộ trình", "Chưa có hình lộ trình")
+  }
+
   console.log(value)
   return m;
 }
@@ -47,8 +51,6 @@ const ERROR_DEPARTUREDATES = 'Bắt buộc.'
 const ERROR_DAYS_NIGHTS = 'Số ngày đêm không chênh lệch quá 1.'
 const ERROR_PRICE = 'Giá phải là số nguyên 0 - 1000.000.000'
 const ERROR_DESTINATIONS = 'Bắt buộc.'
-
-
 
 const tourValidator = (v) => {
   const REQUIRED = "Bắt buộc";

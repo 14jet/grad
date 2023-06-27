@@ -1,5 +1,6 @@
 import { Field, ErrorMessage, Formik, Form } from "formik";
 import usePageTitle from "../../../hooks/usePageTitle";
+import useAuth from "../../../hooks/useAuth";
 import useAxios from "../../../hooks/useAxios";
 import { createUser } from "../../../services/apis";
 import styles from "./CreateUser.module.css";
@@ -64,6 +65,7 @@ function CreateUser() {
   };
 
   usePageTitle("Thêm user mới");
+  useAuth('admin')
 
   const asterisk = <span className="text-danger">*</span>;
 

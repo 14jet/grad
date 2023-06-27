@@ -1,84 +1,16 @@
 const createError = require("../../helpers/errorCreator");
-const { object, string, number } = require("yup");
-const {
-  yupDeltaSchema,
-  yupCheckEmptyDelta,
-} = require("../../helpers/quillDelta");
 const Visa = require("../../models/visa.model");
 const Place = require("../../models/place.model");
 
 module.exports = async (req, res, next) => {
   try {
-    const MUST_BE_STRING = "Phải là chuỗi";
-    const visaSchema = object({
-      _id: string(MUST_BE_STRING).required("Thiếu _id"),
-      name: string(MUST_BE_STRING).required("Thiếu tên visa"),
-      country: string(MUST_BE_STRING).required("Thiếu nước"),
-      detail: yupDeltaSchema
-        .test(yupCheckEmptyDelta("Chi tiết visa không được trống"))
-        .required("Thiếu chi tiết phiếu dịch vụ"),
-      price: number().positive().required("Thiếu giá"),
-      price_policies: object({
-        includes: yupDeltaSchema
-          .test(yupCheckEmptyDelta("Giá bao gồm không được trống"))
-          .required("Thiếu giá bao gồm"),
-        excludes: yupDeltaSchema
-          .test(yupCheckEmptyDelta("Giá không bao gồm không được trống"))
-          .required("Thiếu giá không bao gồm"),
-      }).required("Thiếu bảng giá"),
-      terms: object({
-        cancellation: yupDeltaSchema
-          .test(yupCheckEmptyDelta("điều kiện hoàn hủy không được trống"))
-          .required("Thiếu điều kiện hoàn hủy"),
-        notes: yupDeltaSchema.optional(),
-      }).required("Thiếu điều khoản"),
-      en: object({
-        name: string(MUST_BE_STRING).required("Bản tiếng Anh: Thiếu tên visa"),
-        detail: yupDeltaSchema
-          .test(
-            yupCheckEmptyDelta("Bản tiếng Anh: chi tiết visa không được trống")
-          )
-          .required("Bản tiếng Anh: Thiếu chi tiết phiếu dịch vụ"),
-        price_policies: object({
-          includes: yupDeltaSchema
-            .test(
-              yupCheckEmptyDelta("Bản tiếng Anh: giá bao gồm không được trống")
-            )
-            .required("Bản tiếng Anh: Thiếu giá bao gồm"),
-          excludes: yupDeltaSchema
-            .test(
-              yupCheckEmptyDelta(
-                "Bản tiếng Anh: giá không bao gồm không được trống"
-              )
-            )
-            .required("Bản tiếng Anh: Thiếu giá không bao gồm"),
-        }).required(),
-        terms: object({
-          cancellation: yupDeltaSchema
-            .test(
-              yupCheckEmptyDelta(
-                "Bản tiếng Anh: điều kiện hoàn hủy không được trống"
-              )
-            )
-            .required("Bản tiếng Anh: Thiếu điều kiện hoàn hủy"),
-          notes: yupDeltaSchema.optional(),
-        }).required("Thiếu điều khoản"),
-      }).required("Thiếu bản tiếng Anh"),
-    });
-
-    try {
-      await visaSchema.validate(req.body);
-    } catch (error) {
-      return next(createError(new Error(""), 400, error.message));
-    }
-
     const foundVisa = await Visa.findById(req.body._id);
     if (!foundVisa) {
       return next(createError(new Error(""), 400, "Không tìm thấy visa"));
     }
 
     const visaWithTheSameName = await Visa.findOne({
-      name: req.body.name,
+      name: req.body.name,deleted: false,
       _id: {
         $ne: req.body._id,
       },
@@ -88,7 +20,7 @@ module.exports = async (req, res, next) => {
     }
 
     const visaWithTheSameNameEN = await Visa.findOne({
-      "en.name": req.body.en.name,
+      "en.name": req.body.en.name,deleted: false,
       _id: {
         $ne: req.body._id,
       },
@@ -100,7 +32,7 @@ module.exports = async (req, res, next) => {
     }
 
     const visaWithTheSameSlug = await Visa.findOne({
-      slug: req.body.slug,
+      slug: req.body.slug,deleted: false,
       _id: {
         $ne: req.body._id,
       },
@@ -122,7 +54,6 @@ module.exports = async (req, res, next) => {
     }
 
     req.country = country;
-
     req.visa = foundVisa;
 
     return next();

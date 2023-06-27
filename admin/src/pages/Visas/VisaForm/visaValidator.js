@@ -1,34 +1,38 @@
 import isEmptyDelta from "../../../services/helpers/quill/isEmptyDelta";
-import {
-  mediumTextValidator as mt,
-  slugValidator,
-} from "../../../services/helpers/validator.helper";
+const isValidSlug = value => typeof value === 'string' && /^[a-z0-9-]{1,500}$/.test(value);
+const isValidPrice = value => {
+  const price = Number(value);
+  return !isNaN(price) && Number.isInteger(price) && price >= 0 && price <= 1000 * 1000 * 1000;
+}
+const isValidString = value => (typeof value === 'string' && value.length > 0 && value.length <= 500) 
+
+const ERROR_SLUG = '1 - 500 ký tự không dấu, gồm a - z, 0 - 9, dấu gạch ngang "-".'
+const ERROR_STRING = '1 - 500 ký tự.'
 
 export default (values) => {
   const REQUIRED = "Bắt buộc";
   let errors = {};
   let m = [];
 
-  console.log(mt(values.name));
 
-  if (mt(values.name)) {
+  if (!isValidString(values.name)) {
     m.push({
       field: "Tên visa",
-      message: mt(values.name),
+      message: ERROR_STRING,
     });
   }
 
-  if (mt(values.en.name)) {
+  if (!isValidString(values.en.name)) {
     m.push({
       field: "Tên visa (EN)",
-      message: mt(values.en.name),
+      message: ERROR_STRING,
     });
   }
 
-  if (slugValidator(values.slug)) {
+  if (!isValidSlug(values.slug)) {
     m.push({
       field: "Slug",
-      message: slugValidator(values.slug),
+      message: ERROR_SLUG,
     });
   }
 
@@ -39,7 +43,7 @@ export default (values) => {
     });
   }
 
-  if (Number(values.price) < 0 || Number(values.price) > 1000000000) {
+  if (!isValidPrice(values.price)) {
     m.push({
       field: "Giá tiền",
       message: "Giá từ 0 - 1.000.000.000",
@@ -60,56 +64,56 @@ export default (values) => {
     });
   }
 
-  if (isEmptyDelta(values.price_policies.includes)) {
+  if (isEmptyDelta(values.priceIncludes)) {
     m.push({
       field: "Giá bao gồm",
       message: REQUIRED,
     });
   }
 
-  if (isEmptyDelta(values.en.price_policies.includes)) {
+  if (isEmptyDelta(values.en.priceIncludes)) {
     m.push({
       field: "Giá bao gồm (EN)",
       message: REQUIRED,
     });
   }
 
-  if (isEmptyDelta(values.price_policies.excludes)) {
+  if (isEmptyDelta(values.priceExcludes)) {
     m.push({
       field: "Giá không bao gồm",
       message: REQUIRED,
     });
   }
 
-  if (isEmptyDelta(values.en.price_policies.excludes)) {
+  if (isEmptyDelta(values.en.priceExcludes)) {
     m.push({
       field: "Giá không bao gồm (EN)",
       message: REQUIRED,
     });
   }
 
-  if (isEmptyDelta(values.terms.cancellation)) {
+  if (isEmptyDelta(values.cancellationPolicy)) {
     m.push({
       field: "Điều kiện hủy đổi",
       message: REQUIRED,
     });
   }
 
-  if (isEmptyDelta(values.en.terms.cancellation)) {
+  if (isEmptyDelta(values.en.cancellationPolicy)) {
     m.push({
       field: "Điều kiện hủy đổi (EN)",
       message: REQUIRED,
     });
   }
 
-  if (isEmptyDelta(values.terms.notes)) {
+  if (isEmptyDelta(values.term)) {
     m.push({
       field: "Điều khoản chung",
       message: REQUIRED,
     });
   }
 
-  if (isEmptyDelta(values.en.terms.notes)) {
+  if (isEmptyDelta(values.en.term)) {
     m.push({
       field: "Điều khoản chung (EN)",
       message: REQUIRED,

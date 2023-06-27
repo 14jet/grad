@@ -133,7 +133,7 @@ function Visas() {
       <NotifyModal {...notify} />
 
       <TopBar title="Dịch vụ visa">
-        {status.fetchVisas === "succeeded" && isAdmin && (
+        {status.fetchVisas === "succeeded" && (
           <>
             <Link className="btn btn-primary" to="/visas/them-moi">
               Tạo visa mới
@@ -160,7 +160,7 @@ function Visas() {
                   <TCell w="70px">STT</TCell>
                   <TCell>Tên</TCell>
                   <TCell w="160px">Nước</TCell>
-                  {isAdmin && <TCell w="100px">Công cụ</TCell>}
+                  <TCell w="100px">Công cụ</TCell>
                 </tr>
               </THead>
 

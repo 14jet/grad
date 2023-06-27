@@ -1,8 +1,6 @@
 // main
 import { useNavigate, useParams } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
 import { useEffect, useState } from "react";
-import { format } from "date-fns";
 
 // components
 import TopBar from "../../components/TopBar";
@@ -18,18 +16,20 @@ import * as pageHelper from "../../services/helpers/pageHelpers";
 import OrderItem from "./OrderItem";
 import useAxios from "../../hooks/useAxios";
 import { fetchOrders, deleteOrder } from "../../services/apis";
+import socket from "../../services/socket.io";
+
 
 function Orders() {
   const [sendRequest, isLoading, data, error] = useAxios();
   const [goDelete, deleting, deleted, deletingError, resetDelete] = useAxios();
   const [modalDetails, setModalDetails] = useState(null);
   const [confirmDelete, setConfirmDelete] = useState(null);
+  const [orders, setOrders] = useState(null)
 
   const navigate = useNavigate();
   let { page } = useParams();
   page = pageHelper.getPage(page);
 
-  const orders = data?.data;
 
   const onShowModal = (order) => {
     setModalDetails(order);
@@ -57,6 +57,7 @@ function Orders() {
       btn: {
         text: "OK",
         cb: () => {
+          setOrders(prev => prev.filter(item => item._id != deleted.data._id))
           resetDelete();
         },
         component: "button",
@@ -112,6 +113,26 @@ function Orders() {
   useEffect(() => {
     sendRequest(fetchOrders(page));
   }, [page]);
+
+  useEffect(() => {
+    if (data) {
+      setOrders(data.data)
+    }
+  }, [data])
+
+  useEffect(() => {
+    const listener = (data) => {
+      if (page == 1) {
+        setOrders(prev => [data,...prev]);
+      }
+    }
+
+    socket.on("NEW_ORDER", listener);
+
+    return () => {
+      socket.off('NEW_ORDER', listener)
+    }
+  }, [page])
 
   usePageTitle("Đơn hàng");
   return (

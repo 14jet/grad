@@ -11,11 +11,11 @@ const {
 const updateTermsValidator = require("../../validators/terms/updateTerms.validator");
 
 // middlewares
-const { ADMIN, MODERATOR, CLIENT } = require("../../config/auth.config");
+const {  MODERATOR, CLIENT } = require("../../config/auth.config");
 const requireAuth = require("../../middlewares/requireAuth.middleware");
 
 // routes
-router.get("/", requireAuth(MODERATOR), getTerms);
-router.put("/", requireAuth(ADMIN), updateTermsValidator, updateTerms);
+router.get("/", requireAuth(CLIENT), getTerms);
+router.put("/", requireAuth(MODERATOR), updateTermsValidator, updateTerms);
 
 module.exports = router;

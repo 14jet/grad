@@ -19,6 +19,7 @@ import {
 import { useState } from "react";
 import tourFormPacker from "../TourForm/tourFormPacker";
 import {useNavigate} from 'react-router-dom'
+import useAuth from '../../../hooks/useAuth';
 
 function AddTour() {
   const [formKey, setFormKey] = useState(1);
@@ -44,13 +45,6 @@ function AddTour() {
       type: "success",
       show: status.addTour === "succeeded",
       message: "Tạo tour mới thành công.",
-      // btn: {
-      //   component: "button",
-      //   cb: () => {
-      //     setFormKey((prev) => prev + 1);
-      //     dispatch(resetToursState("addTour"));
-      //   },
-      // },
       leftBtn: {
         component: "button",
         text: "Tạo thêm",
@@ -88,6 +82,7 @@ function AddTour() {
 
   usePageTitle("Tạo tour mới");
 
+  useAuth('moderator');
   return (
     <>
       <SpinnerModal show={status.addTour === "pending"} />

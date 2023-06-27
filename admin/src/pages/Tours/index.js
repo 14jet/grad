@@ -14,7 +14,7 @@ import TourItem from "./TourItem";
 
 // other
 import * as pageHelper from "../../services/helpers/pageHelpers";
-import { selectIsAdmin } from "../../store/user.slice";
+import { selectIsAdmin, selectIsModerator } from "../../store/user.slice";
 import usePageTitle from "../../hooks/usePageTitle";
 import { selectTours } from "../../store/tours.slice";
 import searchHelper from "../../services/helpers/searchHelper";
@@ -49,6 +49,7 @@ function Tours() {
   const { tours, status, error } = useSelector(selectTours);
   const navigate = useNavigate();
   const isAdmin = useSelector(selectIsAdmin);
+  const isModerator = useSelector(selectIsModerator);
 
   const params = new URL(document.location).searchParams;
   const search = params.get("search") || "";
@@ -110,7 +111,7 @@ function Tours() {
       />
 
       <TopBar title="Quản lý tour">
-        {status.fetchTours === "succeeded" && isAdmin && (
+        {status.fetchTours === "succeeded" &&  (
           <Link to="/tours/them-moi" className="btn btn-primary me-2">
             Tạo tour mới
           </Link>
@@ -130,7 +131,7 @@ function Tours() {
                     <TCell w="80px">Mã tour</TCell>
                     <TCell>Tên tour</TCell>
                     <TCell w="120px">Danh mục</TCell>
-                    {isAdmin && <TCell w="120px">Chức năng</TCell>}
+                    <TCell w="120px">Chức năng</TCell>
                   </tr>
                 </THead>
 

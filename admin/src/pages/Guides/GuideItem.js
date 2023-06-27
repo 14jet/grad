@@ -21,13 +21,11 @@ function GuideItem({ order, guide, onDelete }) {
         </Link>
       </TCell>
       <TCell> {guide.category.name}</TCell>
-      {isAdmin && (
-        <TCell>
-          <button className="btn btn-danger me-2" onClick={onClickDelete}>
-            Xóa
-          </button>
-        </TCell>
-      )}
+      <TCell>
+        <button className="btn btn-danger me-2" onClick={onClickDelete}>
+          Xóa
+        </button>
+      </TCell>
     </tr>
   );
 }

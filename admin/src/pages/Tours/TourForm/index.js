@@ -247,11 +247,6 @@ function TourForm({ initialValues, onSubmit }, ref) {
                 )}
 
                 <div className="tourForm pb-2 pt-3">
-                  {/* <SetDefaultTermsButton
-                    formik={formik}
-                    onResetFormik={onResetFormik}
-                  /> */}
-
                   <button
                     type="button"
                     onClick={() => {
@@ -264,7 +259,7 @@ function TourForm({ initialValues, onSubmit }, ref) {
 
                   <button
                     type="button"
-                    className="btn btn-primary"
+                    className="btn btn-primary ms-2 mb-2"
                     onClick={() => {
                       createRandom(formik);
                     }}
@@ -300,7 +295,7 @@ function TourForm({ initialValues, onSubmit }, ref) {
                               <button
                                 style={{ height: "36px" }}
                                 type="button"
-                                class="d-none"
+                                className="d-none"
                                 onClick={() => {
                                   formik.setFieldValue(
                                     "slug",

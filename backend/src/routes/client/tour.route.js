@@ -12,11 +12,12 @@ const {
 // middlewares
 const requestLimiter = require("../../middlewares/requestLimiter.middleware");
 const cache = require("../../middlewares/cache.middleware");
+const flushCache = require("../../middlewares/cache.middleware")(0, true);
 
 // routes
 router.get("/", requestLimiter(), cache(), getTours);
-router.post("/booking", requestLimiter(), bookTour);
-router.post("/advisory", requestLimiter(), callMeBack);
+router.post("/booking", requestLimiter(),flushCache, bookTour);
+router.post("/advisory", requestLimiter(),flushCache, callMeBack);
 router.get("/:slug", requestLimiter(), cache(), getTourBySlug);
 
 module.exports = router;

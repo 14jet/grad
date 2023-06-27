@@ -17,6 +17,7 @@ module.exports = async (req, res, next) => {
       return next(createError(new Error(""), 400, "Không tìm thấy visa."));
     }
 
+    req.visa = visa
     return next();
   } catch (error) {
     return next(createError(error, 500));

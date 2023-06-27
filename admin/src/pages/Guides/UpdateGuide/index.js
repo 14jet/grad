@@ -11,6 +11,7 @@ import TopBar from "../../../components/TopBar";
 
 // other
 import usePageTitle from "../../../hooks/usePageTitle";
+import useAuth from "../../../hooks/useAuth";
 import { updateGuide, resetGuidesState } from "../../../store/guides.slice";
 import useAxios from "../../../hooks/useAxios";
 import { fetchSingleGuide } from "../../../services/apis";
@@ -93,6 +94,8 @@ function UpdateGuide() {
       sendRequest(fetchSingleGuide(slug));
     }
   }, [slug, status.fetchGuides]);
+
+  useAuth('moderator');
 
   return (
     <>

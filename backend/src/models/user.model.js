@@ -11,7 +11,9 @@ const schema = new Schema({
     type: String,
     required: true,
   },
-  resetPassword: String,
+  resetPassword: {
+    type: String,
+  },
   role: {
     type: String,
     enum: [ADMIN, MODERATOR, CLIENT],

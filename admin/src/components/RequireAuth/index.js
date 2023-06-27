@@ -11,10 +11,7 @@ function RequireAuth({ role = "client" }) {
 
   const { user, isExpiredSession } = useSelector((state) => state.user);
   const location = useLocation();
-  console.log(role);
-  console.log(rolesMap.get(role));
   if (user && rolesMap.get(user.role) >= rolesMap.get(role)) {
-    console.log("matches");
     return <Outlet />;
   }
 
