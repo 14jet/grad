@@ -79,7 +79,7 @@ function EditVisa() {
 
       <NotifyModal {...notify} />
 
-      {visa && isAdmin && (
+      {visa && (
         <TopBar title={`Cập nhật visa: ${visa.name}`}>
           <button className="btn btn-primary" onClick={submitTrigger}>
             Lưu

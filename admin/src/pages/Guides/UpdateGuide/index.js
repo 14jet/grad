@@ -103,7 +103,7 @@ function UpdateGuide() {
       <NotifyModal {...notify} />
 
       <TopBar title={`Cập nhật guides ${slug}`}>
-        {status.fetchGuides === "succeeded" && guide && isAdmin && (
+        {status.fetchGuides === "succeeded" && guide && (
           <button className="btn btn-primary" onClick={submitTrigger}>
             Lưu
           </button>

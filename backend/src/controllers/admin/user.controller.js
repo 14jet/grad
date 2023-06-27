@@ -12,7 +12,7 @@ module.exports.login = async (req, res, next) => {
     let user = await User.findOne({ username });
 
     if (!user) {
-      return next(createError(new Error(""), 400, "User doesn't exist"));
+      return next(createError(new Error(""), 400, "User không tồn tại"));
     }
 
     const matchPassword = await bcrypt.compare(password, user.password);
@@ -24,7 +24,7 @@ module.exports.login = async (req, res, next) => {
       (!matchPassword && user.resetPassword && !matchResetPassword) ||
       (!matchPassword && !user.resetPassword)
     ) {
-      return next(createError(new Error(""), 400, "Wrong password"));
+      return next(createError(new Error(""), 400, "Sai mật khẩu"));
     }
 
     if (matchPassword && user.resetPassword) {
@@ -66,16 +66,16 @@ module.exports.changePassword = async (req, res, next) => {
     const user = req.user;
 
     if (req.user.username !== username) {
-      return next(createError(new Error(""), 403, "Forbidden"));
+      return next(createError(new Error(""), 403, "Cấm"));
     }
 
     try {
       const match = await bcrypt.compare(password, user.password);
       if (!match) {
-        return next(createError(new Error(""), 400, "Wrong password"));
+        return next(createError(new Error(""), 400, "Sai mật khẩu"));
       }
     } catch (error) {
-      return next(createError(new Error(""), 400, "Wrong password"));
+      return next(createError(new Error(""), 400, "Sai mật khẩu"));
     }
 
     bcrypt.hash(new_password, 10, async function (err, hash) {
@@ -101,7 +101,7 @@ module.exports.register = async (req, res, next) => {
 
     const user = await User.findOne({ username });
     if (user) {
-      return next(createError(new Error(""), 400, "User already exist"));
+      return next(createError(new Error(""), 400, "User đã tồn tại"));
     }
 
     bcrypt.hash(password, 10, async (error, hash) => {
@@ -137,7 +137,7 @@ module.exports.changeRole = async (req, res, next) => {
     const user = await User.findOne({ username });
 
     if (!user) {
-      return next(createError(new Error(""), 400, "User doesn't exist"));
+      return next(createError(new Error(""), 400, "User không tồn tại"));
     }
 
     user.role = role;
@@ -162,7 +162,7 @@ module.exports.deleteUser = async (req, res, next) => {
     const user = await User.findOne({ username });
 
     if (!user) {
-      return next(createError(new Error(""), 400, "Not found"));
+      return next(createError(new Error(""), 400, "Không tìm thấy user"));
     }
 
     await User.findOneAndDelete({ username });
@@ -182,7 +182,7 @@ module.exports.resetPassword = async (req, res, next) => {
     const user = await User.findOne({ username: email });
 
     if (!user) {
-      return next(createError(new Error(""), 400, "Not found"));
+      return next(createError(new Error(""), 400, "Không tìm thấy user"));
     }
 
     let newPassword = require("../../helpers/generateRandomPassword")(12);

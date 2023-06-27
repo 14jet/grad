@@ -100,6 +100,7 @@ module.exports.deletePlace = async (req, res, next) => {
     }
 
     const tour = await Tour.findOne({
+      deleted: false,
       destinations: {
         $in: [_id],
       },
@@ -112,6 +113,7 @@ module.exports.deletePlace = async (req, res, next) => {
 
     const visa = await Visa.findOne({
       country: _id,
+      deleted: false
     });
     if (visa) {
       return next(

@@ -95,7 +95,7 @@ function UpdateTour() {
       <NotifyModal {...notify} />
 
       <TopBar title={`Cập nhật tour [${tourCode}]`}>
-        {status.fetchTours === "succeeded" && tour && isAdmin && (
+        {status.fetchTours === "succeeded" && tour && (
           <button
             type="button"
             onClick={submitTrigger}
