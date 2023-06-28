@@ -23,26 +23,18 @@ function AddVisa() {
     slug: "",
     country: "",
     detail: DELTA,
-    price: "",
-    price_policies: {
-      includes: DELTA,
-      excludes: DELTA,
-    },
-    terms: {
-      cancellation: DELTA,
-      notes: DELTA,
-    },
+    price: 0,
+    term: DELTA,
+    priceIncludes: DELTA,
+    priceExcludes: DELTA,
+    cancellationPolicy: DELTA,
     en: {
       name: "",
       detail: DELTA,
-      price_policies: {
-        includes: DELTA,
-        excludes: DELTA,
-      },
-      terms: {
-        cancellation: DELTA,
-        notes: DELTA,
-      },
+      term: DELTA,
+      priceIncludes: DELTA,
+      priceExcludes: DELTA,
+      cancellationPolicy: DELTA,
     },
   };
 

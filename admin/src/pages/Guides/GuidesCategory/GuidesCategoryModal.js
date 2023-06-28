@@ -7,11 +7,10 @@ import {
   resetGuidesState,
   updateCategory,
 } from "../../../store/guides.slice";
-import {
-  mediumTextValidator as mt,
-  slugValidator,
-} from "../../../services/helpers/validator.helper";
-import useAuth from "../../../hooks/useAuth";
+
+const isValidString = (value) =>
+  typeof value === "string" && value.length > 0 && value.length <= 500;
+
 
 function GuidesCategoryModal({
   mode,
@@ -40,17 +39,17 @@ function GuidesCategoryModal({
   const validator = (values) => {
     const errors = {};
 
-    if (mt(values.name)) {
-      errors.name = mt(values.name);
+    if (!isValidString(values.name)) {
+      errors.name = '1 - 500 ký tự';
     }
 
-    if (slugValidator(values.slug)) {
-      errors.slug = slugValidator(values.slug);
+    if (!/$[a-z0-9-]{1,500}$/.test(values.slug)) {
+      errors.slug = '1 - 500 ký tự, chỉ gồm các ký tự thường không dấu a - z, 0 - 9, dấu gạch ngang.';
     }
 
-    if (mt(values.en.name)) {
+    if (!isValidString(values.en.name)) {
       errors.en = {
-        name: mt(values.en.name),
+        name: '1 - 500 ký tự'
       };
     }
 

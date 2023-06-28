@@ -11,7 +11,6 @@ import DepartureDates from "./DepartureDates";
 import RedAsterisk from "../../../components/RedAsterisk";
 import FormErrorMessages from "../../../components/FormErrorMessages";
 import FormGroup from "./FormGroup";
-// import SetDefaultTermsButton from "./SetDefaultTerms";
 
 // other
 import tourValidator from "./tourValidator";
@@ -93,7 +92,7 @@ const emptyTour = {
   description: DELTA,
   startAt: "",
 
-  price: "",
+  price: "0",
   days: "1",
   nights: "0",
 

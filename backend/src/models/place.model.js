@@ -1,16 +1,23 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
+const stringType = {
+  type: String,
+  required: true,
+  trim: true,
+  maxlength: 500,
+};
+
+const slugType = {
+  ...stringType,
+  validate: {
+    validator: (value) => /^[a-z0-9-]{1,500}$/.test(value),
+    message: "Slug chỉ được chứa a - z không dấu, 0 - 9, 1 - 500 ký tự.",
+  },
+};
 
 const schema = new Schema({
-  name: {
-    type: String,
-    required: true,
-  },
-
-  slug: {
-    type: String,
-    required: true,
-  },
+  name:stringType,
+  slug: slugType,
   continent: {
     type: String,
     required: true,
@@ -42,10 +49,7 @@ const schema = new Schema({
     default: false
   },
   en: {
-    name: {
-      type: String,
-      required: true,
-    },
+    name: stringType,
   },
 });
 

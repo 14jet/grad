@@ -1,6 +1,7 @@
 const createError = require("../../helpers/errorCreator");
 const Visa = require("../../models/visa.model");
 const VisaOrder = require("../../models/visa-order.model");
+const mongoose = require('mongoose');
 
 module.exports.addVisa = async (req, res, next) => {
   try {
@@ -12,6 +13,9 @@ module.exports.addVisa = async (req, res, next) => {
       data: newVisa,
     });
   } catch (error) {
+    if (error instanceof mongoose.Error.ValidationError) {
+      return next(createError(error, 500, error.message));
+    }
     return next(createError(error, 500));
   }
 };
@@ -40,6 +44,9 @@ module.exports.updateVisa = async (req, res, next) => {
       },
     });
   } catch (error) {
+    if (error instanceof mongoose.Error.ValidationError) {
+      return next(createError(error, 500, error.message));
+    }
     return next(createError(error, 500));
   }
 };

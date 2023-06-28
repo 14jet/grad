@@ -62,6 +62,9 @@ module.exports.updatePlace = async (req, res, next) => {
       },
     });
   } catch (error) {
+    if (error instanceof mongoose.Error.ValidationError) {
+      return next(createError(error, 400, error.message));
+    }
     return next(createError(error, 500));
   }
 };

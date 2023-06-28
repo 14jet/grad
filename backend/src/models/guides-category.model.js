@@ -1,17 +1,24 @@
-const path = require("path");
-const rootDir = require("../helpers/rootDir");
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
+const stringType = {
+  type: String,
+  required: true,
+  trim: true,
+  maxlength: 500,
+};
+
+const slugType = {
+  ...stringType,
+  validate: {
+    validator: (value) => /^[a-z0-9-]{1,500}$/.test(value),
+    message: "Slug chỉ được chứa a - z không dấu, 0 - 9, 1 - 500 ký tự.",
+  },
+};
+
 const schema = new Schema({
-  slug: {
-    type: String,
-    required: true,
-  },
-  name: {
-    type: String,
-    required: true,
-  },
+  slug: slugType,
+  name: stringType,
   deleted: {
     type: Boolean, 
     default: false
@@ -19,10 +26,7 @@ const schema = new Schema({
   en: {
     type: Object,
     required: true,
-    name: {
-      type: String,
-      required: true,
-    },
+    name: stringType,
   },
 });
 
@@ -46,11 +50,6 @@ const templates = [
     slug: "diem-den-hap-dan",
     name: "Điểm đến hấp dẫn",
     en: { name: "Nice places" },
-  },
-  {
-    name: "mạo hiểm",
-    en: { name: "maohiem" },
-    slug: "mao-hiem",
   },
 ];
 

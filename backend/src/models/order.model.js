@@ -11,6 +11,8 @@ const schema = new Schema(
     phone: {
       type: String,
       required: true,
+      minlength: 1, 
+      maxlength: 20
     },
     email: {
       type: String,
@@ -18,10 +20,14 @@ const schema = new Schema(
         /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
         "Please fill a valid email address",
       ],
+      minlength: 1, 
+      maxlength: 500
     },
     fullname: {
       type: String,
       required: true,
+      minlength: 1, 
+      maxlength: 500
     },
     gender: {
       type: String,

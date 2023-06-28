@@ -10,9 +10,13 @@ const schema = new Schema({
   password: {
     type: String,
     required: true,
+    minlength: 8, 
+    maxlength: 50
   },
   resetPassword: {
     type: String,
+    minlength: 8, 
+    maxlength: 50
   },
   role: {
     type: String,
